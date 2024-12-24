@@ -1,0 +1,37 @@
+{
+  "name": "@vds-core/tiles",
+  "version": "3.7.0",
+  "description": "Tiles for VDS",
+  "publishConfig": {
+    "registry": "https://oneartifactoryci.verizon.com/artifactory/api/npm/GVJV_npm_VDS/"
+  },
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "build": "rollup -c ../../rollup.config.js",
+    "build:docs": "node ../../scripts/build-docs.js"
+  },
+  "author": "Thomas Hessler <thomas.hessler@verizon.com>",
+  "contributors": [
+    "Kevin Ryan <kevin.ryan@verizon.com>",
+    "Domenic Conroy <domenic.conroy@verizon.com>",
+    "Tyler Siskar <tyler@meanguppy.com>"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.2.0 || ^17.0.0 || ^18.0.0",
+    "styled-components": "^3.2.6 || 4.x.x || 5.x.x || 6.x.x"
+  },
+  "dependencies": {
+    "@vds-core/badges": "3.4.2",
+    "@vds-core/carousels": "3.4.16",
+    "@vds-core/icons": "3.8.0",
+    "@vds-core/type-lockups": "3.5.18",
+    "@vds-core/utilities": "3.2.2",
+    "@vds-tokens/accessibility": "2.0.4",
+    "@vds-tokens/color": "2.1.2",
+    "@vds-tokens/layout": "1.0.8"
+  }
+}

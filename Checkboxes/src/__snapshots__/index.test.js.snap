@@ -1,0 +1,620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox/> 1`] = `undefined`;
+
+exports[`<CheckboxGroup/> 1`] = `undefined`;
+
+exports[`Controlled <Checkbox> should render unchecked Checkbox 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: Verizon-NHG-eDS;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.c1 input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.c1 input[type='checkbox']:hover {
+  cursor: pointer;
+}
+
+.c1 input[type='checkbox']:focus {
+  outline: none;
+}
+
+.c1 input[type='checkbox']:focus + svg {
+  outline: none;
+}
+
+.c1 input[type='checkbox']:focus:not(:hover):not(:visited):not(:active) + span::after {
+  background: transparent;
+  border: 0.0625rem dashed #000000;
+  box-sizing: border-box;
+  content: '';
+  height: 1.625rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.625rem;
+  border-radius: 0.25rem;
+}
+
+.c5 {
+  left: 0.625rem;
+  position: absolute;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  top: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.c4 {
+  box-sizing: border-box;
+  display: inline-block;
+  content: '';
+  height: 1.25rem;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.25rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  width: 1.25rem;
+  height: 1.25rem;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  border-style: solid;
+  border-color: #6f7171;
+  border-radius: 0.125rem;
+  border-width: 0.0625rem;
+  box-shadow: none;
+}
+
+.c6:active {
+  border-color: #000000;
+}
+
+.c6:active:hover {
+  box-shadow: 0 0 0 0.0625rem #000000;
+}
+
+.c0 {
+  margin-bottom: 0;
+  max-width: 37.25rem;
+  width: 100%;
+}
+
+.c2 {
+  height: 1.25rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 0.75rem;
+}
+
+.c7 {
+  margin-top: 0;
+}
+
+.c3 {
+  pointer-events: auto;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <label
+    class="c1"
+    color="#000000"
+    for="1"
+  >
+    <div
+      class="c2"
+    >
+      <input
+        aria-describedby=""
+        aria-label="unchecked Checkbox"
+        class="c3"
+        data-testid="test-input"
+        id="1"
+        name="test"
+        required=""
+        tabindex="0"
+        type="checkbox"
+        value="test value"
+      />
+      <span
+        class="c4"
+      >
+        <div
+          class="c5"
+        />
+        <span
+          class="styledInner c6"
+          height="20"
+          width="20"
+        />
+      </span>
+    </div>
+    <span
+      class="c7"
+      data-testid="test-child-wrapper"
+    >
+      <div
+        aria-hidden="true"
+      >
+        unchecked Checkbox
+      </div>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Uncontrolled <Checkbox> should render default Checkbox 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: Verizon-NHG-eDS;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.c1 input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.c1 input[type='checkbox']:hover {
+  cursor: pointer;
+}
+
+.c1 input[type='checkbox']:focus {
+  outline: none;
+}
+
+.c1 input[type='checkbox']:focus + svg {
+  outline: none;
+}
+
+.c1 input[type='checkbox']:focus:not(:hover):not(:visited):not(:active) + span::after {
+  background: transparent;
+  border: 0.0625rem dashed #000000;
+  box-sizing: border-box;
+  content: '';
+  height: 1.625rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.625rem;
+  border-radius: 0.25rem;
+}
+
+.c5 {
+  left: 0.625rem;
+  position: absolute;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  top: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.c4 {
+  box-sizing: border-box;
+  display: inline-block;
+  content: '';
+  height: 1.25rem;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.25rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  width: 1.25rem;
+  height: 1.25rem;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  border-style: solid;
+  border-color: #6f7171;
+  border-radius: 0.125rem;
+  border-width: 0.0625rem;
+  box-shadow: none;
+}
+
+.c6:active {
+  border-color: #000000;
+}
+
+.c6:active:hover {
+  box-shadow: 0 0 0 0.0625rem #000000;
+}
+
+.c0 {
+  margin-bottom: 0;
+  max-width: 37.25rem;
+  width: 100%;
+}
+
+.c2 {
+  height: 1.25rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 0.75rem;
+}
+
+.c7 {
+  margin-top: 0;
+}
+
+.c3 {
+  pointer-events: auto;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <label
+    class="c1"
+    color="#000000"
+    for="1"
+  >
+    <div
+      class="c2"
+    >
+      <input
+        aria-describedby=""
+        aria-label="Checked Checkbox"
+        class="c3"
+        data-testid="test-input"
+        id="1"
+        name="test"
+        required=""
+        tabindex="0"
+        type="checkbox"
+        value="test value"
+      />
+      <span
+        class="c4"
+      >
+        <div
+          class="c5"
+        />
+        <span
+          class="styledInner c6"
+          height="20"
+          width="20"
+        />
+      </span>
+    </div>
+    <span
+      class="c7"
+      data-testid="test-child-wrapper"
+    >
+      <div
+        aria-hidden="true"
+      >
+        Checked Checkbox
+      </div>
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Uncontrolled <Checkbox> should render disabled state Checkbox 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: Verizon-NHG-eDS;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  cursor: default;
+  color: #d8dada;
+}
+
+.c1 input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.c1 input[type='checkbox']:hover {
+  cursor: pointer;
+}
+
+.c1 input[type='checkbox']:focus {
+  outline: none;
+}
+
+.c1 input[type='checkbox']:focus + svg {
+  outline: none;
+}
+
+.c1 input[type='checkbox']:focus:not(:hover):not(:visited):not(:active) + span::after {
+  background: transparent;
+  border: 0.0625rem dashed #d8dada;
+  box-sizing: border-box;
+  content: '';
+  height: 1.625rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.625rem;
+  border-radius: 0.25rem;
+}
+
+.c5 {
+  left: 0.625rem;
+  position: absolute;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  top: 50%;
+  cursor: default;
+  display: inline-block;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.c4 {
+  box-sizing: border-box;
+  display: inline-block;
+  content: '';
+  height: 1.25rem;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.25rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  width: 1.25rem;
+  height: 1.25rem;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  border-style: solid;
+  border-color: #d8dada;
+  border-radius: 0.125rem;
+  border-width: 0.0625rem;
+  box-shadow: none;
+}
+
+.c0 {
+  margin-bottom: 0;
+  max-width: 37.25rem;
+  width: 100%;
+}
+
+.c2 {
+  height: 1.25rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin-right: 0.75rem;
+}
+
+.c7 {
+  margin-top: 0;
+}
+
+.c3 {
+  pointer-events: none;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <label
+    class="c1"
+    color="#d8dada"
+    disabled=""
+    for="1"
+  >
+    <div
+      class="c2"
+    >
+      <input
+        aria-describedby=""
+        aria-label="Disabled Checkbox"
+        class="c3"
+        data-testid="test-input"
+        disabled=""
+        id="1"
+        name="test"
+        required=""
+        tabindex="0"
+        type="checkbox"
+        value="test value"
+      />
+      <span
+        class="c4"
+      >
+        <div
+          class="c5"
+          disabled=""
+        />
+        <span
+          class="styledInner c6"
+          disabled=""
+          height="20"
+          width="20"
+        />
+      </span>
+    </div>
+    <span
+      class="c7"
+      data-testid="test-child-wrapper"
+    >
+      <div
+        aria-hidden="true"
+      >
+        Disabled Checkbox
+      </div>
+    </span>
+  </label>
+</div>
+`;

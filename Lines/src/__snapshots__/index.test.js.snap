@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Line accent> snapshot 1`] = `
+.c0 {
+  height: 0.25rem;
+  width: 100%;
+  background-color: #d52b1e;
+}
+
+<div
+  class="c0"
+  orientation="horizontal"
+  type="accent"
+>
+  P.Body AaBbCc
+</div>
+`;
+
+exports[`<Line heavy> snapshot 1`] = `
+.c0 {
+  height: 0.25rem;
+  width: 100%;
+  background-color: #000000;
+}
+
+<div
+  class="c0"
+  orientation="horizontal"
+  type="heavy"
+>
+  P.Body AaBbCc
+</div>
+`;
+
+exports[`<Line xLight> dark surface snapshot 1`] = `
+.c0 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #333333;
+}
+
+<div
+  class="c0"
+  orientation="horizontal"
+  type="xLight"
+>
+  P.Body AaBbCc
+</div>
+`;
+
+exports[`<Line xLight> snapshot 1`] = `
+.c0 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+<div
+  class="c0"
+  orientation="horizontal"
+  type="xLight"
+>
+  P.Body AaBbCc
+</div>
+`;
+
+exports[`<Line> dark surface snapshot 1`] = `
+.c0 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+<div
+  class="c0"
+  orientation="horizontal"
+  type="light"
+>
+  P.Body AaBbCc
+</div>
+`;
+
+exports[`<Line> primary dark surface style test 1`] = `
+.c0 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+<div
+  class="c0"
+  orientation="horizontal"
+  type="primary"
+>
+  P.Body AaBbCc
+</div>
+`;
+
+exports[`<Line> primary style test 1`] = `
+.c0 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #000000;
+}
+
+<div
+  class="c0"
+  orientation="horizontal"
+  type="primary"
+>
+  P.Body AaBbCc
+</div>
+`;
+
+exports[`<Line> secondary dark surface style test 1`] = `
+.c0 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #333333;
+}
+
+<div
+  class="c0"
+  orientation="horizontal"
+  type="secondary"
+>
+  P.Body AaBbCc
+</div>
+`;
+
+exports[`<Line> secondary style test 1`] = `
+.c0 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+<div
+  class="c0"
+  orientation="horizontal"
+  type="secondary"
+>
+  P.Body AaBbCc
+</div>
+`;
+
+exports[`<Line> snapshot 1`] = `
+.c0 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #000000;
+}
+
+<div
+  class="c0"
+  orientation="horizontal"
+  type="primary"
+>
+  P.Body AaBbCc
+</div>
+`;

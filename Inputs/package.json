@@ -1,0 +1,41 @@
+{
+  "name": "@vds-core/inputs",
+  "version": "3.6.12",
+  "description": "An input field is a text field that lets customers provide information. Input fields are most commonly used in forms.",
+  "publishConfig": {
+    "registry": "https://oneartifactoryci.verizon.com/artifactory/api/npm/GVJV_npm_VDS/"
+  },
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "build": "rollup -c ../../rollup.config.js",
+    "build:docs": "node ../../scripts/build-docs.js"
+  },
+  "author": "Thomas Hessler <thomas.hessler@verizon.com>",
+  "contributors": [
+    "Kevin Ryan <kevin.ryan@verizon.com>",
+    "Domenic Conroy <domenic.conroy@verizon.com>",
+    "Nathan Myers <nathan.myers@verizon.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@uie/set-env-ref": "^1.0.0",
+    "@vds-core/buttons": "3.3.8",
+    "@vds-core/form-elements": "3.4.17",
+    "@vds-core/tooltips": "3.5.0",
+    "@vds-core/typography": "3.2.14",
+    "@vds-core/utilities": "3.2.2",
+    "@vds-tokens/accessibility": "2.0.4",
+    "@vds-tokens/color": "2.1.2",
+    "@vds-tokens/form-controls": "2.0.4",
+    "@vds-tokens/layout": "1.0.8",
+    "@vds-tokens/typography": "3.0.2",
+    "svgson": "4.0.0"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.2.0 || ^17.0.0 || ^18.0.0",
+    "styled-components": "^3.2.6 || 4.x.x || 5.x.x || 6.x.x"
+  }
+}

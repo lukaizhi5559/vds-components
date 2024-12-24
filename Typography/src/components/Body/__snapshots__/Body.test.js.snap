@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Body VDS set typescale correctly 1`] = `
+.c1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Body VDS set typescale
+</p>
+`;
+
+exports[`should render Body VDS theme correctly 1`] = `
+.c1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+  id="test"
+>
+  Body VDS theme
+</p>
+`;
+
+exports[`should render Body VDS typescale correctly 1`] = `
+.c1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Body VDS typescale
+</p>
+`;
+
+exports[`should render Body bold correctly 1`] = `
+.c1 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Body bold
+</p>
+`;
+
+exports[`should render Body default props correctly 1`] = `
+.c1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Body default
+</p>
+`;
+
+exports[`should render Body grey faded correctly 1`] = `
+.c1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #F6F6F6;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Body grey faded
+</p>
+`;
+
+exports[`should render Body large correctly 1`] = `
+.c1 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Body large
+</p>
+`;
+
+exports[`should render Body primitive as span 1`] = `
+.c1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<span
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Body span
+</span>
+`;
+
+exports[`should render Body with custom props 1`] = `
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Body Content
+</p>
+`;
+
+exports[`should render Body with default styles on mobile correctly 1`] = `
+.c1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Body on mobile
+</p>
+`;
+
+exports[`should render body small 1`] = `
+.c1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Body on mobile
+</p>
+`;
+
+exports[`should render with VDS BodyConfig 1`] = `
+.c1 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  should render with VDS BodyConfig
+</p>
+`;

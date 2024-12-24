@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"],
+  "exclude": [
+    "src/**/*.story.js",
+    "src/**/*.test.js",
+    "src/**/*.story.jsx",
+    "src/**/*.test.jsx",
+    "src/**/*.story.tsx",
+    "src/**/*.test.tsx"
+  ]
+}

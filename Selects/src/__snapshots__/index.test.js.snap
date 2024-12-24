@@ -1,0 +1,4087 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DropdownSelect /> DropdownSelect 1.0 borderless 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c13 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
+  padding-top: 0px;
+  padding-left: 0.75rem;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 50%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c5 {
+  margin: 0;
+  outline: none;
+}
+
+.c5::after {
+  color: #6f7171;
+  content: ' Optional';
+  display: inline;
+}
+
+.c8 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c8:hover {
+  outline: none;
+  border-color: #000000;
+}
+
+.c9 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+}
+
+.c9::-ms-expand {
+  display: none;
+}
+
+.c9 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c10 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+}
+
+.c11 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c11:active,
+.c11:focus {
+  outline: none;
+}
+
+.c11 svg path,
+.c11 svg polygon {
+  fill: #000000;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      data-testid="test-label"
+      for="test123"
+      id="test123"
+      label="test label"
+      width="100%"
+    >
+      <p
+        aria-hidden="false"
+        class="c3 c4"
+        id="test123-text"
+      >
+        test label
+        <span
+          aria-label="test label"
+          class="c5"
+          color="#6f7171"
+          id="test123"
+        />
+      </p>
+    </label>
+    <span
+      class="c6"
+    >
+      <span
+        class="c7"
+      >
+        <div
+          class="c8"
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label="test label Optional Select"
+            autocomplete="off"
+            class="c9"
+            data-testid="select"
+            height="2.75rem"
+            id="test123"
+            label="test label"
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Option 1 item 1 of 2"
+              role="option"
+            >
+              Option 1
+            </option>
+            <option
+              aria-label=" Option 2 item 2 of 2"
+              role="option"
+            >
+              Option 2
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c10"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c11"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+      <div
+        aria-hidden="true"
+        class="c12"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c13"
+        >
+          Select
+        </p>
+      </div>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> DropdownSelect 1.0 helperText and no overflowEllipsis test 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c13 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
+  padding-top: 0px;
+  padding-left: 0.75rem;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 50%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c5 {
+  margin: 0;
+  outline: none;
+}
+
+.c5::after {
+  color: #6f7171;
+  content: ' Optional';
+  display: inline;
+}
+
+.c8 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c8:hover {
+  outline: none;
+  border-color: #000000;
+}
+
+.c9 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+}
+
+.c9::-ms-expand {
+  display: none;
+}
+
+.c9 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c10 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+}
+
+.c11 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c11:active,
+.c11:focus {
+  outline: none;
+}
+
+.c11 svg path,
+.c11 svg polygon {
+  fill: #000000;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      data-testid="test-label"
+      for="test123"
+      id="test123"
+      label="test label"
+      width="100%"
+    >
+      <p
+        aria-hidden="false"
+        class="c3 c4"
+        id="test123-text"
+      >
+        test label
+        <span
+          aria-label="test label"
+          class="c5"
+          color="#6f7171"
+          id="test123"
+        />
+      </p>
+    </label>
+    <span
+      class="c6"
+    >
+      <span
+        class="c7"
+      >
+        <div
+          class="c8"
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label="test label Optional Select"
+            autocomplete="off"
+            class="c9"
+            data-testid="select"
+            height="2.75rem"
+            id="test123"
+            label="test label"
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Option 1 item 1 of 2"
+              role="option"
+            >
+              Option 1
+            </option>
+            <option
+              aria-label=" Option 2 item 2 of 2"
+              role="option"
+            >
+              Option 2
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c10"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c11"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+      <div
+        aria-hidden="true"
+        class="c12"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c13"
+        >
+          Select
+        </p>
+      </div>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> DropdownSelect 1.0 readOnly  1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c12 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
+  padding-top: 0px;
+  padding-left: 0.75rem;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 50%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c5 {
+  margin: 0;
+  outline: none;
+}
+
+.c5::after {
+  color: #6f7171;
+  content: ' Optional';
+  display: inline;
+}
+
+.c8 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #d8dada;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c9 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+  pointer-events: none;
+}
+
+.c9::-ms-expand {
+  display: none;
+}
+
+.c9 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 50%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c10 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      data-testid="test-label"
+      for="test123"
+      id="test123"
+      label="test label"
+      width="100%"
+    >
+      <p
+        aria-hidden="false"
+        class="c3 c4"
+        id="test123-text"
+      >
+        test label
+        <span
+          aria-label="test label"
+          class="c5"
+          color="#6f7171"
+          id="test123"
+        />
+      </p>
+    </label>
+    <span
+      class="c6"
+    >
+      <span
+        class="c7"
+      >
+        <div
+          class="c8"
+          height="2.75rem"
+          readonly=""
+          width="100%"
+        >
+          <select
+            aria-label="test label Optional Select"
+            autocomplete="off"
+            class="c9"
+            data-testid="select"
+            height="2.75rem"
+            id="test123"
+            label="test label"
+            readonly=""
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Option 1 item 1 of 2"
+              role="option"
+            >
+              Option 1
+            </option>
+            <option
+              aria-label=" Option 2 item 2 of 2"
+              role="option"
+            >
+              Option 2
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c10"
+            height="2.75rem"
+            tabindex="-1"
+          />
+        </div>
+      </span>
+      <div
+        aria-hidden="true"
+        class="c11"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c12"
+        >
+          Select
+        </p>
+      </div>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> DropdownSelect when children is empty array  1`] = `
+.c4 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c4:hover {
+  outline: none;
+  border-color: #000000;
+}
+
+.c5 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+}
+
+.c5::-ms-expand {
+  display: none;
+}
+
+.c5 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c6 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c7 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c7:active,
+.c7:focus {
+  outline: none;
+}
+
+.c7 svg path,
+.c7 svg polygon {
+  fill: #000000;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    
+    <span
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <div
+          class="c4"
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label=" required"
+            autocomplete="off"
+            class="c5"
+            data-testid="select"
+            height="2.75rem"
+            id="test123"
+            label=""
+            required=""
+            tabindex="0"
+            width="100%"
+          />
+          <span
+            aria-hidden="true"
+            class="c6"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c7"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> DropdownSelect with inlineLabel  1`] = `
+.c7 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6:active,
+.c6:focus,
+.c6:hover {
+  outline: none;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c4:hover {
+  outline: none;
+  border-color: #000000;
+}
+
+.c8 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.75rem 0.75rem 0;
+}
+
+.c8::-ms-expand {
+  display: none;
+}
+
+.c8 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c9 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c5 {
+  white-space: nowrap;
+  padding: 0.75rem 0.25rem 0.75rem 0.75rem;
+}
+
+.c5:focus {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c10 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c10:active,
+.c10:focus {
+  outline: none;
+}
+
+.c10 svg path,
+.c10 svg polygon {
+  fill: #000000;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <div
+          class="c4"
+          height="2.75rem"
+          width="100%"
+        >
+          <label
+            class="c5"
+            for="test123"
+            tabindex="-1"
+          >
+            <p
+              aria-hidden="false"
+              class="c6 c7"
+            >
+              select
+            </p>
+          </label>
+          <select
+            aria-label="select required"
+            autocomplete="off"
+            class="c8"
+            data-testid="select"
+            height="2.75rem"
+            id="test123"
+            label="select"
+            required=""
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Option 1 item 1 of 2"
+              role="option"
+            >
+              Option 1
+            </option>
+            <option
+              aria-label=" Option 2 item 2 of 2"
+              role="option"
+            >
+              Option 2
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c9"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c10"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> DropdownSelect with inlineLabel surface="dark" 1`] = `
+.c7 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #ffffff;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6:active,
+.c6:focus,
+.c6:hover {
+  outline: none;
+}
+
+.c4 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #000000;
+  border-radius: 4px;
+  border-color: #a7a7a7;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c4:hover {
+  outline: none;
+  border-color: #ffffff;
+}
+
+.c8 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #ffffff;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.75rem 0.75rem 0;
+}
+
+.c8::-ms-expand {
+  display: none;
+}
+
+.c8 option {
+  background-color: #000000;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c9 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c5 {
+  white-space: nowrap;
+  padding: 0.75rem 0.25rem 0.75rem 0.75rem;
+}
+
+.c5:focus {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c10 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c10:active,
+.c10:focus {
+  outline: none;
+}
+
+.c10 svg path,
+.c10 svg polygon {
+  fill: #ffffff;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <div
+          class="c4"
+          height="2.75rem"
+          width="100%"
+        >
+          <label
+            class="c5"
+            for="test123"
+            tabindex="-1"
+          >
+            <p
+              aria-hidden="false"
+              class="c6 c7"
+            >
+              select
+            </p>
+          </label>
+          <select
+            aria-label="select required"
+            autocomplete="off"
+            class="c8"
+            data-testid="select"
+            height="2.75rem"
+            id="test123"
+            label="select"
+            required=""
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Option 1 item 1 of 2"
+              role="option"
+            >
+              Option 1
+            </option>
+            <option
+              aria-label=" Option 2 item 2 of 2"
+              role="option"
+            >
+              Option 2
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c9"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c10"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> DropdownSelect without options 1`] = `
+.c4 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c4:hover {
+  outline: none;
+  border-color: #000000;
+}
+
+.c5 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+}
+
+.c5::-ms-expand {
+  display: none;
+}
+
+.c5 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c6 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c7 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c7:active,
+.c7:focus {
+  outline: none;
+}
+
+.c7 svg path,
+.c7 svg polygon {
+  fill: #000000;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    
+    <span
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <div
+          class="c4"
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label=" required"
+            autocomplete="off"
+            class="c5"
+            data-testid="select"
+            height="2.75rem"
+            id="test123"
+            label=""
+            required=""
+            tabindex="0"
+            width="100%"
+          />
+          <span
+            aria-hidden="true"
+            class="c6"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c7"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> VDS DropdownSelect 1.0 helperText bottom and disabled  1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.25rem;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c7 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c7:hover {
+  outline: none;
+  border-color: #000000;
+}
+
+.c8 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+}
+
+.c8::-ms-expand {
+  display: none;
+}
+
+.c8 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c9 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c10 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c10:active,
+.c10:focus {
+  outline: none;
+}
+
+.c10 svg path,
+.c10 svg polygon {
+  fill: #000000;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      data-testid="test-label"
+      for="test123"
+      id="test123"
+      label="test label"
+      width="100%"
+    >
+      <p
+        aria-hidden="false"
+        class="c3 c4"
+        id="test123-text"
+      >
+        test label
+      </p>
+    </label>
+    <span
+      class="c5"
+    >
+      <span
+        class="c6"
+      >
+        <div
+          class="c7"
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label="test label required"
+            autocomplete="off"
+            class="c8"
+            data-testid="select"
+            height="2.75rem"
+            id="test123"
+            label="test label"
+            required=""
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Option 1 item 1 of 2"
+              role="option"
+            >
+              Option 1
+            </option>
+            <option
+              aria-label=" Option 2 item 2 of 2"
+              role="option"
+            >
+              Option 2
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c9"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c10"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> VDS DropdownSelect 1.0 onChange 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c5 {
+  margin: 0;
+  outline: none;
+}
+
+.c5::after {
+  color: #6f7171;
+  content: ' Optional';
+  display: inline;
+}
+
+.c8 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c8:hover {
+  outline: none;
+  border-color: #000000;
+}
+
+.c9 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+}
+
+.c9::-ms-expand {
+  display: none;
+}
+
+.c9 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c10 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c11 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c11:active,
+.c11:focus {
+  outline: none;
+}
+
+.c11 svg path,
+.c11 svg polygon {
+  fill: #000000;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      data-testid="test-label"
+      for="test-select"
+      id="test-select"
+      label="test label"
+      width="100%"
+    >
+      <p
+        aria-hidden="false"
+        class="c3 c4"
+        id="test-select-text"
+      >
+        test label
+        <span
+          aria-label="test label"
+          class="c5"
+          color="#6f7171"
+          id="test-select"
+        />
+      </p>
+    </label>
+    <span
+      class="c6"
+    >
+      <span
+        class="c7"
+      >
+        <div
+          class="c8"
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label="Select dropdown"
+            autocomplete="off"
+            class="c9"
+            data-testid="select"
+            height="2.75rem"
+            id="test-select"
+            label="test label"
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Option 1 item 1 of 2"
+              role="option"
+            >
+              Option 1
+            </option>
+            <option
+              aria-label=" Option 2 item 2 of 2"
+              role="option"
+            >
+              Option 2
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c10"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c11"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> VDS DropdownSelect 1.0 onChange with change errorEvent 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c7 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c7:hover {
+  outline: none;
+  border-color: #000000;
+}
+
+.c8 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+}
+
+.c8::-ms-expand {
+  display: none;
+}
+
+.c8 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c9 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c10 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c10:active,
+.c10:focus {
+  outline: none;
+}
+
+.c10 svg path,
+.c10 svg polygon {
+  fill: #000000;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      data-testid="test-label"
+      for="test-select"
+      id="test-select"
+      label="test label"
+      width="100%"
+    >
+      <p
+        aria-hidden="false"
+        class="c3 c4"
+        id="test-select-text"
+      >
+        test label
+      </p>
+    </label>
+    <span
+      class="c5"
+    >
+      <span
+        class="c6"
+      >
+        <div
+          class="c7"
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label="Select dropdown"
+            autocomplete="off"
+            class="c8"
+            data-testid="select"
+            height="2.75rem"
+            id="test-select"
+            label="test label"
+            required=""
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Option 1 item 1 of 2"
+              role="option"
+            >
+              Option 1
+            </option>
+            <option
+              aria-label=" Option 2 item 2 of 2"
+              role="option"
+            >
+              Option 2
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c9"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c10"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> VDS DropdownSelect 1.0 selected  1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c13 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 0.5rem;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.25rem;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c5 {
+  margin: 0;
+  outline: none;
+}
+
+.c5::after {
+  color: #6f7171;
+  content: ' Optional';
+  display: inline;
+}
+
+.c8 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c8:hover {
+  outline: none;
+  border-color: #000000;
+}
+
+.c9 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 68px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.75rem 0.75rem 0.75rem;
+}
+
+.c9::-ms-expand {
+  display: none;
+}
+
+.c9 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: 596px;
+  min-width: 68px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c10 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c11 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c11:active,
+.c11:focus {
+  outline: none;
+}
+
+.c11 svg path,
+.c11 svg polygon {
+  fill: #000000;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    <label
+      class="c2"
+      data-testid="test-label"
+      for="test123"
+      id="test123"
+      label="test label"
+      width="100%"
+    >
+      <p
+        aria-hidden="false"
+        class="c3 c4"
+        id="test123-text"
+      >
+        test label
+        <span
+          aria-label="test label"
+          class="c5"
+          color="#6f7171"
+          id="test123"
+        />
+      </p>
+    </label>
+    <span
+      class="c6"
+    >
+      <span
+        class="c7"
+      >
+        <div
+          class="c8"
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label="test label Optional select"
+            autocomplete="off"
+            class="c9"
+            data-testid="select"
+            height="2.75rem"
+            id="test123"
+            label="test label"
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Option 1 item 1 of 2"
+              role="option"
+            >
+              Option 1
+            </option>
+            <option
+              aria-label=" Option 2 item 2 of 2"
+              role="option"
+            >
+              Option 2
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c10"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c11"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+    <div
+      aria-hidden="true"
+      class="c12"
+    >
+      <p
+        aria-hidden="false"
+        class="c3 c13"
+      >
+        select
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> should render default DropdownSelect 1`] = `
+.c4 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c4:hover {
+  outline: none;
+  border-color: #000000;
+}
+
+.c5 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #000000;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+}
+
+.c5::-ms-expand {
+  display: none;
+}
+
+.c5 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c6 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c7 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c7:active,
+.c7:focus {
+  outline: none;
+}
+
+.c7 svg path,
+.c7 svg polygon {
+  fill: #000000;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    
+    <span
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <div
+          class="c4"
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label=" required"
+            autocomplete="off"
+            class="c5"
+            height="2.75rem"
+            id="test123"
+            label=""
+            required=""
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Choose an animal item 1 of 6"
+              role="option"
+            >
+              Choose an animal
+            </option>
+            <option
+              aria-label=" Kitten item 2 of 6"
+              role="option"
+            >
+              Kitten
+            </option>
+            <option
+              aria-label=" Puppy item 3 of 6"
+              role="option"
+            >
+              Puppy
+            </option>
+            <option
+              aria-label=" Piglet item 4 of 6"
+              role="option"
+            >
+              Piglet
+            </option>
+            <option
+              aria-label=" Fawn item 5 of 6"
+              role="option"
+            >
+              Fawn
+            </option>
+            <option
+              aria-label=" Spider Hatchling item 6 of 6"
+              role="option"
+            >
+              Spider Hatchling
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c6"
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c7"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> should render disabled and surface="dark" state DropdownSelect 1`] = `
+.c4 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #000000;
+  border-radius: 4px;
+  border-color: #333333;
+  border-width: 0.0625rem;
+  border-style: solid;
+  color: #333333;
+}
+
+.c5 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #333333;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+}
+
+.c5::-ms-expand {
+  display: none;
+}
+
+.c5 option {
+  background-color: #000000;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c6 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+  color: #ffffff;
+  border-color: #d8dada;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c7 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c7:active,
+.c7:focus {
+  outline: none;
+}
+
+.c7 svg path,
+.c7 svg polygon {
+  fill: #333333;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    
+    <span
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <div
+          class="c4"
+          disabled=""
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label=" required"
+            autocomplete="off"
+            class="c5"
+            disabled=""
+            height="2.75rem"
+            id="test123"
+            label=""
+            required=""
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Choose an animal item 1 of 6"
+              role="option"
+            >
+              Choose an animal
+            </option>
+            <option
+              aria-label=" Kitten item 2 of 6"
+              role="option"
+            >
+              Kitten
+            </option>
+            <option
+              aria-label=" Puppy item 3 of 6"
+              role="option"
+            >
+              Puppy
+            </option>
+            <option
+              aria-label=" Piglet item 4 of 6"
+              role="option"
+            >
+              Piglet
+            </option>
+            <option
+              aria-label=" Fawn item 5 of 6"
+              role="option"
+            >
+              Fawn
+            </option>
+            <option
+              aria-label=" Spider Hatchling item 6 of 6"
+              role="option"
+            >
+              Spider Hatchling
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c6"
+            disabled=""
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c7"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> should render disabled state DropdownSelect 1`] = `
+.c4 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border-color: #d8dada;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c5 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #d8dada;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+}
+
+.c5::-ms-expand {
+  display: none;
+}
+
+.c5 option {
+  background-color: #ffffff;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c6 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+  color: #d8dada;
+  border-color: #d8dada;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c7 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c7:active,
+.c7:focus {
+  outline: none;
+}
+
+.c7 svg path,
+.c7 svg polygon {
+  fill: #d8dada;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    
+    <span
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <div
+          class="c4"
+          disabled=""
+          height="2.75rem"
+          width="100%"
+        >
+          <select
+            aria-label=" required"
+            autocomplete="off"
+            class="c5"
+            disabled=""
+            height="2.75rem"
+            id="test123"
+            label=""
+            required=""
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Choose an animal item 1 of 6"
+              role="option"
+            >
+              Choose an animal
+            </option>
+            <option
+              aria-label=" Kitten item 2 of 6"
+              role="option"
+            >
+              Kitten
+            </option>
+            <option
+              aria-label=" Puppy item 3 of 6"
+              role="option"
+            >
+              Puppy
+            </option>
+            <option
+              aria-label=" Piglet item 4 of 6"
+              role="option"
+            >
+              Piglet
+            </option>
+            <option
+              aria-label=" Fawn item 5 of 6"
+              role="option"
+            >
+              Fawn
+            </option>
+            <option
+              aria-label=" Spider Hatchling item 6 of 6"
+              role="option"
+            >
+              Spider Hatchling
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c6"
+            disabled=""
+            height="2.75rem"
+            tabindex="-1"
+          >
+            <div
+              aria-hidden="true"
+              aria-label="caret-down icon"
+              class="c7"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <polygon
+                  points="10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<DropdownSelect /> should render readOnly, disabled and surface="dark" state DropdownSelect 1`] = `
+.c4 {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 2.75rem;
+  width: 100%;
+  vertical-align: top;
+  margin: 0;
+  background-color: #000000;
+  border-radius: 4px;
+  border-color: #333333;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c5 {
+  border: none;
+  background: transparent;
+  width: 100%;
+  min-width: 66px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  pointer-events: auto;
+  color: #333333;
+  opacity: 1;
+  line-height: 1.25rem;
+  font-size: 1rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  padding: 0.75rem 2.6875rem 0.75rem 0.75rem;
+  pointer-events: none;
+}
+
+.c5::-ms-expand {
+  display: none;
+}
+
+.c5 option {
+  background-color: #000000;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 66px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.c1 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c6 {
+  position: absolute;
+  z-index: 1;
+  margin-left: 0.75rem;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 1.25rem;
+  pointer-events: none;
+  color: #ffffff;
+  border-color: #d8dada;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+<div
+  class="c0"
+  width="100%"
+>
+  <div
+    class="c1"
+  >
+    
+    <span
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <div
+          class="c4"
+          disabled=""
+          height="2.75rem"
+          readonly=""
+          width="100%"
+        >
+          <select
+            aria-label=" required"
+            autocomplete="off"
+            class="c5"
+            disabled=""
+            height="2.75rem"
+            id="test123"
+            label=""
+            readonly=""
+            required=""
+            tabindex="0"
+            width="100%"
+          >
+            <option
+              aria-label="selected Choose an animal item 1 of 6"
+              role="option"
+            >
+              Choose an animal
+            </option>
+            <option
+              aria-label=" Kitten item 2 of 6"
+              role="option"
+            >
+              Kitten
+            </option>
+            <option
+              aria-label=" Puppy item 3 of 6"
+              role="option"
+            >
+              Puppy
+            </option>
+            <option
+              aria-label=" Piglet item 4 of 6"
+              role="option"
+            >
+              Piglet
+            </option>
+            <option
+              aria-label=" Fawn item 5 of 6"
+              role="option"
+            >
+              Fawn
+            </option>
+            <option
+              aria-label=" Spider Hatchling item 6 of 6"
+              role="option"
+            >
+              Spider Hatchling
+            </option>
+          </select>
+          <span
+            aria-hidden="true"
+            class="c6"
+            disabled=""
+            height="2.75rem"
+            tabindex="-1"
+          />
+        </div>
+      </span>
+    </span>
+  </div>
+</div>
+`;

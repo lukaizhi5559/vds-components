@@ -1,0 +1,1438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormElements /> test Label with cardType as amex 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #ffffff;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c7 {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c8:focus:not(:hover) {
+  outline: none;
+}
+
+.c8:focus:not(:hover)::before {
+  content: '';
+  border: 0.0625rem dashed  #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% + 0.25rem);
+  height: calc(100% + 0.25rem);
+}
+
+.c8:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c8:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.26);
+  background-color: rgba(111,113,113,0.26);
+}
+
+.c8:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.26);
+}
+
+.c8:active svg path,
+.c8:active svg polygon {
+  fill: #a7a7a7;
+}
+
+.c8:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c10 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c10:focus {
+  outline: none;
+}
+
+.c9 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c9:hover {
+  cursor: pointer;
+}
+
+.c11 {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.c11:active,
+.c11:focus {
+  outline: none;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  outline: none;
+  pointer-events: auto;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  outline: none;
+  z-index: 0;
+}
+
+.c6 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  overflow: visible;
+  left: 0.25rem;
+  position: relative;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+.c6 button:hover {
+  box-shadow: 0 0 0 0.188rem rgba(111,113,113,0.26);
+}
+
+.c6 button:hover:active {
+  box-shadow: 0 0 0 0.188rem rgba(111,113,113,0.26);
+}
+
+.c6 button:focus:not(:hover)::before {
+  width: calc(100%);
+  height: calc(100%);
+}
+
+.c6 button:active svg path {
+  fill: #a7a7a7;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-bottom;
+  height: 0.9375rem;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    >
+      <span
+        class="c3"
+      >
+        <span
+          class="c4"
+          id="test-tooltipWrapper"
+          tabindex="-1"
+        >
+          <span
+            class="c5"
+            tabindex="-1"
+          >
+            <div
+              aria-expanded="false"
+              aria-label="undefined tooltip"
+              class="c6"
+              data-testid="tooltip"
+              id="test"
+            >
+              <span
+                style="outline: none; display: inline-flex;"
+              >
+                <div
+                  class="c7"
+                  kind="ghost"
+                >
+                  <button
+                    aria-disabled="false"
+                    aria-expanded="false"
+                    aria-hidden="false"
+                    aria-label="undefined tooltip"
+                    class="c8"
+                    kind="ghost"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="c9"
+                    />
+                    <span
+                      class="c10"
+                    >
+                      <svg
+                        aria-hidden="false"
+                        aria-label="info icon"
+                        class="c11"
+                        fill="#ffffff"
+                        role="img"
+                        viewBox="0 0 21.6 21.6"
+                      >
+                        <title>
+                          info icon
+                        </title>
+                        <path
+                          class="cls-1"
+                          d="M19.8,10.8a9,9,0,1,0-9,9A9.01054,9.01054,0,0,0,19.8,10.8Zm-1.12488,0A7.87513,7.87513,0,1,1,10.8,2.92486,7.88411,7.88411,0,0,1,18.67509,10.8ZM11.625,7.45852H9.95v-1.675h1.675ZM9.95834,9.11662H11.65v6.6999H9.95834Z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </span>
+            </div>
+            <span
+              aria-live="assertive"
+              aria-relevant="all"
+            />
+          </span>
+        </span>
+      </span>
+    </p>
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test Label with cardType as other 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c7 {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c8:focus:not(:hover) {
+  outline: none;
+}
+
+.c8:focus:not(:hover)::before {
+  content: '';
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% + 0.25rem);
+  height: calc(100% + 0.25rem);
+}
+
+.c8:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c8:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+  background-color: rgba(111,113,113,0.06);
+}
+
+.c8:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+}
+
+.c8:active svg path,
+.c8:active svg polygon {
+  fill: #6f7171;
+}
+
+.c8:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c10 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c10:focus {
+  outline: none;
+}
+
+.c9 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c9:hover {
+  cursor: pointer;
+}
+
+.c11 {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.c11:active,
+.c11:focus {
+  outline: none;
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  outline: none;
+  pointer-events: auto;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  outline: none;
+  z-index: 0;
+}
+
+.c6 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  overflow: visible;
+  left: 0.25rem;
+  position: relative;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+.c6 button:hover {
+  box-shadow: 0 0 0 0.188rem rgba(111,113,113,0.06);
+}
+
+.c6 button:hover:active {
+  box-shadow: 0 0 0 0.188rem rgba(111,113,113,0.06);
+}
+
+.c6 button:focus:not(:hover)::before {
+  width: calc(100%);
+  height: calc(100%);
+}
+
+.c6 button:active svg path {
+  fill: #6f7171;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: text-bottom;
+  height: 0.9375rem;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    >
+      <span
+        class="c3"
+      >
+        <span
+          class="c4"
+          id="test-tooltipWrapper"
+          tabindex="-1"
+        >
+          <span
+            class="c5"
+            tabindex="-1"
+          >
+            <div
+              aria-expanded="false"
+              aria-label="undefined tooltip"
+              class="c6"
+              data-testid="tooltip"
+              id="test"
+            >
+              <span
+                style="outline: none; display: inline-flex;"
+              >
+                <div
+                  class="c7"
+                  kind="ghost"
+                >
+                  <button
+                    aria-disabled="false"
+                    aria-expanded="false"
+                    aria-hidden="false"
+                    aria-label="undefined tooltip"
+                    class="c8"
+                    kind="ghost"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="c9"
+                    />
+                    <span
+                      class="c10"
+                    >
+                      <svg
+                        aria-hidden="false"
+                        aria-label="info icon"
+                        class="c11"
+                        fill="#000000"
+                        role="img"
+                        viewBox="0 0 21.6 21.6"
+                      >
+                        <title>
+                          info icon
+                        </title>
+                        <path
+                          class="cls-1"
+                          d="M19.8,10.8a9,9,0,1,0-9,9A9.01054,9.01054,0,0,0,19.8,10.8Zm-1.12488,0A7.87513,7.87513,0,1,1,10.8,2.92486,7.88411,7.88411,0,0,1,18.67509,10.8ZM11.625,7.45852H9.95v-1.675h1.675ZM9.95834,9.11662H11.65v6.6999H9.95834Z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </span>
+            </div>
+            <span
+              aria-live="assertive"
+              aria-relevant="all"
+            />
+          </span>
+        </span>
+      </span>
+    </p>
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test errorText with Success prop tru and inverted 1`] = `
+.c1 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #ffffff;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<div>
+  <div
+    role="alert"
+  >
+    <div
+      class=""
+    >
+      <p
+        aria-hidden="false"
+        class="c0 c1"
+      >
+        this is success
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<FormElements /> test helpertestComponent with disable and inverted 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #333333;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
+  padding-top: 0px;
+  padding-left: 0.75rem;
+}
+
+<div>
+  <div
+    aria-hidden="true"
+    class="c0"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+    >
+      This is to help
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FormElements /> test helpertestComponent with disable and not inverted 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #d8dada;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
+  padding-top: 0px;
+  padding-left: 0.75rem;
+}
+
+<div>
+  <div
+    aria-hidden="true"
+    class="c0"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+    >
+      This is to help
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FormElements /> test helpertestComponent with helperTextPlacement 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
+  padding-top: 0px;
+  padding-left: 0.75rem;
+}
+
+<div>
+  <div
+    aria-hidden="true"
+    class="c0"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+    >
+      This is to help
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FormElements /> test helpertestComponent with not disable and inverted 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #a7a7a7;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  width: 50%;
+  padding-top: 0px;
+  padding-left: 0.75rem;
+}
+
+<div>
+  <div
+    aria-hidden="true"
+    class="c0"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+    >
+      This is to help
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<FormElements /> test label disabled 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #d8dada;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.0625rem;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+    label="label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    >
+      label
+    </p>
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test label inverted 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #ffffff;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    />
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test label inverted and disabled 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #333333;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    />
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test label render with default props 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    />
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test label with helperTextPlacement 1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.0625rem;
+  width: 50%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+    label="My Label text"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    >
+      My Label text
+    </p>
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test label with overflowEllipsis true  1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.0625rem;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: normal;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+    label="label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    >
+      label
+    </p>
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test label with required false  1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.0625rem;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.c3 {
+  margin: 0;
+  outline: none;
+}
+
+.c3::after {
+  color: #6f7171;
+  content: ' Optional';
+  display: inline;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+    label="label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    >
+      label
+      <span
+        aria-label="label"
+        class="c3"
+        color="#6f7171"
+      />
+    </p>
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test label with required false , inverted and not disabled  1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #ffffff;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.0625rem;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.c3 {
+  margin: 0;
+  outline: none;
+}
+
+.c3::after {
+  color: #a7a7a7;
+  content: ' Optional';
+  display: inline;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+    label="label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    >
+      label
+      <span
+        aria-label="label"
+        class="c3"
+        color="#a7a7a7"
+      />
+    </p>
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test label with required false , not inverted and disabled  1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #d8dada;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.0625rem;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.c3 {
+  margin: 0;
+  outline: none;
+}
+
+.c3::after {
+  color: #d8dada;
+  content: ' Optional';
+  display: inline;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+    label="label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    >
+      label
+      <span
+        aria-label="label"
+        class="c3"
+        color="#d8dada"
+      />
+    </p>
+  </label>
+</div>
+`;
+
+exports[`<FormElements /> test label with required false with disabled and inverted  1`] = `
+.c2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #333333;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.0625rem;
+  width: 100%;
+}
+
+.c0 > * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.c3 {
+  margin: 0;
+  outline: none;
+}
+
+.c3::after {
+  color: #333333;
+  content: ' Optional';
+  display: inline;
+}
+
+<div>
+  <label
+    class="c0"
+    data-testid="test-label"
+    label="label"
+  >
+    <p
+      aria-hidden="false"
+      class="c1 c2"
+      id="undefined-text"
+    >
+      label
+      <span
+        aria-label="label"
+        class="c3"
+        color="#333333"
+      />
+    </p>
+  </label>
+</div>
+`;

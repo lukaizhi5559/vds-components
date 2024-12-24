@@ -1,0 +1,33 @@
+{
+  "name": "@vds-core/scrollbars",
+  "version": "3.2.13",
+  "description": "JavaScript style helper functions",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://oneartifactoryci.verizon.com/artifactory/api/npm/GVJV_npm_VDS/"
+  },
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.js",
+    "test": "jest --verbose",
+    "test:watch": "jest --verbose --watch"
+  },
+  "author": "Nathan Myers",
+  "contributors": [
+    "Andrew T. James <andrew.james1@verizon.com"
+  ],
+  "dependencies": {
+    "@babel/plugin-proposal-private-methods": "7.14.5",
+    "@babel/plugin-proposal-private-property-in-object": "7.15.4",
+    "@vds-core/utilities": "3.2.2",
+    "@vds-tokens/color": "2.1.2",
+    "dom-css": "2.1.0",
+    "raf": "3.4.1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.2.0 || ^17.0.0 || ^18.0.0",
+    "styled-components": "^3.2.6 || 4.x.x || 5.x.x || 6.x.x"
+  }
+}

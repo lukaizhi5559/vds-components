@@ -1,0 +1,1901 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination default> snapshot 1`] = `
+.c3 {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+}
+
+.c3:focus:not(:hover) {
+  outline: none;
+}
+
+.c3:focus:not(:hover) span::after {
+  border: 0.0625rem dashed;
+  border-color: #000000;
+  border-radius: 2px;
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: calc(100% + 0.1875rem);
+}
+
+.c3:active,
+.c3:hover {
+  outline: none;
+}
+
+.c3:active span,
+.c3:hover span {
+  outline: none;
+}
+
+.c12 {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+  cursor: auto;
+  outline: none;
+  font-weight: 700;
+}
+
+.c12:focus:not(:hover) {
+  outline: none;
+}
+
+.c12:focus:not(:hover) span::after {
+  border: 0.0625rem dashed;
+  border-color: #000000;
+  border-radius: 2px;
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: calc(100% + 0.1875rem);
+}
+
+.c12:active,
+.c12:hover {
+  outline: none;
+}
+
+.c12:active span,
+.c12:hover span {
+  outline: none;
+}
+
+.c7 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 svg {
+  margin-top: -1px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.75rem;
+  width: 0.75rem;
+  min-height: 0.75rem;
+  min-width: 0.75rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+.c6 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c6 svg path {
+  fill: #000000;
+}
+
+.c2 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: auto;
+  text-align: center;
+}
+
+.c9 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-: auto;
+  text-align: center;
+}
+
+.c13 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 1.25rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  margin-left: 0.25rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c10 svg {
+  margin-top: -1px;
+}
+
+.c0 {
+  width: 288px;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+<div>
+  <nav
+    aria-label="Pagination"
+    class="c0"
+    tabindex="-1"
+  >
+    <ul
+      class="c1"
+    >
+      <li
+        aria-hidden="false"
+        class="c2"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to previous page."
+          class="c3"
+          href="/some/api/1/example"
+          role="link"
+          style="display: flex; justify-content: flex-end; align-items: center; font-weight: 700; height: 2.75rem; min-width: 2.75rem; visibility: visible;"
+          tabindex="0"
+        >
+          <span
+            class="c4"
+          >
+            <div
+              class="c5"
+              direction="previous"
+            >
+              <div
+                aria-label="pagination-left-arrow icon"
+                class="c6"
+                tabindex="-1"
+              >
+                <svg
+                  id="Layer_1"
+                  version="1.1"
+                  viewBox="0 0 21.6 21.6"
+                  x="0px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  y="0px"
+                >
+                  <path
+                    d="M19.8,11.7h-15l7.1,7.1L10.7,20l-9.3-9.2l9.3-9.2l1.3,1.3L4.8,9.9h15L19.8,11.7z"
+                  />
+                </svg>
+              </div>
+            </div>
+            Previous
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        class="c8 c9"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to Page 1 of 20"
+          class="c3"
+          href="/some/api/1/example"
+          role="link"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            1
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <a
+          aria-current="true"
+          aria-label="Page 2 of 20"
+          class="c12"
+          role="none"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            2
+          </span>
+          <span
+            aria-live="assertive"
+            class="c7"
+          >
+            Page 2 selected
+          </span>
+        </a>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to Page 3 of 20"
+          class="c3"
+          href="/some/api/3/example"
+          role="link"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            3
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to Page 4 of 20"
+          class="c3"
+          href="/some/api/4/example"
+          role="link"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            4
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        aria-hidden="false"
+        class="c13"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to next page."
+          class="c3"
+          href="/some/api/3/example"
+          role="link"
+          style="display: flex; justify-content: flex-start; align-items: center; font-weight: 700; height: 2.75rem; min-width: 2.75rem; visibility: visible;"
+          tabindex="0"
+        >
+          <span
+            class="c4"
+          >
+            Next
+            <div
+              class="c14"
+              direction="next"
+            >
+              <div
+                aria-label="pagination-right-arrow icon"
+                class="c6"
+                tabindex="-1"
+              >
+                <svg
+                  data-name="Layer 1"
+                  id="Layer_1"
+                  viewBox="0 0 21.6 21.6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.26723,10.80317,10.94378,20.044,9.6764,18.7643l7.12223-7.05674H1.8014v-1.8H16.808L9.68256,2.84378l1.26738-1.278Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`<Pagination> FirstControl and LastControl should be appeared 1`] = `
+.c3 {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+}
+
+.c3:focus:not(:hover) {
+  outline: none;
+}
+
+.c3:focus:not(:hover) span::after {
+  border: 0.0625rem dashed;
+  border-color: #000000;
+  border-radius: 3px;
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: calc(100% + 0.1875rem);
+}
+
+.c3:active,
+.c3:hover {
+  outline: none;
+}
+
+.c3:active span,
+.c3:hover span {
+  outline: none;
+}
+
+.c12 {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+  cursor: auto;
+  outline: none;
+  font-weight: 700;
+}
+
+.c12:focus:not(:hover) {
+  outline: none;
+}
+
+.c12:focus:not(:hover) span::after {
+  border: 0.0625rem dashed;
+  border-color: #000000;
+  border-radius: 3px;
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: calc(100% + 0.1875rem);
+}
+
+.c12:active,
+.c12:hover {
+  outline: none;
+}
+
+.c12:active span,
+.c12:hover span {
+  outline: none;
+}
+
+.c7 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 svg {
+  margin-top: -1px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.75rem;
+  width: 0.75rem;
+  min-height: 0.75rem;
+  min-width: 0.75rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+.c6 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c6 svg path {
+  fill: #000000;
+}
+
+.c2 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: auto;
+  text-align: center;
+}
+
+.c9 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-: auto;
+  text-align: center;
+}
+
+.c13 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 1.25rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  margin-left: 0.25rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c10 svg {
+  margin-top: -1px;
+}
+
+.c0 {
+  width: 288px;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+<div>
+  <nav
+    aria-label="Pagination"
+    class="c0"
+    tabindex="-1"
+  >
+    <ul
+      class="c1"
+    >
+      <li
+        aria-hidden="false"
+        class="c2"
+      >
+        <button
+          aria-current="false"
+          aria-label="Go to previous page."
+          class="c3"
+          role="button"
+          style="display: flex; justify-content: flex-end; align-items: center; font-weight: 700; height: 2.75rem; min-width: 2.75rem; visibility: visible;"
+          tabindex="0"
+        >
+          <span
+            class="c4"
+          >
+            <div
+              class="c5"
+              direction="previous"
+            >
+              <div
+                aria-label="pagination-left-arrow icon"
+                class="c6"
+                tabindex="-1"
+              >
+                <svg
+                  id="Layer_1"
+                  version="1.1"
+                  viewBox="0 0 21.6 21.6"
+                  x="0px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  y="0px"
+                >
+                  <path
+                    d="M19.8,11.7h-15l7.1,7.1L10.7,20l-9.3-9.2l9.3-9.2l1.3,1.3L4.8,9.9h15L19.8,11.7z"
+                  />
+                </svg>
+              </div>
+            </div>
+            Previous
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </button>
+      </li>
+      <li
+        class="c8 c9"
+      >
+        <button
+          aria-current="false"
+          aria-label="Go to Page 1 of 5"
+          class="c3"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            1
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </button>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <button
+          aria-current="true"
+          aria-label="Page 2 of 5"
+          class="c12"
+          role="none"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            2
+          </span>
+          <span
+            aria-live="assertive"
+            class="c7"
+          >
+            Page 2 selected
+          </span>
+        </button>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <button
+          aria-current="false"
+          aria-label="Go to Page 3 of 5"
+          class="c3"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            3
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </button>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <button
+          aria-current="false"
+          aria-label="Go to Page 4 of 5"
+          class="c3"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            4
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </button>
+      </li>
+      <li
+        aria-hidden="false"
+        class="c13"
+      >
+        <button
+          aria-current="false"
+          aria-label="Go to next page."
+          class="c3"
+          role="button"
+          style="display: flex; justify-content: flex-start; align-items: center; font-weight: 700; height: 2.75rem; min-width: 2.75rem; visibility: visible;"
+          tabindex="0"
+        >
+          <span
+            class="c4"
+          >
+            Next
+            <div
+              class="c14"
+              direction="next"
+            >
+              <div
+                aria-label="pagination-right-arrow icon"
+                class="c6"
+                tabindex="-1"
+              >
+                <svg
+                  data-name="Layer 1"
+                  id="Layer_1"
+                  viewBox="0 0 21.6 21.6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.26723,10.80317,10.94378,20.044,9.6764,18.7643l7.12223-7.05674H1.8014v-1.8H16.808L9.68256,2.84378l1.26738-1.278Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </button>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`<PaginationLink> 1`] = `
+.c0 {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+}
+
+.c0:focus:not(:hover) {
+  outline: none;
+}
+
+.c0:focus:not(:hover) span::after {
+  border: 0.0625rem dashed;
+  border-color: #000000;
+  border-radius: 2px;
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: calc(100% + 0.1875rem);
+}
+
+.c0:active,
+.c0:hover {
+  outline: none;
+}
+
+.c0:active span,
+.c0:hover span {
+  outline: none;
+}
+
+.c1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+<button
+  aria-current="false"
+  aria-label="Go to Page undefined of 20"
+  class="c0"
+  role="button"
+  tabindex="0"
+>
+  test
+  <span
+    aria-live="false"
+    class="c1"
+  />
+</button>
+`;
+
+exports[`VDS Pagination 1`] = `
+.c3 {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+}
+
+.c3:focus:not(:hover) {
+  outline: none;
+}
+
+.c3:focus:not(:hover) span::after {
+  border: 0.0625rem dashed;
+  border-color: #000000;
+  border-radius: 2px;
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: calc(100% + 0.1875rem);
+}
+
+.c3:active,
+.c3:hover {
+  outline: none;
+}
+
+.c3:active span,
+.c3:hover span {
+  outline: none;
+}
+
+.c12 {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+  cursor: auto;
+  outline: none;
+  font-weight: 700;
+}
+
+.c12:focus:not(:hover) {
+  outline: none;
+}
+
+.c12:focus:not(:hover) span::after {
+  border: 0.0625rem dashed;
+  border-color: #000000;
+  border-radius: 2px;
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: calc(100% + 0.1875rem);
+}
+
+.c12:active,
+.c12:hover {
+  outline: none;
+}
+
+.c12:active span,
+.c12:hover span {
+  outline: none;
+}
+
+.c7 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 svg {
+  margin-top: -1px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.75rem;
+  width: 0.75rem;
+  min-height: 0.75rem;
+  min-width: 0.75rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+.c6 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c6 svg path {
+  fill: #000000;
+}
+
+.c2 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: auto;
+  text-align: center;
+}
+
+.c9 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-: auto;
+  text-align: center;
+}
+
+.c13 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 1.25rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  margin-left: 0.25rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c10 svg {
+  margin-top: -1px;
+}
+
+.c0 {
+  width: 288px;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+<div>
+  <nav
+    aria-label="Pagination"
+    class="c0"
+    tabindex="-1"
+  >
+    <ul
+      class="c1"
+    >
+      <li
+        aria-hidden="false"
+        class="c2"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to previous page."
+          class="c3"
+          href="/some/api/7/example"
+          role="link"
+          style="display: flex; justify-content: flex-end; align-items: center; font-weight: 700; height: 2.75rem; min-width: 2.75rem; visibility: visible;"
+          tabindex="0"
+        >
+          <span
+            class="c4"
+          >
+            <div
+              class="c5"
+              direction="previous"
+            >
+              <div
+                aria-label="pagination-left-arrow icon"
+                class="c6"
+                tabindex="-1"
+              >
+                <svg
+                  id="Layer_1"
+                  version="1.1"
+                  viewBox="0 0 21.6 21.6"
+                  x="0px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  y="0px"
+                >
+                  <path
+                    d="M19.8,11.7h-15l7.1,7.1L10.7,20l-9.3-9.2l9.3-9.2l1.3,1.3L4.8,9.9h15L19.8,11.7z"
+                  />
+                </svg>
+              </div>
+            </div>
+            Previous
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        class="c8 c9"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to Page 7 of 20"
+          class="c3"
+          href="/some/api/7/example"
+          role="link"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            7
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <a
+          aria-current="true"
+          aria-label="Page 8 of 20"
+          class="c12"
+          role="none"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            8
+          </span>
+          <span
+            aria-live="assertive"
+            class="c7"
+          >
+            Page 8 selected
+          </span>
+        </a>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to Page 9 of 20"
+          class="c3"
+          href="/some/api/9/example"
+          role="link"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            9
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to Page 10 of 20"
+          class="c3"
+          href="/some/api/10/example"
+          role="link"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            10
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        aria-hidden="false"
+        class="c13"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to next page."
+          class="c3"
+          href="/some/api/9/example"
+          role="link"
+          style="display: flex; justify-content: flex-start; align-items: center; font-weight: 700; height: 2.75rem; min-width: 2.75rem; visibility: visible;"
+          tabindex="0"
+        >
+          <span
+            class="c4"
+          >
+            Next
+            <div
+              class="c14"
+              direction="next"
+            >
+              <div
+                aria-label="pagination-right-arrow icon"
+                class="c6"
+                tabindex="-1"
+              >
+                <svg
+                  data-name="Layer 1"
+                  id="Layer_1"
+                  viewBox="0 0 21.6 21.6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.26723,10.80317,10.94378,20.044,9.6764,18.7643l7.12223-7.05674H1.8014v-1.8H16.808L9.68256,2.84378l1.26738-1.278Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`VDS Pagination surface="dark" 1`] = `
+.c3 {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+  cursor: auto;
+  outline: none;
+  font-weight: 700;
+}
+
+.c3:focus:not(:hover) {
+  outline: none;
+}
+
+.c3:focus:not(:hover) span::after {
+  border: 0.0625rem dashed;
+  border-color: #ffffff;
+  border-radius: 2px;
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: calc(100% + 0.1875rem);
+}
+
+.c3:active,
+.c3:hover {
+  outline: none;
+}
+
+.c3:active span,
+.c3:hover span {
+  outline: none;
+}
+
+.c12 {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+}
+
+.c12:focus:not(:hover) {
+  outline: none;
+}
+
+.c12:focus:not(:hover) span::after {
+  border: 0.0625rem dashed;
+  border-color: #ffffff;
+  border-radius: 2px;
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: calc(100% + 0.1875rem);
+}
+
+.c12:active,
+.c12:hover {
+  outline: none;
+}
+
+.c12:active span,
+.c12:hover span {
+  outline: none;
+}
+
+.c7 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4 svg {
+  margin-top: -1px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 0.5rem;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.75rem;
+  width: 0.75rem;
+  min-height: 0.75rem;
+  min-width: 0.75rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+.c6 svg {
+  height: 0.75rem;
+  width: 0.75rem;
+}
+
+.c6 svg path {
+  fill: #ffffff;
+}
+
+.c2 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: auto;
+  text-align: center;
+}
+
+.c9 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-: auto;
+  text-align: center;
+}
+
+.c13 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 1.25rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  margin-left: 0.25rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.c10 svg {
+  margin-top: -1px;
+}
+
+.c0 {
+  width: 288px;
+}
+
+.c0:hover {
+  outline: none;
+}
+
+.c1 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+<div>
+  <nav
+    aria-label="Pagination"
+    class="c0"
+    tabindex="-1"
+  >
+    <ul
+      class="c1"
+    >
+      <li
+        aria-hidden="true"
+        class="c2"
+      >
+        <a
+          aria-current="true"
+          aria-label="Go to previous page."
+          class="c3"
+          role="none"
+          style="display: flex; justify-content: flex-end; align-items: center; font-weight: 700; height: 2.75rem; min-width: 2.75rem; visibility: hidden;"
+          tabindex="0"
+        >
+          <span
+            class="c4"
+          >
+            <div
+              class="c5"
+              direction="previous"
+            >
+              <div
+                aria-label="pagination-left-arrow icon"
+                class="c6"
+                tabindex="-1"
+              >
+                <svg
+                  id="Layer_1"
+                  version="1.1"
+                  viewBox="0 0 21.6 21.6"
+                  x="0px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  y="0px"
+                >
+                  <path
+                    d="M19.8,11.7h-15l7.1,7.1L10.7,20l-9.3-9.2l9.3-9.2l1.3,1.3L4.8,9.9h15L19.8,11.7z"
+                  />
+                </svg>
+              </div>
+            </div>
+            Previous
+          </span>
+          <span
+            aria-live="assertive"
+            class="c7"
+          >
+            Page 1 selected
+          </span>
+        </a>
+      </li>
+      <li
+        class="c8 c9"
+      >
+        <a
+          aria-current="true"
+          aria-label="Page 1 of 20"
+          class="c3"
+          role="none"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            1
+          </span>
+          <span
+            aria-live="assertive"
+            class="c7"
+          >
+            Page 1 selected
+          </span>
+        </a>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to Page 2 of 20"
+          class="c12"
+          href="/some/api/2/example"
+          role="link"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            2
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to Page 3 of 20"
+          class="c12"
+          href="/some/api/3/example"
+          role="link"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            3
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        class="c11 c9"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to Page 4 of 20"
+          class="c12"
+          href="/some/api/4/example"
+          role="link"
+          tabindex="0"
+        >
+          <span
+            class="c10"
+          >
+            4
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+      <li
+        aria-hidden="false"
+        class="c13"
+      >
+        <a
+          aria-current="false"
+          aria-label="Go to next page."
+          class="c12"
+          href="/some/api/2/example"
+          role="link"
+          style="display: flex; justify-content: flex-start; align-items: center; font-weight: 700; height: 2.75rem; min-width: 2.75rem; visibility: visible;"
+          tabindex="0"
+        >
+          <span
+            class="c4"
+          >
+            Next
+            <div
+              class="c14"
+              direction="next"
+            >
+              <div
+                aria-label="pagination-right-arrow icon"
+                class="c6"
+                tabindex="-1"
+              >
+                <svg
+                  data-name="Layer 1"
+                  id="Layer_1"
+                  viewBox="0 0 21.6 21.6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.26723,10.80317,10.94378,20.044,9.6764,18.7643l7.12223-7.05674H1.8014v-1.8H16.808L9.68256,2.84378l1.26738-1.278Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </span>
+          <span
+            aria-live="false"
+            class="c7"
+          />
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

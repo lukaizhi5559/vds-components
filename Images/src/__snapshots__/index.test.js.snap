@@ -1,0 +1,540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> should render image 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.c1:hover {
+  cursor: pointer;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<div>
+  <picture
+    class="c0"
+  >
+    <img
+      class="c1"
+      draggable="false"
+      src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`<Image /> should render image with contraintToHeight and contraintToWidth as undefined 1`] = `
+.c0 {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-top: 56.25%;
+  width: 100%;
+  text-align: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c2 {
+  position: absolute;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.c2:hover {
+  cursor: pointer;
+}
+
+<div>
+  <div
+    aria-label="aria-label"
+    class="c0"
+  >
+    <picture
+      class="c1"
+    >
+      <img
+        class="c2"
+        draggable="false"
+        src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`<Image /> should render image with focusX as left and constrainToHeight as true 1`] = `
+.c0 {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-top: 56.25%;
+  width: 100%;
+  text-align: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c2 {
+  position: absolute;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+<div>
+  <div
+    aria-label="aria-label"
+    class="c0"
+  >
+    <picture
+      class="c1"
+    >
+      <img
+        class="c2"
+        draggable="false"
+        src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`<Image /> should render image with focusX as right and constrainToHeight as true 1`] = `
+.c0 {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-top: 56.25%;
+  width: 100%;
+  text-align: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c2 {
+  position: absolute;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+<div>
+  <div
+    aria-label="aria-label"
+    class="c0"
+  >
+    <picture
+      class="c1"
+    >
+      <img
+        class="c2"
+        draggable="false"
+        src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`<Image /> should render image with focusY and constrainToWidth as true 1`] = `
+.c0 {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-top: 56.25%;
+  width: 100%;
+  text-align: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c2 {
+  position: absolute;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  top: 0;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+<div>
+  <div
+    aria-label="aria-label"
+    class="c0"
+  >
+    <picture
+      class="c1"
+    >
+      <img
+        class="c2"
+        draggable="false"
+        src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`<Image /> should render image with focusY as bottom and constrainToWidth as true 1`] = `
+.c0 {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-top: 56.25%;
+  width: 100%;
+  text-align: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c2 {
+  position: absolute;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+<div>
+  <div
+    aria-label="aria-label"
+    class="c0"
+  >
+    <picture
+      class="c1"
+    >
+      <img
+        class="c2"
+        draggable="false"
+        src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`<Image /> should render image with onclick and contraintToHeight 1`] = `
+.c0 {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-top: 56.25%;
+  width: 100%;
+  text-align: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c2 {
+  position: absolute;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.c2:hover {
+  cursor: pointer;
+}
+
+<div>
+  <div
+    aria-label="aria-label"
+    class="c0"
+  >
+    <picture
+      class="c1"
+    >
+      <img
+        class="c2"
+        draggable="false"
+        src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`<Image /> should render image with onclick and contraintToWidth 1`] = `
+.c0 {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding-top: 56.25%;
+  width: 100%;
+  text-align: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c2 {
+  position: absolute;
+  background-position: center center;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.c2:hover {
+  cursor: pointer;
+}
+
+<div>
+  <div
+    aria-label="aria-label"
+    class="c0"
+  >
+    <picture
+      class="c1"
+    >
+      <img
+        class="c2"
+        draggable="false"
+        src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`<Image /> should render image with sources 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<div>
+  <picture
+    class="c0"
+  >
+    <source
+      media="(max-width: 767px)"
+      srcset="https://www.verizon.com/business/content/dam/img/campaigns/gateway.webp"
+      type="image/webp"
+    />
+    <img
+      class="c1"
+      draggable="false"
+      src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`<Image /> should render image with sources and maxViewport as desktop 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<div>
+  <picture
+    class="c0"
+  >
+    <source
+      media="(min-width: 1024px)"
+      srcset="https://www.verizon.com/business/content/dam/img/campaigns/gateway.webp"
+      type="image/webp"
+    />
+    <img
+      class="c1"
+      draggable="false"
+      src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+    />
+  </picture>
+</div>
+`;
+
+exports[`<Image /> should render image with sources as empty 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<div>
+  <picture
+    class="c0"
+  >
+    
+    <img
+      class="c1"
+      draggable="false"
+      src="https://cdn57.androidauthority.net/wp-content/uploads/2017/03/Verizon-logo-1-aa-gds-mwc17.jpg"
+    />
+  </picture>
+</div>
+`;

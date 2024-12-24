@@ -1,0 +1,1828 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Carousel /> should render Carousel 1`] = `
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c13 {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-callout: none;
+  -webkit-user-drag: none;
+  -webkit-user-modify: none;
+  -webkit-highlight: none;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  width: 96px;
+  height: 4px;
+  -webkit-transition: height 100ms linear,width 100ms linear, border-radius 100ms linear;
+  transition: height 100ms linear,width 100ms linear, border-radius 100ms linear;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #d8dada;
+}
+
+.c13::before {
+  min-height: 44px;
+  min-width: 44px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c13:active:not(:focus):not(:focus-within):after {
+  postition: absolute;
+  border-radius: 12px;
+  content: '';
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 100%;
+  opacity: 15%;
+  background: -webkit-linear-gradient( to right, #000000 calc( 84% + 11px ), #d8dada calc( 84% + 11px ) );
+  background: linear-gradient( to right, #000000 calc( 84% + 11px ), #d8dada calc( 84% + 11px ) );
+}
+
+.c14 {
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-callout: none;
+  -webkit-user-drag: none;
+  -webkit-user-modify: none;
+  -webkit-highlight: none;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  will-change: transform;
+  -webkit-transition: height 100ms linear,left 0ms linear;
+  -moz-transition: height 100ms linear,left 0ms linear;
+  -o-transition: height 100ms linear,left 0ms linear;
+  -webkit-transition: height 100ms linear,left 0ms linear;
+  transition: height 100ms linear,left 0ms linear;
+  left: 0px;
+  border-radius: 4px;
+  height: 4px;
+  min-width: 16px;
+  width: 16px;
+  outline: none;
+  background-color: #6f7171;
+  z-index: 1;
+}
+
+.c14::before {
+  min-height: 44px;
+  min-width: 44px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c7 {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  z-index: 0;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c8:not(:hover)::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: -1px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.12),0px 2px 4px rgba(0,0,0,0.05);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.c8:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: -1px;
+  box-shadow: 0px 1px 11px rgba(0,0,0,0.12),0px 3px 5px rgba(0,0,0,0.05);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.c8:focus:not(:hover) {
+  outline: none;
+}
+
+.c8:focus:not(:hover)::before {
+  content: '';
+  box-sizing: border-box;
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% - 0.125rem);
+  height: calc(100% - 0.125rem);
+}
+
+.c8:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c8:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem #ffffff;
+}
+
+.c8:hover:active {
+  box-shadow: 0 0 0 0.0625rem #ffffff;
+}
+
+.c8:active svg path,
+.c8:active svg polygon {
+  fill: #6f7171;
+}
+
+.c8:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c10 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0.125rem;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c10:focus {
+  outline: none;
+}
+
+.c9 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c9:hover {
+  cursor: pointer;
+}
+
+.c6 {
+  -webkit-tap-highlight-color: transparent;
+  z-index: 3;
+  position: absolute;
+  top: calc(50% - 32px);
+  right: 0;
+  margin-right: 12px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  width: 100%;
+  position: relative;
+}
+
+.c1:not(:hover) .left-pagination-control,
+.c1:not(:hover) .right-pagination-control,
+.c1:not(:hover) .left-pagination-control:focus:not(:focus-visible),
+.c1:not(:hover) .right-pagination-control:focus:not(:focus-visible) {
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  z-index: 2;
+  height: 8px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-top: 8px;
+  padding-bottom: 32px;
+  padding-left: 20px;
+  will-change: scroll-position;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  box-sizing: border-box;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-scroll-padding: 0 36px;
+  -moz-scroll-padding: 0 36px;
+  -ms-scroll-padding: 0 36px;
+  scroll-padding: 0 36px;
+  -webkit-scroll-snap-type: x mandatory;
+  -moz-scroll-snap-type: x mandatory;
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+  -webkit-scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
+  -ms-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c2 > div > div > .slot {
+  width: -7px;
+}
+
+.c2 .slotContainer:first-child {
+  padding-left: 0px;
+}
+
+.c2 .slotContainer:last-child {
+  margin-right: 0;
+  padding-right: -4px;
+}
+
+.c2::-webkit-scrollbar {
+  display: none;
+}
+
+.c2:focus-visible {
+  outline: none;
+}
+
+.c2 .slotContainer:last-child .slot {
+  margin-right: 20px;
+}
+
+.c3 {
+  position: relative;
+  width: -7px;
+  box-sizing: content-box;
+  -webkit-flex: 0 0 -7px;
+  -ms-flex: 0 0 -7px;
+  flex: 0 0 -7px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  margin-right: 24px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+  position: relative;
+}
+
+.c5:focus:not(:hover)::before {
+  border: 1px dashed #000000;
+  border-radius: 8px;
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  margin-right: 24px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+  position: relative;
+  -webkit-scroll-snap-align: start;
+  -moz-scroll-snap-align: start;
+  -ms-scroll-snap-align: start;
+  scroll-snap-align: start;
+  -webkit-scroll-margin: -7.75px;
+  -moz-scroll-margin: -7.75px;
+  -ms-scroll-margin: -7.75px;
+  scroll-margin: -7.75px;
+}
+
+.c4:focus:not(:hover)::before {
+  border: 1px dashed #000000;
+  border-radius: 8px;
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+}
+
+<div
+  class="c0"
+  id="component-wrapper-testScrubber"
+>
+  <div
+    aria-label="Carousel with 12 slides"
+    class="c1"
+    role="group"
+  >
+    <div
+      class="c2"
+      id="carousel-container-testScrubber"
+      tabindex="-1"
+      width="-7"
+    >
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="false"
+          aria-live="off"
+          class="slot c4"
+          id="carousel-testScrubber-slot-0"
+        >
+          <div
+            arialabel="Slide 1 of 12  Hello
+                "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="0"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="false"
+          aria-live="off"
+          class="slot c5"
+          id="carousel-testScrubber-slot-1"
+        >
+          <div
+            arialabel="Slide 2 of 12  Hello
+                "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="0"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="true"
+          aria-live="off"
+          class="slot c4"
+          id="carousel-testScrubber-slot-2"
+        >
+          <div
+            arialabel=" "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="-1"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="true"
+          aria-live="off"
+          class="slot c5"
+          id="carousel-testScrubber-slot-3"
+        >
+          <div
+            arialabel=" "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="-1"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="true"
+          aria-live="off"
+          class="slot c4"
+          id="carousel-testScrubber-slot-4"
+        >
+          <div
+            arialabel=" "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="-1"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="true"
+          aria-live="off"
+          class="slot c5"
+          id="carousel-testScrubber-slot-5"
+        >
+          <div
+            arialabel=" "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="-1"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="true"
+          aria-live="off"
+          class="slot c4"
+          id="carousel-testScrubber-slot-6"
+        >
+          <div
+            arialabel=" "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="-1"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="true"
+          aria-live="off"
+          class="slot c5"
+          id="carousel-testScrubber-slot-7"
+        >
+          <div
+            arialabel=" "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="-1"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="true"
+          aria-live="off"
+          class="slot c4"
+          id="carousel-testScrubber-slot-8"
+        >
+          <div
+            arialabel=" "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="-1"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="true"
+          aria-live="off"
+          class="slot c5"
+          id="carousel-testScrubber-slot-9"
+        >
+          <div
+            arialabel=" "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="-1"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="true"
+          aria-live="off"
+          class="slot c4"
+          id="carousel-testScrubber-slot-10"
+        >
+          <div
+            arialabel=" "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="-1"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+      <div
+        class="slotContainer c3"
+        width="-7"
+      >
+        <div
+          aria-atomic="false"
+          aria-hidden="true"
+          aria-live="off"
+          class="slot c5"
+          id="carousel-testScrubber-slot-11"
+        >
+          <div
+            arialabel=" "
+            aspectratio="16:9"
+            backgroundcolor="black"
+            surface="light"
+            tabindex="-1"
+            title="[object Object]"
+            viewport="desktop"
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+    <span
+      class="right-pagination-control c6"
+    >
+      <div
+        class="c7"
+        kind="lowContrast"
+        size="40"
+      >
+        <button
+          aria-disabled="false"
+          aria-hidden="false"
+          aria-label="next page of tiles"
+          class="c8"
+          id="right-pagination-control-testScrubber"
+          kind="lowContrast"
+          role="button"
+          size="40"
+          tabindex="0"
+        >
+          <span
+            class="c9"
+          />
+          <span
+            class="c10"
+          >
+            <svg
+              data-name="Layer 39"
+              height="16"
+              id="Layer_39"
+              viewBox="0 0 21.6 21.6"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon
+                fill="#000000"
+                points="6.85664 20.10127 5.44258 18.68721 13.3293 10.79951 5.44258 2.91279 6.85664 1.49873 16.15742 10.79951 6.85664 20.10127"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </span>
+  </div>
+  <div
+    class="c11"
+  >
+    <div
+      class="c12"
+    >
+      <div
+        class="scrollbar-track c13"
+        id="scrollbar-testScrubber-track"
+      >
+        <div
+          class="c14"
+          id="scrollbar-testScrubber-thumb"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<CarouselBars /> should render CarouselBars 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+  height: 0.25rem;
+  outline-offset: 2px;
+  outline-color: white;
+  outline: none;
+}
+
+.c1:active,
+.c1:hover {
+  outline: none;
+}
+
+.c1::before {
+  content: '';
+  position: absolute;
+  height: 0.5rem;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+}
+
+.c1:focus:not(:hover)::before {
+  outline: none;
+  border: 0.0625rem #000000 dashed;
+  border-radius: calc(2px * 2);
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  height: 0.0625rem;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #a7a7a7;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c1:last-child {
+  margin-right: 0;
+}
+
+.c1:hover::after {
+  height: 0.25rem;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c1:focus::before {
+  outline-color: #000000;
+}
+
+.c1::after {
+  background-color: #6f7171;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+  border-radius: 2px;
+}
+
+.c2 {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+  height: 0.25rem;
+  outline-offset: 2px;
+  outline-color: white;
+  outline: none;
+}
+
+.c2:active,
+.c2:hover {
+  outline: none;
+}
+
+.c2::before {
+  content: '';
+  position: absolute;
+  height: 0.5rem;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+}
+
+.c2:focus:not(:hover)::before {
+  outline: none;
+  border: 0.0625rem #000000 dashed;
+  border-radius: calc(2px * 2);
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  height: 0.0625rem;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #a7a7a7;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c2:hover::after {
+  height: 0.25rem;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c2::after {
+  height: 0.25rem;
+  background-color: #000000;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+  border-radius: 2px;
+}
+
+<ol
+  aria-controls="test-1"
+  class="c0"
+  role="tablist"
+>
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 1 of 4 "
+    aria-live="polite"
+    class="c1"
+    data-index="0"
+    role="tab"
+    tabindex="-1"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 2 of 4  unselected"
+    aria-live="polite"
+    aria-selected="true"
+    class="c2"
+    data-index="1"
+    role="tab"
+    tabindex="0"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 3 of 4  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="2"
+    role="tab"
+    tabindex="-1"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 4 of 4  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="3"
+    role="tab"
+    tabindex="-1"
+  />
+</ol>
+`;
+
+exports[`<CarouselBars /> should render CarouselBars for dark background 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+  height: 0.25rem;
+  outline-offset: 2px;
+  outline-color: white;
+  outline: none;
+}
+
+.c1:active,
+.c1:hover {
+  outline: none;
+}
+
+.c1::before {
+  content: '';
+  position: absolute;
+  height: 0.5rem;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+}
+
+.c1:focus:not(:hover)::before {
+  outline: none;
+  border: 0.0625rem #ffffff dashed;
+  border-radius: calc(2px * 2);
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  height: 0.0625rem;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #a7a7a7;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c1:last-child {
+  margin-right: 0;
+}
+
+.c1:hover::after {
+  height: 0.25rem;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c1:focus::before {
+  outline-color: #ffffff;
+}
+
+.c1::after {
+  background-color: #a7a7a7;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+  border-radius: 2px;
+}
+
+.c2 {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+  height: 0.25rem;
+  outline-offset: 2px;
+  outline-color: white;
+  outline: none;
+}
+
+.c2:active,
+.c2:hover {
+  outline: none;
+}
+
+.c2::before {
+  content: '';
+  position: absolute;
+  height: 0.5rem;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+}
+
+.c2:focus:not(:hover)::before {
+  outline: none;
+  border: 0.0625rem #ffffff dashed;
+  border-radius: calc(2px * 2);
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  height: 0.0625rem;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #a7a7a7;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c2:hover::after {
+  height: 0.25rem;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c2::after {
+  height: 0.25rem;
+  background-color: #ffffff;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+  border-radius: 2px;
+}
+
+<ol
+  aria-controls="test-2"
+  class="c0"
+  role="tablist"
+>
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 1 of 4 "
+    aria-live="polite"
+    class="c1"
+    data-index="0"
+    role="tab"
+    tabindex="-1"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 2 of 4  unselected"
+    aria-live="polite"
+    aria-selected="true"
+    class="c2"
+    data-index="1"
+    role="tab"
+    tabindex="0"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 3 of 4  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="2"
+    role="tab"
+    tabindex="-1"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 4 of 4  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="3"
+    role="tab"
+    tabindex="-1"
+  />
+</ol>
+`;
+
+exports[`<CarouselBars /> should render CarouselBars with second bar active 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+  height: 0.25rem;
+  outline-offset: 2px;
+  outline-color: white;
+  outline: none;
+}
+
+.c1:active,
+.c1:hover {
+  outline: none;
+}
+
+.c1::before {
+  content: '';
+  position: absolute;
+  height: 0.5rem;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+}
+
+.c1:focus:not(:hover)::before {
+  outline: none;
+  border: 0.0625rem #000000 dashed;
+  border-radius: calc(2px * 2);
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  height: 0.0625rem;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #a7a7a7;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c1:last-child {
+  margin-right: 0;
+}
+
+.c1:hover::after {
+  height: 0.25rem;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c1:focus::before {
+  outline-color: #000000;
+}
+
+.c1::after {
+  background-color: #6f7171;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+  border-radius: 2px;
+}
+
+.c2 {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+  height: 0.25rem;
+  outline-offset: 2px;
+  outline-color: white;
+  outline: none;
+}
+
+.c2:active,
+.c2:hover {
+  outline: none;
+}
+
+.c2::before {
+  content: '';
+  position: absolute;
+  height: 0.5rem;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+}
+
+.c2:focus:not(:hover)::before {
+  outline: none;
+  border: 0.0625rem #000000 dashed;
+  border-radius: calc(2px * 2);
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  height: 0.0625rem;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #a7a7a7;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c2:hover::after {
+  height: 0.25rem;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c2::after {
+  height: 0.25rem;
+  background-color: #000000;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+  border-radius: 2px;
+}
+
+<ol
+  aria-controls="test-3"
+  class="c0"
+  role="tablist"
+>
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 1 of 4  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="0"
+    role="tab"
+    tabindex="-1"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 2 of 4 "
+    aria-live="polite"
+    class="c1"
+    data-index="1"
+    role="tab"
+    tabindex="-1"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 3 of 4  unselected"
+    aria-live="polite"
+    aria-selected="true"
+    class="c2"
+    data-index="2"
+    role="tab"
+    tabindex="0"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 4 of 4  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="3"
+    role="tab"
+    tabindex="-1"
+  />
+</ol>
+`;
+
+exports[`VDS Carousel scrubber 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c1 {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-callout: none;
+  -webkit-user-drag: none;
+  -webkit-user-modify: none;
+  -webkit-highlight: none;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  width: 96px;
+  height: 4px;
+  -webkit-transition: height 100ms linear,width 100ms linear, border-radius 100ms linear;
+  transition: height 100ms linear,width 100ms linear, border-radius 100ms linear;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #333333;
+}
+
+.c1::before {
+  min-height: 44px;
+  min-width: 44px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c1:active:not(:focus):not(:focus-within):after {
+  postition: absolute;
+  border-radius: 12px;
+  content: '';
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 100%;
+  opacity: 15%;
+  background: -webkit-linear-gradient( to right, #ffffff calc( % + NaNpx ), #333333 calc( % + NaNpx ) );
+  background: linear-gradient( to right, #ffffff calc( % + NaNpx ), #333333 calc( % + NaNpx ) );
+}
+
+.c2 {
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-callout: none;
+  -webkit-user-drag: none;
+  -webkit-user-modify: none;
+  -webkit-highlight: none;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  will-change: transform;
+  -webkit-transition: height 100ms linear,left 0ms linear;
+  -moz-transition: height 100ms linear,left 0ms linear;
+  -o-transition: height 100ms linear,left 0ms linear;
+  -webkit-transition: height 100ms linear,left 0ms linear;
+  transition: height 100ms linear,left 0ms linear;
+  left: 0px;
+  border-radius: 4px;
+  height: 4px;
+  min-width: 16px;
+  width: px;
+  outline: none;
+  background-color: #a7a7a7;
+  z-index: 1;
+}
+
+.c2::before {
+  min-height: 44px;
+  min-width: 44px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="scrollbar-track c1"
+    id="testScrubber-track"
+  >
+    <div
+      class="c2"
+      id="testScrubber-thumb"
+    />
+  </div>
+</div>
+`;
+
+exports[`VDS CarouselBars 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+  height: 0.25rem;
+  outline-offset: 2px;
+  outline-color: white;
+  outline: none;
+}
+
+.c1:active,
+.c1:hover {
+  outline: none;
+}
+
+.c1::before {
+  content: '';
+  position: absolute;
+  height: 0.5rem;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+}
+
+.c1:focus:not(:hover)::before {
+  outline: none;
+  border: 0.0625rem #000000 dashed;
+  border-radius: calc(2px * 2);
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  height: 0.0625rem;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #a7a7a7;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c1:last-child {
+  margin-right: 0;
+}
+
+.c1:hover::after {
+  height: 0.25rem;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c1:focus::before {
+  outline-color: #000000;
+}
+
+.c1::after {
+  background-color: #6f7171;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+  border-radius: 2px;
+}
+
+.c2 {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+  height: 0.25rem;
+  outline-offset: 2px;
+  outline-color: white;
+  outline: none;
+}
+
+.c2:active,
+.c2:hover {
+  outline: none;
+}
+
+.c2::before {
+  content: '';
+  position: absolute;
+  height: 0.5rem;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+}
+
+.c2:focus:not(:hover)::before {
+  outline: none;
+  border: 0.0625rem #000000 dashed;
+  border-radius: calc(2px * 2);
+}
+
+.c2::after {
+  content: '';
+  position: absolute;
+  height: 0.0625rem;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #a7a7a7;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c2:last-child {
+  margin-right: 0;
+}
+
+.c2:hover::after {
+  height: 0.25rem;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c2::after {
+  height: 0.25rem;
+  background-color: #000000;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+  border-radius: 2px;
+}
+
+<ol
+  aria-controls="carouselBar"
+  class="c0"
+  role="tablist"
+>
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 1 of 4 "
+    aria-live="polite"
+    class="c1"
+    data-index="0"
+    role="tab"
+    tabindex="-1"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 2 of 4  unselected"
+    aria-live="polite"
+    aria-selected="true"
+    class="c2"
+    data-index="1"
+    role="tab"
+    tabindex="0"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 3 of 4  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="2"
+    role="tab"
+    tabindex="-1"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 4 of 4  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="3"
+    role="tab"
+    tabindex="-1"
+  />
+</ol>
+`;
+
+exports[`VDS CarouselIndicator 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.c1 {
+  position: relative;
+  display: block;
+  width: 1.5rem;
+  margin-right: 0.25rem;
+  cursor: pointer;
+  height: 0.25rem;
+  outline-offset: 2px;
+  outline-color: white;
+  outline: none;
+}
+
+.c1:active,
+.c1:hover {
+  outline: none;
+}
+
+.c1::before {
+  content: '';
+  position: absolute;
+  height: 0.5rem;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+}
+
+.c1:focus:not(:hover)::before {
+  outline: none;
+  border: 0.0625rem #000000 dashed;
+  border-radius: calc(2px * 2);
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  height: 0.0625rem;
+  bottom: 0%;
+  left: 0;
+  right: 0;
+  background-color: #a7a7a7;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c1:last-child {
+  margin-right: 0;
+}
+
+.c1:hover::after {
+  height: 0.25rem;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+}
+
+.c1:focus::before {
+  outline-color: #000000;
+}
+
+.c1::after {
+  background-color: #6f7171;
+  -webkit-transition: height 250ms,background-color 250ms;
+  transition: height 250ms,background-color 250ms;
+  border-radius: 2px;
+}
+
+<ol
+  aria-controls="carouselBar"
+  class="c0"
+  role="tablist"
+  type="bars"
+>
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 1 of 3  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="0"
+    role="tab"
+    tabindex="-1"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 2 of 3  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="1"
+    role="tab"
+    tabindex="-1"
+  />
+  <li
+    aria-atomic="true"
+    aria-label="Go to slide 3 of 3  unselected"
+    aria-live="polite"
+    class="c1"
+    data-index="2"
+    role="tab"
+    tabindex="-1"
+  />
+</ol>
+`;

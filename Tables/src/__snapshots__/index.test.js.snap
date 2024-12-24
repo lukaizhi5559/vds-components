@@ -1,0 +1,1134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table - surface="dark" style 1`] = `
+.c0 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  padding-top: 1.125rem;
+  border-top: 0 solid #ffffff;
+}
+
+.c0 td {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 th {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 thead tr {
+  border-bottom: 0.0625rem solid #333333;
+}
+
+.c0 tbody tr {
+  border-bottom: 0.0625rem solid #333333;
+}
+
+.c0 td,
+.c0 th {
+  color: #ffffff;
+}
+
+.c0 .thead-primary-line-override tr {
+  border-color: #ffffff !important;
+}
+
+.c0 .thead-secondary-line-override tr {
+  border-color: #333333 !important;
+}
+
+.c0 .thead-none-line-override tr {
+  border: none !important;
+}
+
+.c0 tbody .tr-primary-line-override {
+  border-color: #ffffff !important;
+}
+
+.c0 tbody .tr-secondary-line-override {
+  border-color: #333333 !important;
+}
+
+.c0 tbody .tr-none-line-override {
+  border: none !important;
+}
+
+.c0 .tbody-striped-override tr:nth-child(odd) {
+  background-color: #1b1d1f !important;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  border-bottom: 0.0625rem solid #000000 !important;
+}
+
+.c2 {
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c2 > :nth-child(n):not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.c2:active,
+.c2:focus,
+.c2:hover {
+  outline: none;
+}
+
+.c3 {
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: Verizon-NHG-eDS;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+<div>
+  <table
+    aria-label="Table"
+    class="c0"
+  >
+    <thead
+      class="thead-primary-line-override"
+    >
+      <tr
+        class="c1"
+      >
+        <th
+          class="c2"
+          scope="col"
+        >
+          Header
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class=""
+    >
+      <tr
+        class=""
+      >
+        <td
+          class="c3"
+        >
+          Cell
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table 1`] = `
+.c0 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  padding-top: 1.125rem;
+  border-top: 0 solid #000000;
+}
+
+.c0 td {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 th {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 thead tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0 tbody tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  border-bottom: 0.0625rem solid #000000 !important;
+}
+
+.c2 {
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c2 > :nth-child(n):not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.c2:active,
+.c2:focus,
+.c2:hover {
+  outline: none;
+}
+
+.c3 {
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: Verizon-NHG-eDS;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+<table
+  aria-label="Table"
+  class="c0"
+>
+  <thead
+    class="thead-primary-line-override"
+  >
+    <tr
+      class="c1"
+    >
+      <th
+        class="c2"
+        scope="col"
+      >
+        Header
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class=""
+  >
+    <tr
+      class=""
+    >
+      <td
+        class="c3"
+      >
+        Cell
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table hover 1`] = `
+.c0 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  padding-top: 1.125rem;
+  border-top: 0 solid #000000;
+}
+
+.c0 td {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 th {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 thead tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0 tbody tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: Verizon-NHG-eDS;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c1:active,
+.c1:focus,
+.c1:hover {
+  outline: none;
+}
+
+<table
+  aria-label="Table"
+  class="c0"
+>
+  <tbody
+    class=""
+  >
+    <tr
+      class=""
+    >
+      <td
+        class="c1"
+      >
+        Cell
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table in desktop viewport and VDS typescale 1`] = `
+.c0 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  padding-top: 1.125rem;
+  border-top: 0 solid #000000;
+}
+
+.c0 td {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 th {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 thead tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0 tbody tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  border-bottom: 0.0625rem solid #000000 !important;
+}
+
+.c2 {
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c2 > :nth-child(n):not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.c2:active,
+.c2:focus,
+.c2:hover {
+  outline: none;
+}
+
+.c3 {
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: Verizon-NHG-eDS;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+<table
+  aria-label="Table"
+  class="c0"
+>
+  <thead
+    class="thead-primary-line-override"
+  >
+    <tr
+      class="c1"
+    >
+      <th
+        class="c2"
+        scope="col"
+      >
+        Header
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class=""
+  >
+    <tr
+      class=""
+    >
+      <td
+        class="c3"
+      >
+        Cell
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table in mobile viewport 1`] = `
+.c0 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  padding-top: 1.125rem;
+  border-top: 0 solid #000000;
+}
+
+.c0 td {
+  padding: 1.5rem 1.5rem 1.5rem 0;
+}
+
+.c0 th {
+  padding: 1.5rem 1.5rem 1.5rem 0;
+}
+
+.c0 thead tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0 tbody tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  border-bottom: 0.0625rem solid #000000 !important;
+}
+
+.c2 {
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c2 > :nth-child(n):not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.c2:active,
+.c2:focus,
+.c2:hover {
+  outline: none;
+}
+
+.c3 {
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-family: Verizon-NHG-eTX;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+<table
+  aria-label="Table"
+  class="c0"
+>
+  <thead
+    class="thead-primary-line-override"
+  >
+    <tr
+      class="c1"
+    >
+      <th
+        class="c2"
+        scope="col"
+      >
+        Header
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class=""
+  >
+    <tr
+      class=""
+    >
+      <td
+        class="c3"
+      >
+        Cell 
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table in mobile viewport and VDS typescale 1`] = `
+.c0 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  padding-top: 1.125rem;
+  border-top: 0 solid #000000;
+}
+
+.c0 td {
+  padding: 1.5rem 1.5rem 1.5rem 0;
+}
+
+.c0 th {
+  padding: 1.5rem 1.5rem 1.5rem 0;
+}
+
+.c0 thead tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0 tbody tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  border-bottom: 0.0625rem solid #000000 !important;
+}
+
+.c2 {
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c2 > :nth-child(n):not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.c2:active,
+.c2:focus,
+.c2:hover {
+  outline: none;
+}
+
+.c3 {
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-family: Verizon-NHG-eTX;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+<table
+  aria-label="Table"
+  class="c0"
+>
+  <thead
+    class="thead-primary-line-override"
+  >
+    <tr
+      class="c1"
+    >
+      <th
+        class="c2"
+        scope="col"
+      >
+        Header
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class=""
+  >
+    <tr
+      class=""
+    >
+      <td
+        class="c3"
+      >
+        Cell
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table topLine="heavy" 1`] = `
+.c0 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  padding-top: 1.125rem;
+  border-top: 0.25rem solid #000000;
+}
+
+.c0 td {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 th {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 thead tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0 tbody tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  border-bottom: 0.0625rem solid #000000 !important;
+}
+
+.c2 {
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c2 > :nth-child(n):not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.c2:active,
+.c2:focus,
+.c2:hover {
+  outline: none;
+}
+
+.c3 {
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: Verizon-NHG-eDS;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+<table
+  aria-label="Table"
+  class="c0"
+>
+  <thead
+    class="thead-primary-line-override"
+  >
+    <tr
+      class="c1"
+    >
+      <th
+        class="c2"
+        scope="col"
+      >
+        Header
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class=""
+  >
+    <tr
+      class=""
+    >
+      <td
+        class="c3"
+      >
+        Cell
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table topLine="light" 1`] = `
+.c0 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  padding-top: 1.125rem;
+  border-top: 0.0625rem solid #000000;
+}
+
+.c0 td {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 th {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 thead tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0 tbody tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  border-bottom: 0.0625rem solid #000000 !important;
+}
+
+.c2 {
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c2 > :nth-child(n):not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.c2:active,
+.c2:focus,
+.c2:hover {
+  outline: none;
+}
+
+.c3 {
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: Verizon-NHG-eDS;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+<table
+  aria-label="Table"
+  class="c0"
+>
+  <thead
+    class="thead-primary-line-override"
+  >
+    <tr
+      class="c1"
+    >
+      <th
+        class="c2"
+        scope="col"
+      >
+        Header
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class=""
+  >
+    <tr
+      class=""
+    >
+      <td
+        class="c3"
+      >
+        Cell
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table topLine="xLight" 1`] = `
+.c0 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  padding-top: 1.125rem;
+  border-top: 0.0625rem solid #d8dada;
+}
+
+.c0 td {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 th {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 thead tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0 tbody tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  border-bottom: 0.0625rem solid #000000 !important;
+}
+
+.c2 {
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c2 > :nth-child(n):not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.c2:active,
+.c2:focus,
+.c2:hover {
+  outline: none;
+}
+
+.c3 {
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: Verizon-NHG-eDS;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+<table
+  aria-label="Table"
+  class="c0"
+>
+  <thead
+    class="thead-primary-line-override"
+  >
+    <tr
+      class="c1"
+    >
+      <th
+        class="c2"
+        scope="col"
+      >
+        Header
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class=""
+  >
+    <tr
+      class=""
+    >
+      <td
+        class="c3"
+      >
+        Cell
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Table with ariaLabel and indentedCells 1`] = `
+.c0 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+  padding-top: 1.125rem;
+  border-top: 0 solid #000000;
+}
+
+.c0 td {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 th {
+  padding: 2rem 2rem 2rem 0;
+}
+
+.c0 thead tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0 tbody tr {
+  border-bottom: 0.0625rem solid #d8dada;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c1 {
+  border-bottom: 0.0625rem solid #000000 !important;
+}
+
+.c2 {
+  font-size: 20px;
+  line-height: 24px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c2 > :nth-child(n):not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.c2:active,
+.c2:focus,
+.c2:hover {
+  outline: none;
+}
+
+.c3 {
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-family: Verizon-NHG-eDS;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+<table
+  aria-label="indented table"
+  class="c0"
+>
+  <thead
+    class="thead-primary-line-override"
+  >
+    <tr
+      class="c1"
+    >
+      <th
+        class="c2"
+        scope="col"
+      >
+        Header
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    class=""
+  >
+    <tr
+      class=""
+    >
+      <td
+        class="c3"
+      >
+        Cell 
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

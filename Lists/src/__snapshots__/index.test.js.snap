@@ -1,0 +1,8703 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListGroup renders 1`] = `
+.c7 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c10 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c12 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6:active,
+.c6:focus,
+.c6:hover {
+  outline: none;
+}
+
+.c9:active,
+.c9:focus,
+.c9:hover {
+  outline: none;
+}
+
+.c2 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c3 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c3:focus:not(:hover)::before {
+  border: 1px dashed #000000;
+  border-radius: 0.125rem;
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+}
+
+.c3:focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-right: 0.25rem;
+}
+
+.c8 {
+  padding-top: 0.25rem;
+}
+
+.c0 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+    <div
+      aria-label="Hi Hi subtitle-right"
+      class="c3"
+      id="test"
+      tabindex="-1"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c5"
+        >
+          <p
+            aria-hidden="false"
+            class="c6 c7"
+          >
+            Hi
+          </p>
+          <div
+            class="c8"
+          >
+            <p
+              aria-hidden="false"
+              class="c9 c10"
+            >
+              Hi
+            </p>
+          </div>
+        </span>
+        <span
+          class="c11"
+        >
+          <p
+            aria-hidden="false"
+            class="c9 c12"
+          >
+            subtitle-right
+          </p>
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+  </div>
+</div>
+`;
+
+exports[`ListGroup renders with  toggle status text - desktop 1`] = `
+.c10 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6:active,
+.c6:focus,
+.c6:hover {
+  outline: none;
+}
+
+.c9:active,
+.c9:focus,
+.c9:hover {
+  outline: none;
+}
+
+.c2 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c3 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: calc(25% - 16px);
+  margin-left: 1rem;
+}
+
+.c8 {
+  padding-top: 0.25rem;
+}
+
+.c0 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+    <div
+      class="c3"
+      id="test"
+      tabindex="-1"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c5"
+        >
+          <p
+            aria-hidden="false"
+            class="c6 c7"
+          >
+            Test title
+          </p>
+          <div
+            class="c8"
+          >
+            <p
+              aria-hidden="false"
+              class="c9 c10"
+            >
+              Test subtitle 
+            </p>
+          </div>
+        </span>
+        <span
+          class="c11"
+        >
+          <input
+            data-testid="test-toggle"
+            id="1"
+            type="checkbox"
+            value="Hi"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+  </div>
+</div>
+`;
+
+exports[`ListGroup renders with  toggle status text - mobile 1`] = `
+.c10 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6:active,
+.c6:focus,
+.c6:hover {
+  outline: none;
+}
+
+.c9:active,
+.c9:focus,
+.c9:hover {
+  outline: none;
+}
+
+.c2 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c3 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: calc(50% - 12px);
+  margin-left: 0.75rem;
+}
+
+.c8 {
+  padding-top: 0.25rem;
+}
+
+.c0 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+    <div
+      class="c3"
+      id="test"
+      tabindex="-1"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c5"
+        >
+          <p
+            aria-hidden="false"
+            class="c6 c7"
+          >
+            Test title
+          </p>
+          <div
+            class="c8"
+          >
+            <p
+              aria-hidden="false"
+              class="c9 c10"
+            >
+              Test subtitle 
+            </p>
+          </div>
+        </span>
+        <span
+          class="c11"
+        >
+          <input
+            data-testid="test-toggle"
+            id="1"
+            type="checkbox"
+            value="Hi"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+  </div>
+</div>
+`;
+
+exports[`ListGroup renders with data prop 1`] = `
+.c10 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6:active,
+.c6:focus,
+.c6:hover {
+  outline: none;
+}
+
+.c9:active,
+.c9:focus,
+.c9:hover {
+  outline: none;
+}
+
+.c2 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c17 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.c17:active,
+.c17:focus {
+  outline: none;
+}
+
+.c13 {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c14:focus:not(:hover) {
+  outline: none;
+}
+
+.c14:focus:not(:hover)::before {
+  content: '';
+  box-sizing: border-box;
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% - 0.125rem);
+  height: calc(100% - 0.125rem);
+}
+
+.c14:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c14:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+  background-color: rgba(111,113,113,0.06);
+}
+
+.c14:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+}
+
+.c14:active svg path,
+.c14:active svg polygon {
+  fill: #6f7171;
+}
+
+.c14:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c16 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c16:focus {
+  outline: none;
+}
+
+.c15 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c15:hover {
+  cursor: pointer;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c3 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Verizon-NHG-eDS;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-right: 0.25rem;
+}
+
+.c8 {
+  padding-top: 0.25rem;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  list-style: none;
+}
+
+.c12.active svg path {
+  fill: #6f7171;
+}
+
+.c0 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+    <div
+      class="c3"
+      id="test"
+      tabindex="-1"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c5"
+        >
+          <p
+            aria-hidden="false"
+            class="c6 c7"
+          >
+            Test title
+          </p>
+          <div
+            class="c8"
+          >
+            <p
+              aria-hidden="false"
+              class="c9 c10"
+            >
+              Test subtitle 
+            </p>
+          </div>
+        </span>
+        <span
+          class="c11"
+        >
+          <span
+            class="actionIconSpan c12"
+            id="actionIconSpan"
+          >
+            <div
+              class="c13"
+              kind="ghost"
+              size="28"
+            >
+              <button
+                aria-disabled="false"
+                aria-hidden="false"
+                aria-label="Test title"
+                class="c14"
+                id="test"
+                kind="ghost"
+                role="button"
+                size="28"
+                tabindex="0"
+              >
+                <span
+                  class="c15"
+                />
+                <span
+                  class="c16"
+                >
+                  <svg
+                    aria-hidden="false"
+                    aria-label="right-arrow icon"
+                    class="c17"
+                    fill="#000000"
+                    role="img"
+                    viewBox="0 0 21.6 21.6"
+                  >
+                    <title>
+                      right-arrow icon
+                    </title>
+                    <path
+                      d="M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                      fill="#000000"
+                      stroke="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c3"
+      id="test"
+      tabindex="-1"
+    >
+      <div
+        class="c18"
+      >
+        Hi
+      </div>
+    </div>
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+  </div>
+</div>
+`;
+
+exports[`ListGroup renders with props 1`] = `
+.c7 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c10 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c12 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6:active,
+.c6:focus,
+.c6:hover {
+  outline: none;
+}
+
+.c9:active,
+.c9:focus,
+.c9:hover {
+  outline: none;
+}
+
+.c22 {
+  box-sizing: content-box;
+  cursor: pointer;
+  display: inline;
+  height: 2.75rem;
+  left: 50%;
+  outline: none;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+
+.c22:hover {
+  cursor: pointer;
+}
+
+.c24 {
+  height: 1.25rem;
+  width: 100%;
+  position: relative;
+}
+
+.c24:focus {
+  outline: none;
+}
+
+.c25:focus:not(:hover) .c23 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c26:focus:not(:hover) .c23 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c21 {
+  background-image: none;
+  place-self: center;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 0.0625rem solid #000000;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  touch-action: manipulation;
+  -webkit-transition: opacity 0.15s ease-in;
+  transition: opacity 0.15s ease-in;
+  width: auto;
+  pointer-events: auto;
+  font-size: 0.75rem;
+  font-family: Verizon-NHG-eTX;
+  font-weight: 400;
+  line-height: 1rem;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  outline: none;
+}
+
+.c21:focus:not(:hover) .c23 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c21:focus:not(:hover):not(:focus-visible):after {
+  display: none;
+}
+
+.c21:hover {
+  color: #000000;
+  border-bottom: 0.125rem solid #000000;
+}
+
+.c21:active {
+  color: #6f7171;
+  border-bottom: 0.125rem solid #6f7171;
+}
+
+.c27:focus:not(:hover) .c23 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c2 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c18 {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.c18:active,
+.c18:focus {
+  outline: none;
+}
+
+.c14 {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c15:focus:not(:hover) {
+  outline: none;
+}
+
+.c15:focus:not(:hover)::before {
+  content: '';
+  box-sizing: border-box;
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% - 0.125rem);
+  height: calc(100% - 0.125rem);
+}
+
+.c15:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c15:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+  background-color: rgba(111,113,113,0.06);
+}
+
+.c15:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+}
+
+.c15:active svg path,
+.c15:active svg polygon {
+  fill: #6f7171;
+}
+
+.c15:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c17 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c17:focus {
+  outline: none;
+}
+
+.c16 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c16:hover {
+  cursor: pointer;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c3 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 50%;
+  padding-left: 0.75rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c20 {
+  max-width: 50%;
+  padding-left: 0.75rem;
+}
+
+.c20 span:last-child {
+  height: 100%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: text-top;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: calc(50% - 12px);
+  margin-left: 0.75rem;
+}
+
+.c8 {
+  padding-top: 0.25rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  list-style: none;
+  padding-left: 0.75rem;
+  padding-right: 0.25rem;
+}
+
+.c13.active svg path {
+  fill: #6f7171;
+}
+
+.c0 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+    <div
+      class="c3"
+      id="test"
+      tabindex="-1"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c5"
+        >
+          <p
+            aria-hidden="false"
+            class="c6 c7"
+          >
+            Hi
+          </p>
+          <div
+            class="c8"
+          >
+            <p
+              aria-hidden="false"
+              class="c9 c10"
+            >
+              Hi
+            </p>
+          </div>
+        </span>
+        <span
+          class="c11"
+        >
+          <p
+            aria-hidden="false"
+            class="c9 c12"
+          >
+            subtitle-right
+          </p>
+          <span
+            class="actionIconSpan c13"
+            id="actionIconSpan"
+          >
+            <div
+              class="c14"
+              kind="ghost"
+              size="24"
+            >
+              <button
+                aria-disabled="false"
+                aria-hidden="false"
+                aria-label="Hi Hi subtitle-right"
+                class="c15"
+                id="test"
+                kind="ghost"
+                role="button"
+                size="24"
+                tabindex="0"
+              >
+                <span
+                  class="c16"
+                />
+                <span
+                  class="c17"
+                >
+                  <svg
+                    aria-hidden="false"
+                    aria-label="right-arrow icon"
+                    class="c18"
+                    fill="#000000"
+                    role="img"
+                    viewBox="0 0 21.6 21.6"
+                  >
+                    <title>
+                      right-arrow icon
+                    </title>
+                    <path
+                      d="M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                      fill="#000000"
+                      stroke="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c3"
+      id="test"
+      tabindex="-1"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c5"
+        >
+          <p
+            aria-hidden="false"
+            class="c6 c7"
+          >
+            Hi
+          </p>
+          <div
+            class="c8"
+          >
+            <p
+              aria-hidden="false"
+              class="c9 c10"
+            >
+              Hi
+            </p>
+          </div>
+        </span>
+        <span
+          class="c19"
+        >
+          <input
+            data-testid="test-toggle"
+            id="1"
+            type="checkbox"
+            value="Hi"
+          />
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c3"
+      id="test"
+      tabindex="-1"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c5"
+        >
+          <p
+            aria-hidden="false"
+            class="c6 c7"
+          >
+            Hi
+          </p>
+          <div
+            class="c8"
+          >
+            <p
+              aria-hidden="false"
+              class="c9 c10"
+            >
+              Hi
+            </p>
+          </div>
+        </span>
+        <div
+          class="c20"
+        >
+          <a
+            aria-disabled="false"
+            aria-label="test textlink Hi"
+            class="c21"
+            role="link"
+            tabindex="0"
+            type="standAlone"
+          >
+            <span
+              aria-hidden="true"
+              class="c22"
+              tabindex="-1"
+              type="standAlone"
+            />
+            <span
+              aria-hidden="true"
+              class="c23 c24"
+              tabindex="-1"
+              type="standAlone"
+            >
+              test textlink
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+  </div>
+  <div
+    class="c1"
+  >
+    <div
+      class="c3"
+      id="test"
+      tabindex="-1"
+    >
+      <div
+        class="c4"
+      >
+        <span
+          class="c5"
+        >
+          <p
+            aria-hidden="false"
+            class="c6 c7"
+          >
+            Hi
+          </p>
+          <div
+            class="c8"
+          >
+            <p
+              aria-hidden="false"
+              class="c9 c10"
+            >
+              Hi
+            </p>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      class="c2"
+      orientation="horizontal"
+      type="secondary"
+    />
+  </div>
+</div>
+`;
+
+exports[`ListGroup renders with top and bottom line 1`] = `
+.c0 {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div>
+    Custom child
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem actionElement none 1`] = `
+.c6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c9 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:active,
+.c5:focus,
+.c5:hover {
+  outline: none;
+}
+
+.c8:active,
+.c8:focus,
+.c8:hover {
+  outline: none;
+}
+
+.c1 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2:focus:not(:hover)::before {
+  border: 1px dashed #000000;
+  border-radius: 0.125rem;
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+}
+
+.c2:focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c7 {
+  padding-top: 0.25rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+  <div
+    aria-label="Hi"
+    class="c2"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c3"
+    >
+      <span
+        class="c4"
+      >
+        <p
+          aria-hidden="false"
+          class="c5 c6"
+        >
+          Hi
+        </p>
+        <div
+          class="c7"
+        >
+          <p
+            aria-hidden="false"
+            class="c8 c9"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+    </div>
+  </div>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+</div>
+`;
+
+exports[`ListGroupItem actionElement none with subtitleRight 1`] = `
+.c6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c9 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c11 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:active,
+.c5:focus,
+.c5:hover {
+  outline: none;
+}
+
+.c8:active,
+.c8:focus,
+.c8:hover {
+  outline: none;
+}
+
+.c1 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2:focus:not(:hover)::before {
+  border: 1px dashed #000000;
+  border-radius: 0.125rem;
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+}
+
+.c2:focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-right: 0.25rem;
+}
+
+.c7 {
+  padding-top: 0.25rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+  <div
+    aria-label="Hi Hi subtitle-right"
+    class="c2"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c3"
+    >
+      <span
+        class="c4"
+      >
+        <p
+          aria-hidden="false"
+          class="c5 c6"
+        >
+          Hi
+        </p>
+        <div
+          class="c7"
+        >
+          <p
+            aria-hidden="false"
+            class="c8 c9"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+      <span
+        class="c10"
+      >
+        <p
+          aria-hidden="false"
+          class="c8 c11"
+        >
+          subtitle-right
+        </p>
+      </span>
+    </div>
+  </div>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+</div>
+`;
+
+exports[`ListGroupItem actionElement subtitleRight 1`] = `
+.c6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c9 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c11 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:active,
+.c5:focus,
+.c5:hover {
+  outline: none;
+}
+
+.c8:active,
+.c8:focus,
+.c8:hover {
+  outline: none;
+}
+
+.c1 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c17 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.c17:active,
+.c17:focus {
+  outline: none;
+}
+
+.c13 {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c14:focus:not(:hover) {
+  outline: none;
+}
+
+.c14:focus:not(:hover)::before {
+  content: '';
+  box-sizing: border-box;
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% - 0.125rem);
+  height: calc(100% - 0.125rem);
+}
+
+.c14:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c14:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+  background-color: rgba(111,113,113,0.06);
+}
+
+.c14:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+}
+
+.c14:active svg path,
+.c14:active svg polygon {
+  fill: #6f7171;
+}
+
+.c14:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c16 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c16:focus {
+  outline: none;
+}
+
+.c15 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c15:hover {
+  cursor: pointer;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c7 {
+  padding-top: 0.25rem;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 0.25rem;
+}
+
+.c12.active svg path {
+  fill: #6f7171;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+  <div
+    class="c2"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c3"
+    >
+      <span
+        class="c4"
+      >
+        <p
+          aria-hidden="false"
+          class="c5 c6"
+        >
+          Hi
+        </p>
+        <div
+          class="c7"
+        >
+          <p
+            aria-hidden="false"
+            class="c8 c9"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+      <span
+        class="c10"
+      >
+        <p
+          aria-hidden="false"
+          class="c8 c11"
+        >
+          subtitle-right
+        </p>
+        <span
+          class="actionIconSpan c12"
+          id="actionIconSpan"
+        >
+          <div
+            class="c13"
+            kind="ghost"
+            size="28"
+          >
+            <button
+              aria-disabled="false"
+              aria-hidden="false"
+              aria-label="Hi Hi subtitle-right"
+              class="c14"
+              id="test"
+              kind="ghost"
+              role="button"
+              size="28"
+              tabindex="0"
+            >
+              <span
+                class="c15"
+              />
+              <span
+                class="c16"
+              >
+                <svg
+                  aria-hidden="false"
+                  aria-label="right-arrow icon"
+                  class="c17"
+                  fill="#000000"
+                  role="img"
+                  viewBox="0 0 21.6 21.6"
+                >
+                  <title>
+                    right-arrow icon
+                  </title>
+                  <path
+                    d="M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                    fill="#000000"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+</div>
+`;
+
+exports[`ListGroupItem actionElement textLink 1`] = `
+.c6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c9 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:active,
+.c5:focus,
+.c5:hover {
+  outline: none;
+}
+
+.c8:active,
+.c8:focus,
+.c8:hover {
+  outline: none;
+}
+
+.c12 {
+  box-sizing: content-box;
+  cursor: pointer;
+  display: inline;
+  height: 2.75rem;
+  left: 50%;
+  outline: none;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+
+.c12:hover {
+  cursor: pointer;
+}
+
+.c14 {
+  height: 1.25rem;
+  width: 100%;
+  position: relative;
+}
+
+.c14:focus {
+  outline: none;
+}
+
+.c11 {
+  background-image: none;
+  place-self: center;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 0.0625rem solid #000000;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  touch-action: manipulation;
+  -webkit-transition: opacity 0.15s ease-in;
+  transition: opacity 0.15s ease-in;
+  width: auto;
+  pointer-events: auto;
+  padding-bottom: 1px;
+  font-size: 1rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  outline: none;
+}
+
+.c11:focus:not(:hover) .c13 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c11:focus:not(:hover):not(:focus-visible):after {
+  display: none;
+}
+
+.c11:hover {
+  color: #000000;
+  border-bottom: 0.125rem solid #000000;
+}
+
+.c11:active {
+  color: #6f7171;
+  border-bottom: 0.125rem solid #6f7171;
+}
+
+.c15:focus:not(:hover) .c13 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c16:focus:not(:hover) .c13 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c17:focus:not(:hover) .c13 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c1 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c10 {
+  max-width: 25%;
+  padding-left: 1rem;
+}
+
+.c10 span:last-child {
+  height: 100%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: text-top;
+}
+
+.c7 {
+  padding-top: 0.25rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+  <div
+    class="c2"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c3"
+    >
+      <span
+        class="c4"
+      >
+        <p
+          aria-hidden="false"
+          class="c5 c6"
+        >
+          Hi
+        </p>
+        <div
+          class="c7"
+        >
+          <p
+            aria-hidden="false"
+            class="c8 c9"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+      <div
+        class="c10"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="textlink Hi"
+          class="c11"
+          role="link"
+          tabindex="0"
+          type="standAlone"
+        >
+          <span
+            aria-hidden="true"
+            class="c12"
+            tabindex="-1"
+            type="standAlone"
+          />
+          <span
+            aria-hidden="true"
+            class="c13 c14"
+            tabindex="-1"
+            type="standAlone"
+          >
+            textlink
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+</div>
+`;
+
+exports[`ListGroupItem actionElement textLink with subtitle and ariaLabel 1`] = `
+.c5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4:active,
+.c4:focus,
+.c4:hover {
+  outline: none;
+}
+
+.c7:active,
+.c7:focus,
+.c7:hover {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c6 {
+  padding-top: 0.25rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <p
+          aria-hidden="false"
+          class="c4 c5"
+        >
+          Hi
+        </p>
+        <div
+          class="c6"
+        >
+          <p
+            aria-hidden="false"
+            class="c7 c8"
+          >
+            Subtitle
+          </p>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem actionElement textLink with subtitle and no ariaLabel 1`] = `
+.c5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4:active,
+.c4:focus,
+.c4:hover {
+  outline: none;
+}
+
+.c7:active,
+.c7:focus,
+.c7:hover {
+  outline: none;
+}
+
+.c11 {
+  box-sizing: content-box;
+  cursor: pointer;
+  display: inline;
+  height: 2.75rem;
+  left: 50%;
+  outline: none;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+
+.c11:hover {
+  cursor: pointer;
+}
+
+.c13 {
+  height: 1.25rem;
+  width: 100%;
+  position: relative;
+}
+
+.c13:focus {
+  outline: none;
+}
+
+.c10 {
+  background-image: none;
+  place-self: center;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 0.0625rem solid #000000;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  touch-action: manipulation;
+  -webkit-transition: opacity 0.15s ease-in;
+  transition: opacity 0.15s ease-in;
+  width: auto;
+  pointer-events: auto;
+  padding-bottom: 1px;
+  font-size: 1rem;
+  font-family: Verizon-NHG-eDS;
+  font-weight: 400;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  outline: none;
+}
+
+.c10:focus:not(:hover) .c12 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c10:focus:not(:hover):not(:focus-visible):after {
+  display: none;
+}
+
+.c10:hover {
+  color: #000000;
+  border-bottom: 0.125rem solid #000000;
+}
+
+.c10:active {
+  color: #6f7171;
+  border-bottom: 0.125rem solid #6f7171;
+}
+
+.c14:focus:not(:hover) .c12 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c15:focus:not(:hover) .c12 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c16:focus:not(:hover) .c12 {
+  outline: 0.0625rem dashed #000000;
+  outline-offset: 0.125rem;
+  border-radius: 2px;
+  padding-bottom: 2px;
+  padding-top: 1px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c9 {
+  max-width: 25%;
+  padding-left: 1rem;
+}
+
+.c9 span:last-child {
+  height: 100%;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: text-top;
+}
+
+.c6 {
+  padding-top: 0.25rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <p
+          aria-hidden="false"
+          class="c4 c5"
+        >
+          Hi
+        </p>
+        <div
+          class="c6"
+        >
+          <p
+            aria-hidden="false"
+            class="c7 c8"
+          >
+            Subtitle
+          </p>
+        </div>
+      </span>
+      <div
+        class="c9"
+      >
+        <a
+          aria-disabled="false"
+          aria-label="test Hi"
+          class="c10"
+          role="link"
+          tabindex="0"
+          type="standAlone"
+        >
+          <span
+            aria-hidden="true"
+            class="c11"
+            tabindex="-1"
+            type="standAlone"
+          />
+          <span
+            aria-hidden="true"
+            class="c12 c13"
+            tabindex="-1"
+            type="standAlone"
+          >
+            test
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem actionElement toggle 1`] = `
+.c6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c9 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:active,
+.c5:focus,
+.c5:hover {
+  outline: none;
+}
+
+.c8:active,
+.c8:focus,
+.c8:hover {
+  outline: none;
+}
+
+.c1 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: calc(25% - 16px);
+  margin-left: 1rem;
+}
+
+.c7 {
+  padding-top: 0.25rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+  <div
+    class="c2"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c3"
+    >
+      <span
+        class="c4"
+      >
+        <p
+          aria-hidden="false"
+          class="c5 c6"
+        >
+          Hi
+        </p>
+        <div
+          class="c7"
+        >
+          <p
+            aria-hidden="false"
+            class="c8 c9"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+      <span
+        class="c10"
+      >
+        <input
+          data-testid="test-toggle"
+          id="1"
+          type="checkbox"
+          value="Hi"
+        />
+      </span>
+    </div>
+  </div>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+</div>
+`;
+
+exports[`ListGroupItem custom child 1`] = `
+.c1 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2:focus:not(:hover)::before {
+  border: 1px dashed #000000;
+  border-radius: 0.125rem;
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+}
+
+.c2:focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Verizon-NHG-eDS;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+  <div
+    aria-label="  subtitle-right"
+    class="c2"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c3"
+    >
+      <div>
+        Hi
+      </div>
+    </div>
+  </div>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+</div>
+`;
+
+exports[`ListGroupItem custom child viewport mobile 1`] = `
+.c1 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
+}
+
+.c2:focus:not(:hover)::before {
+  border: 1px dashed #000000;
+  border-radius: 0.125rem;
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+}
+
+.c2:focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+  <div
+    aria-label="  subtitle-right"
+    class="c2"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c3"
+    >
+      <div>
+        Hi
+      </div>
+    </div>
+  </div>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+</div>
+`;
+
+exports[`ListGroupItem disabled 1`] = `
+.c5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4:active,
+.c4:focus,
+.c4:hover {
+  outline: none;
+}
+
+.c7:active,
+.c7:focus,
+.c7:hover {
+  outline: none;
+}
+
+.c14 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.c14:active,
+.c14:focus {
+  outline: none;
+}
+
+.c11 {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: none;
+  pointer-events: auto;
+  pointer-events: none;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+}
+
+.c12 svg path,
+.c12 svg polygon {
+  fill: #d8dada;
+}
+
+.c13 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c13:focus {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-right: 0.25rem;
+}
+
+.c6 {
+  padding-top: 0.25rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  list-style: none;
+}
+
+.c10.active svg path {
+  fill: #6f7171;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    disabled=""
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <p
+          aria-hidden="false"
+          class="c4 c5"
+        >
+          Hi
+        </p>
+        <div
+          class="c6"
+        >
+          <p
+            aria-hidden="false"
+            class="c7 c8"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+      <span
+        class="c9"
+      >
+        <span
+          class="actionIconSpan c10"
+          id="actionIconSpan"
+        >
+          <div
+            class="c11"
+            kind="ghost"
+            size="28"
+          >
+            <button
+              aria-disabled="true"
+              aria-hidden="false"
+              aria-label="icon"
+              class="c12"
+              disabled=""
+              id="test"
+              kind="ghost"
+              role="button"
+              size="28"
+              tabindex="-1"
+            >
+              <span
+                class="c13"
+              >
+                <svg
+                  aria-hidden="false"
+                  aria-label="right-arrow icon"
+                  class="c14"
+                  fill="#000000"
+                  role="img"
+                  viewBox="0 0 21.6 21.6"
+                >
+                  <title>
+                    right-arrow icon
+                  </title>
+                  <path
+                    d="M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                    fill="#000000"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem inverted actionElement checkbox with subtitle right, descriptive icon, and image 1`] = `
+.c19 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c22 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c18:active,
+.c18:focus,
+.c18:hover {
+  outline: none;
+}
+
+.c21:active,
+.c21:focus,
+.c21:hover {
+  outline: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: Verizon-NHG-eDS;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.c6 input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.c6 input[type='checkbox']:hover {
+  cursor: pointer;
+}
+
+.c6 input[type='checkbox']:focus {
+  outline: none;
+}
+
+.c6 input[type='checkbox']:focus + svg {
+  outline: none;
+}
+
+.c6 input[type='checkbox']:focus:not(:hover):not(:visited):not(:active) + span::after {
+  background: transparent;
+  border: 0.0625rem dashed #000000;
+  box-sizing: border-box;
+  content: '';
+  height: 1.625rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.625rem;
+  border-radius: 0.25rem;
+}
+
+.c10 {
+  left: 0.625rem;
+  position: absolute;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  top: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.c9 {
+  box-sizing: border-box;
+  display: inline-block;
+  content: '';
+  height: 1.25rem;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.25rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  width: 1.25rem;
+  height: 1.25rem;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  border-style: solid;
+  border-color: #6f7171;
+  border-radius: 0.125rem;
+  border-width: 0.0625rem;
+  box-shadow: none;
+}
+
+.c11:active {
+  border-color: #000000;
+}
+
+.c11:active:hover {
+  box-shadow: 0 0 0 0.0625rem #000000;
+}
+
+.c5 {
+  margin-bottom: 0;
+  max-width: 37.25rem;
+  width: 100%;
+}
+
+.c7 {
+  height: 1.25rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c12 {
+  margin-top: 0;
+}
+
+.c8 {
+  pointer-events: auto;
+}
+
+.c14 {
+  display: inline-block;
+  height: 1.75rem;
+  width: 1.75rem;
+  min-height: 1.75rem;
+  min-width: 1.75rem;
+}
+
+.c14:active,
+.c14:focus {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c4 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+  visibility: hidden;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin-left: 1.5rem;
+}
+
+.c20 {
+  padding-top: 0.25rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1.5rem;
+}
+
+.c16 {
+  object-fit: contain;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c15 {
+  max-width: 116px;
+  height: 116px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <label
+          class="c4"
+          for="test"
+        />
+        <div
+          class="c5"
+          width="100%"
+        >
+          <label
+            class="c6"
+            color="#000000"
+          >
+            <div
+              class="c7"
+            >
+              <input
+                aria-describedby=""
+                aria-label="Hi Hi subtitle-right"
+                class="c8"
+                data-testid="test-input"
+                id="test"
+                name="Hi"
+                required=""
+                tabindex="0"
+                type="checkbox"
+                value="Hi"
+              />
+              <span
+                class="c9"
+              >
+                <div
+                  class="c10"
+                />
+                <span
+                  class="styledInner c11"
+                  height="20"
+                  width="20"
+                />
+              </span>
+            </div>
+            <span
+              class="c12"
+              data-testid="test-child-wrapper"
+            >
+              <div
+                aria-hidden="true"
+              />
+            </span>
+          </label>
+        </div>
+      </span>
+      <span
+        class="c13"
+      >
+        <svg
+          aria-hidden="true"
+          aria-label="gift icon"
+          class="c14"
+          fill="#000000"
+          role="img"
+          viewBox="0 0 21.6 21.6"
+        >
+          <path
+            d="M17.2,7.3c1.3-0.7,1.7-2.8,0.8-4.1c-0.9-1.3-2.7-1.7-4.1-0.9c-0.8,0.5-2.2,2.8-3.1,4.3C9.9,5.1,8.5,2.8,7.7,2.3
+	C6.3,1.4,4.4,1.8,3.6,3.2c0,0,0,0,0,0c-1.3,2.4,0.3,4.5,3,4.8l-2.9,0v11.9h14.2V7.9h-2.9C15.8,7.8,16.5,7.6,17.2,7.3z M5.1,6.3
+	C4.3,5.7,4,4.6,4.6,3.8C5.1,3,6.2,2.8,7,3.3c0.9,0.7,2,2.5,2.8,3.9C8.2,7.1,6.2,7,5.1,6.3z M10.2,18.6H4.9V9.1h5.3V18.6z M14.6,3.3
+	C15.4,2.8,16.5,3,17,3.8c0.5,0.8,0.3,2-0.5,2.4c-1.1,0.7-3.1,0.8-4.7,0.9C12.5,5.8,14.1,3.6,14.6,3.3L14.6,3.3z M16.7,9.1v9.5h-5.3
+	V9.1L16.7,9.1z"
+            fill="#000000"
+            stroke="none"
+          />
+        </svg>
+      </span>
+      <div
+        class="c15"
+      >
+        <img
+          alt="test-img-srcArray"
+          class="c16"
+          src="[object Object]"
+        />
+      </div>
+      <span
+        class="c17"
+      >
+        <p
+          aria-hidden="false"
+          class="c18 c19"
+        >
+          Hi
+        </p>
+        <div
+          class="c20"
+        >
+          <p
+            aria-hidden="false"
+            class="c21 c22"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem inverted actionElement checkbox with subtitle right, descriptive icon, and image in mobile viewport 1`] = `
+.c19 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c22 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c18:active,
+.c18:focus,
+.c18:hover {
+  outline: none;
+}
+
+.c21:active,
+.c21:focus,
+.c21:hover {
+  outline: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: Verizon-NHG-eDS;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.c6 input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.c6 input[type='checkbox']:hover {
+  cursor: pointer;
+}
+
+.c6 input[type='checkbox']:focus {
+  outline: none;
+}
+
+.c6 input[type='checkbox']:focus + svg {
+  outline: none;
+}
+
+.c6 input[type='checkbox']:focus:not(:hover):not(:visited):not(:active) + span::after {
+  background: transparent;
+  border: 0.0625rem dashed #000000;
+  box-sizing: border-box;
+  content: '';
+  height: 1.625rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.625rem;
+  border-radius: 0.25rem;
+}
+
+.c10 {
+  left: 0.625rem;
+  position: absolute;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  top: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.c9 {
+  box-sizing: border-box;
+  display: inline-block;
+  content: '';
+  height: 1.25rem;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.25rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  width: 1.25rem;
+  height: 1.25rem;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  border-style: solid;
+  border-color: #6f7171;
+  border-radius: 0.125rem;
+  border-width: 0.0625rem;
+  box-shadow: none;
+}
+
+.c11:active {
+  border-color: #000000;
+}
+
+.c11:active:hover {
+  box-shadow: 0 0 0 0.0625rem #000000;
+}
+
+.c5 {
+  margin-bottom: 0;
+  max-width: 37.25rem;
+  width: 100%;
+}
+
+.c7 {
+  height: 1.25rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c12 {
+  margin-top: 0;
+}
+
+.c8 {
+  pointer-events: auto;
+}
+
+.c14 {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+}
+
+.c14:active,
+.c14:focus {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c4 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+  visibility: hidden;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin-left: 1rem;
+}
+
+.c20 {
+  padding-top: 0.25rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.c16 {
+  object-fit: contain;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c15 {
+  max-width: 72px;
+  height: 72px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <label
+          class="c4"
+          for="test"
+        />
+        <div
+          class="c5"
+          width="100%"
+        >
+          <label
+            class="c6"
+            color="#000000"
+          >
+            <div
+              class="c7"
+            >
+              <input
+                aria-describedby=""
+                aria-label="Hi"
+                class="c8"
+                data-testid="test-input"
+                id="test"
+                name="Hi"
+                required=""
+                tabindex="0"
+                type="checkbox"
+                value="Hi"
+              />
+              <span
+                class="c9"
+              >
+                <div
+                  class="c10"
+                />
+                <span
+                  class="styledInner c11"
+                  height="20"
+                  width="20"
+                />
+              </span>
+            </div>
+            <span
+              class="c12"
+              data-testid="test-child-wrapper"
+            >
+              <div
+                aria-hidden="true"
+              />
+            </span>
+          </label>
+        </div>
+      </span>
+      <span
+        class="c13"
+      >
+        <svg
+          aria-hidden="true"
+          aria-label="gift icon"
+          class="c14"
+          fill="#000000"
+          role="img"
+          viewBox="0 0 21.6 21.6"
+        >
+          <path
+            d="M17.2,7.3c1.3-0.7,1.7-2.8,0.8-4.1c-0.9-1.3-2.7-1.7-4.1-0.9c-0.8,0.5-2.2,2.8-3.1,4.3C9.9,5.1,8.5,2.8,7.7,2.3
+	C6.3,1.4,4.4,1.8,3.6,3.2c0,0,0,0,0,0c-1.3,2.4,0.3,4.5,3,4.8l-2.9,0v11.9h14.2V7.9h-2.9C15.8,7.8,16.5,7.6,17.2,7.3z M5.1,6.3
+	C4.3,5.7,4,4.6,4.6,3.8C5.1,3,6.2,2.8,7,3.3c0.9,0.7,2,2.5,2.8,3.9C8.2,7.1,6.2,7,5.1,6.3z M10.2,18.6H4.9V9.1h5.3V18.6z M14.6,3.3
+	C15.4,2.8,16.5,3,17,3.8c0.5,0.8,0.3,2-0.5,2.4c-1.1,0.7-3.1,0.8-4.7,0.9C12.5,5.8,14.1,3.6,14.6,3.3L14.6,3.3z M16.7,9.1v9.5h-5.3
+	V9.1L16.7,9.1z"
+            fill="#000000"
+            stroke="none"
+          />
+        </svg>
+      </span>
+      <div
+        class="c15"
+      >
+        <img
+          alt="test-img-srcArray"
+          class="c16"
+          src="[object Object]"
+        />
+      </div>
+      <span
+        class="c17"
+      >
+        <p
+          aria-hidden="false"
+          class="c18 c19"
+        >
+          Hi
+        </p>
+        <div
+          class="c20"
+        >
+          <p
+            aria-hidden="false"
+            class="c21 c22"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem inverted actionElement checkbox with subtitle right, descriptive icon, and image in mobile viewport 2`] = `
+.c19 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c22 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c18:active,
+.c18:focus,
+.c18:hover {
+  outline: none;
+}
+
+.c21:active,
+.c21:focus,
+.c21:hover {
+  outline: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: Verizon-NHG-eDS;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.c6 input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.c6 input[type='checkbox']:hover {
+  cursor: pointer;
+}
+
+.c6 input[type='checkbox']:focus {
+  outline: none;
+}
+
+.c6 input[type='checkbox']:focus + svg {
+  outline: none;
+}
+
+.c6 input[type='checkbox']:focus:not(:hover):not(:visited):not(:active) + span::after {
+  background: transparent;
+  border: 0.0625rem dashed #000000;
+  box-sizing: border-box;
+  content: '';
+  height: 1.625rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.625rem;
+  border-radius: 0.25rem;
+}
+
+.c10 {
+  left: 0.625rem;
+  position: absolute;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  top: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.c9 {
+  box-sizing: border-box;
+  display: inline-block;
+  content: '';
+  height: 1.25rem;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.25rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  width: 1.25rem;
+  height: 1.25rem;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  border-style: solid;
+  border-color: #6f7171;
+  border-radius: 0.125rem;
+  border-width: 0.0625rem;
+  box-shadow: none;
+}
+
+.c11:active {
+  border-color: #000000;
+}
+
+.c11:active:hover {
+  box-shadow: 0 0 0 0.0625rem #000000;
+}
+
+.c5 {
+  margin-bottom: 0;
+  max-width: 37.25rem;
+  width: 100%;
+}
+
+.c7 {
+  height: 1.25rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c12 {
+  margin-top: 0;
+}
+
+.c8 {
+  pointer-events: auto;
+}
+
+.c14 {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  min-height: 1rem;
+  min-width: 1rem;
+}
+
+.c14:active,
+.c14:focus {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c4 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+  visibility: hidden;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin-left: 1rem;
+}
+
+.c20 {
+  padding-top: 0.25rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.c16 {
+  object-fit: contain;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c15 {
+  max-width: 116px;
+  height: 116px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <label
+          class="c4"
+          for="test"
+        />
+        <div
+          class="c5"
+          width="100%"
+        >
+          <label
+            class="c6"
+            color="#000000"
+          >
+            <div
+              class="c7"
+            >
+              <input
+                aria-describedby=""
+                aria-label="Hi Hi subtitle-right"
+                class="c8"
+                data-testid="test-input"
+                id="test"
+                name="Hi"
+                required=""
+                tabindex="0"
+                type="checkbox"
+                value="Hi"
+              />
+              <span
+                class="c9"
+              >
+                <div
+                  class="c10"
+                />
+                <span
+                  class="styledInner c11"
+                  height="20"
+                  width="20"
+                />
+              </span>
+            </div>
+            <span
+              class="c12"
+              data-testid="test-child-wrapper"
+            >
+              <div
+                aria-hidden="true"
+              />
+            </span>
+          </label>
+        </div>
+      </span>
+      <span
+        class="c13"
+      >
+        <svg
+          aria-hidden="true"
+          aria-label="gift icon"
+          class="c14"
+          fill="#000000"
+          role="img"
+          viewBox="0 0 21.6 21.6"
+        >
+          <path
+            d="M17.2,7.3c1.3-0.7,1.7-2.8,0.8-4.1c-0.9-1.3-2.7-1.7-4.1-0.9c-0.8,0.5-2.2,2.8-3.1,4.3C9.9,5.1,8.5,2.8,7.7,2.3
+	C6.3,1.4,4.4,1.8,3.6,3.2c0,0,0,0,0,0c-1.3,2.4,0.3,4.5,3,4.8l-2.9,0v11.9h14.2V7.9h-2.9C15.8,7.8,16.5,7.6,17.2,7.3z M5.1,6.3
+	C4.3,5.7,4,4.6,4.6,3.8C5.1,3,6.2,2.8,7,3.3c0.9,0.7,2,2.5,2.8,3.9C8.2,7.1,6.2,7,5.1,6.3z M10.2,18.6H4.9V9.1h5.3V18.6z M14.6,3.3
+	C15.4,2.8,16.5,3,17,3.8c0.5,0.8,0.3,2-0.5,2.4c-1.1,0.7-3.1,0.8-4.7,0.9C12.5,5.8,14.1,3.6,14.6,3.3L14.6,3.3z M16.7,9.1v9.5h-5.3
+	V9.1L16.7,9.1z"
+            fill="#000000"
+            stroke="none"
+          />
+        </svg>
+      </span>
+      <div
+        class="c15"
+      >
+        <img
+          alt="test-img-srcArray"
+          class="c16"
+          src="[object Object]"
+        />
+      </div>
+      <span
+        class="c17"
+      >
+        <p
+          aria-hidden="false"
+          class="c18 c19"
+        >
+          Hi
+        </p>
+        <div
+          class="c20"
+        >
+          <p
+            aria-hidden="false"
+            class="c21 c22"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem inverted actionElement icon with subtitle right 1`] = `
+.c5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c10 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4:active,
+.c4:focus,
+.c4:hover {
+  outline: none;
+}
+
+.c7:active,
+.c7:focus,
+.c7:hover {
+  outline: none;
+}
+
+.c16 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.c16:active,
+.c16:focus {
+  outline: none;
+}
+
+.c12 {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c13:focus:not(:hover) {
+  outline: none;
+}
+
+.c13:focus:not(:hover)::before {
+  content: '';
+  box-sizing: border-box;
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% - 0.125rem);
+  height: calc(100% - 0.125rem);
+}
+
+.c13:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c13:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+  background-color: rgba(111,113,113,0.06);
+}
+
+.c13:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+}
+
+.c13:active svg path,
+.c13:active svg polygon {
+  fill: #6f7171;
+}
+
+.c13:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c15 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c15:focus {
+  outline: none;
+}
+
+.c14 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c14:hover {
+  cursor: pointer;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c6 {
+  padding-top: 0.25rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 0.25rem;
+}
+
+.c11.active svg path {
+  fill: #6f7171;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <p
+          aria-hidden="false"
+          class="c4 c5"
+        >
+          Hi
+        </p>
+        <div
+          class="c6"
+        >
+          <p
+            aria-hidden="false"
+            class="c7 c8"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+      <span
+        class="c9"
+      >
+        <p
+          aria-hidden="false"
+          class="c7 c10"
+        >
+          subtitle-right-inverted
+        </p>
+        <span
+          class="actionIconSpan c11"
+          id="actionIconSpan"
+        >
+          <div
+            class="c12"
+            kind="ghost"
+            size="28"
+          >
+            <button
+              aria-disabled="false"
+              aria-hidden="false"
+              aria-label="Hi Hi subtitle-right-inverted"
+              class="c13"
+              id="test"
+              kind="ghost"
+              role="button"
+              size="28"
+              tabindex="0"
+            >
+              <span
+                class="c14"
+              />
+              <span
+                class="c15"
+              >
+                <svg
+                  aria-hidden="false"
+                  aria-label="right-arrow icon"
+                  class="c16"
+                  fill="#000000"
+                  role="img"
+                  viewBox="0 0 21.6 21.6"
+                >
+                  <title>
+                    right-arrow icon
+                  </title>
+                  <path
+                    d="M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                    fill="#000000"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem invertedrenders 1`] = `
+.c5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4:active,
+.c4:focus,
+.c4:hover {
+  outline: none;
+}
+
+.c7:active,
+.c7:focus,
+.c7:hover {
+  outline: none;
+}
+
+.c15 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.c15:active,
+.c15:focus {
+  outline: none;
+}
+
+.c11 {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c12:focus:not(:hover) {
+  outline: none;
+}
+
+.c12:focus:not(:hover)::before {
+  content: '';
+  box-sizing: border-box;
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% - 0.125rem);
+  height: calc(100% - 0.125rem);
+}
+
+.c12:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c12:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+  background-color: rgba(111,113,113,0.06);
+}
+
+.c12:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+}
+
+.c12:active svg path,
+.c12:active svg polygon {
+  fill: #6f7171;
+}
+
+.c12:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c14 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c14:focus {
+  outline: none;
+}
+
+.c13 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c13:hover {
+  cursor: pointer;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-right: 0.25rem;
+}
+
+.c6 {
+  padding-top: 0.25rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  list-style: none;
+}
+
+.c10.active svg path {
+  fill: #6f7171;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <p
+          aria-hidden="false"
+          class="c4 c5"
+        >
+          Hi
+        </p>
+        <div
+          class="c6"
+        >
+          <p
+            aria-hidden="false"
+            class="c7 c8"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+      <span
+        class="c9"
+      >
+        <span
+          class="actionIconSpan c10"
+          id="actionIconSpan"
+        >
+          <div
+            class="c11"
+            kind="ghost"
+            size="28"
+          >
+            <button
+              aria-disabled="false"
+              aria-hidden="false"
+              aria-label="Hi"
+              class="c12"
+              id="test"
+              kind="ghost"
+              role="button"
+              size="28"
+              tabindex="0"
+            >
+              <span
+                class="c13"
+              />
+              <span
+                class="c14"
+              >
+                <svg
+                  aria-hidden="false"
+                  aria-label="right-arrow icon"
+                  class="c15"
+                  fill="#000000"
+                  role="img"
+                  viewBox="0 0 21.6 21.6"
+                >
+                  <title>
+                    right-arrow icon
+                  </title>
+                  <path
+                    d="M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                    fill="#000000"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem renders 1`] = `
+.c5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4:active,
+.c4:focus,
+.c4:hover {
+  outline: none;
+}
+
+.c7:active,
+.c7:focus,
+.c7:hover {
+  outline: none;
+}
+
+.c15 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.c15:active,
+.c15:focus {
+  outline: none;
+}
+
+.c11 {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c12:focus:not(:hover) {
+  outline: none;
+}
+
+.c12:focus:not(:hover)::before {
+  content: '';
+  box-sizing: border-box;
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% - 0.125rem);
+  height: calc(100% - 0.125rem);
+}
+
+.c12:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c12:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+  background-color: rgba(111,113,113,0.06);
+}
+
+.c12:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+}
+
+.c12:active svg path,
+.c12:active svg polygon {
+  fill: #6f7171;
+}
+
+.c12:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c14 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c14:focus {
+  outline: none;
+}
+
+.c13 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c13:hover {
+  cursor: pointer;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-right: 0.25rem;
+}
+
+.c6 {
+  padding-top: 0.25rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  list-style: none;
+}
+
+.c10.active svg path {
+  fill: #6f7171;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <p
+          aria-hidden="false"
+          class="c4 c5"
+        >
+          Hi
+        </p>
+        <div
+          class="c6"
+        >
+          <p
+            aria-hidden="false"
+            class="c7 c8"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+      <span
+        class="c9"
+      >
+        <span
+          class="actionIconSpan c10"
+          id="actionIconSpan"
+        >
+          <div
+            class="c11"
+            kind="ghost"
+            size="28"
+          >
+            <button
+              aria-disabled="false"
+              aria-hidden="false"
+              aria-label="Hi"
+              class="c12"
+              id="test"
+              kind="ghost"
+              role="button"
+              size="28"
+              tabindex="0"
+            >
+              <span
+                class="c13"
+              />
+              <span
+                class="c14"
+              >
+                <svg
+                  aria-hidden="false"
+                  aria-label="right-arrow icon"
+                  class="c15"
+                  fill="#000000"
+                  role="img"
+                  viewBox="0 0 21.6 21.6"
+                >
+                  <title>
+                    right-arrow icon
+                  </title>
+                  <path
+                    d="M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                    fill="#000000"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem should not render custom child when there is a subcomponent passed in 1`] = `
+.c1 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2:focus:not(:hover)::before {
+  border: 1px dashed #000000;
+  border-radius: 0.125rem;
+  content: '';
+  position: absolute;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+}
+
+.c2:focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Verizon-NHG-eDS;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+  <div
+    aria-label="Hi  subtitle-right"
+    class="c2"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c3"
+    >
+      <div>
+        Hi
+      </div>
+    </div>
+  </div>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+</div>
+`;
+
+exports[`ListGroupItem textHierarchy subtitleProminent 1`] = `
+.c8 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c7:active,
+.c7:focus,
+.c7:hover {
+  outline: none;
+}
+
+.c5:active,
+.c5:focus,
+.c5:hover {
+  outline: none;
+}
+
+.c15 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.c15:active,
+.c15:focus {
+  outline: none;
+}
+
+.c11 {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c12:focus:not(:hover) {
+  outline: none;
+}
+
+.c12:focus:not(:hover)::before {
+  content: '';
+  box-sizing: border-box;
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% - 0.125rem);
+  height: calc(100% - 0.125rem);
+}
+
+.c12:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c12:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+  background-color: rgba(111,113,113,0.06);
+}
+
+.c12:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+}
+
+.c12:active svg path,
+.c12:active svg polygon {
+  fill: #6f7171;
+}
+
+.c12:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c14 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c14:focus {
+  outline: none;
+}
+
+.c13 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c13:hover {
+  cursor: pointer;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-right: 0.25rem;
+}
+
+.c4 {
+  padding-bottom: 0.25rem;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  list-style: none;
+}
+
+.c10.active svg path {
+  fill: #6f7171;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <p
+            aria-hidden="false"
+            class="c5 c6"
+          >
+            Hi
+          </p>
+        </div>
+        <p
+          aria-hidden="false"
+          class="c7 c8"
+        >
+          Hi
+        </p>
+      </span>
+      <span
+        class="c9"
+      >
+        <span
+          class="actionIconSpan c10"
+          id="actionIconSpan"
+        >
+          <div
+            class="c11"
+            kind="ghost"
+            size="28"
+          >
+            <button
+              aria-disabled="false"
+              aria-hidden="false"
+              aria-label="Hi"
+              class="c12"
+              id="test"
+              kind="ghost"
+              role="button"
+              size="28"
+              tabindex="0"
+            >
+              <span
+                class="c13"
+              />
+              <span
+                class="c14"
+              >
+                <svg
+                  aria-hidden="false"
+                  aria-label="right-arrow icon"
+                  class="c15"
+                  fill="#000000"
+                  role="img"
+                  viewBox="0 0 21.6 21.6"
+                >
+                  <title>
+                    right-arrow icon
+                  </title>
+                  <path
+                    d="M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                    fill="#000000"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem topLine bottomLine 1`] = `
+.c6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c9 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c5:active,
+.c5:focus,
+.c5:hover {
+  outline: none;
+}
+
+.c8:active,
+.c8:focus,
+.c8:hover {
+  outline: none;
+}
+
+.c1 {
+  height: 0.0625rem;
+  width: 100%;
+  background-color: #d8dada;
+}
+
+.c16 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.c16:active,
+.c16:focus {
+  outline: none;
+}
+
+.c12 {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c13:focus:not(:hover) {
+  outline: none;
+}
+
+.c13:focus:not(:hover)::before {
+  content: '';
+  box-sizing: border-box;
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% - 0.125rem);
+  height: calc(100% - 0.125rem);
+}
+
+.c13:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c13:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+  background-color: rgba(111,113,113,0.06);
+}
+
+.c13:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+}
+
+.c13:active svg path,
+.c13:active svg polygon {
+  fill: #6f7171;
+}
+
+.c13:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c15 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c15:focus {
+  outline: none;
+}
+
+.c14 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c14:hover {
+  cursor: pointer;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  padding-right: 0.25rem;
+}
+
+.c7 {
+  padding-top: 0.25rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  list-style: none;
+}
+
+.c11.active svg path {
+  fill: #6f7171;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+  <div
+    class="c2"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c3"
+    >
+      <span
+        class="c4"
+      >
+        <p
+          aria-hidden="false"
+          class="c5 c6"
+        >
+          Hi
+        </p>
+        <div
+          class="c7"
+        >
+          <p
+            aria-hidden="false"
+            class="c8 c9"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+      <span
+        class="c10"
+      >
+        <span
+          class="actionIconSpan c11"
+          id="actionIconSpan"
+        >
+          <div
+            class="c12"
+            kind="ghost"
+            size="28"
+          >
+            <button
+              aria-disabled="false"
+              aria-hidden="false"
+              aria-label="Hi"
+              class="c13"
+              id="test"
+              kind="ghost"
+              role="button"
+              size="28"
+              tabindex="0"
+            >
+              <span
+                class="c14"
+              />
+              <span
+                class="c15"
+              >
+                <svg
+                  aria-hidden="false"
+                  aria-label="right-arrow icon"
+                  class="c16"
+                  fill="#000000"
+                  role="img"
+                  viewBox="0 0 21.6 21.6"
+                >
+                  <title>
+                    right-arrow icon
+                  </title>
+                  <path
+                    d="M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                    fill="#000000"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+  <div
+    class="c1"
+    orientation="horizontal"
+    type="secondary"
+  />
+</div>
+`;
+
+exports[`ListGroupItem with image with source array and size 116 1`] = `
+.c17 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c20 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c16:active,
+.c16:focus,
+.c16:hover {
+  outline: none;
+}
+
+.c19:active,
+.c19:focus,
+.c19:hover {
+  outline: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: Verizon-NHG-eDS;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+.c6 input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.c6 input[type='checkbox']:hover {
+  cursor: pointer;
+}
+
+.c6 input[type='checkbox']:focus {
+  outline: none;
+}
+
+.c6 input[type='checkbox']:focus + svg {
+  outline: none;
+}
+
+.c6 input[type='checkbox']:focus:not(:hover):not(:visited):not(:active) + span::after {
+  background: transparent;
+  border: 0.0625rem dashed #000000;
+  box-sizing: border-box;
+  content: '';
+  height: 1.625rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.625rem;
+  border-radius: 0.25rem;
+}
+
+.c10 {
+  left: 0.625rem;
+  position: absolute;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  top: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 2.75rem;
+  width: 2.75rem;
+}
+
+.c9 {
+  box-sizing: border-box;
+  display: inline-block;
+  content: '';
+  height: 1.25rem;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 1.25rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  box-sizing: border-box;
+  width: 1.25rem;
+  height: 1.25rem;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  border-style: solid;
+  border-color: #6f7171;
+  border-radius: 0.125rem;
+  border-width: 0.0625rem;
+  box-shadow: none;
+}
+
+.c11:active {
+  border-color: #000000;
+}
+
+.c11:active:hover {
+  box-shadow: 0 0 0 0.0625rem #000000;
+}
+
+.c5 {
+  margin-bottom: 0;
+  max-width: 37.25rem;
+  width: 100%;
+}
+
+.c7 {
+  height: 1.25rem;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c12 {
+  margin-top: 0;
+}
+
+.c8 {
+  pointer-events: auto;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c4 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+  visibility: hidden;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin-left: 1rem;
+}
+
+.c18 {
+  padding-top: 0.25rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.c14 {
+  object-fit: contain;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c13 {
+  max-width: 116px;
+  height: 116px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <label
+          class="c4"
+          for="test"
+        />
+        <div
+          class="c5"
+          width="100%"
+        >
+          <label
+            class="c6"
+            color="#000000"
+          >
+            <div
+              class="c7"
+            >
+              <input
+                aria-describedby=""
+                aria-label="Hi Hi subtitle-right"
+                class="c8"
+                data-testid="test-input"
+                id="test"
+                name="Hi"
+                required=""
+                tabindex="0"
+                type="checkbox"
+                value="Hi"
+              />
+              <span
+                class="c9"
+              >
+                <div
+                  class="c10"
+                />
+                <span
+                  class="styledInner c11"
+                  height="20"
+                  width="20"
+                />
+              </span>
+            </div>
+            <span
+              class="c12"
+              data-testid="test-child-wrapper"
+            >
+              <div
+                aria-hidden="true"
+              />
+            </span>
+          </label>
+        </div>
+      </span>
+      <div
+        class="c13"
+      >
+        <img
+          alt="test-img-srcArray"
+          class="c14"
+          src="[object Object]"
+        />
+      </div>
+      <span
+        class="c15"
+      >
+        <p
+          aria-hidden="false"
+          class="c16 c17"
+        >
+          Hi
+        </p>
+        <div
+          class="c18"
+        >
+          <p
+            aria-hidden="false"
+            class="c19 c20"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItem with image with standalone url and size 72 1`] = `
+.c7 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c10 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c12 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6:active,
+.c6:focus,
+.c6:hover {
+  outline: none;
+}
+
+.c9:active,
+.c9:focus,
+.c9:hover {
+  outline: none;
+}
+
+.c18 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.c18:active,
+.c18:focus {
+  outline: none;
+}
+
+.c14 {
+  position: relative;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.c15 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  position: relative;
+  touch-action: manipulation;
+  pointer-events: auto;
+  vertical-align: middle;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: ease-out 0.1s;
+  transition: ease-out 0.1s;
+}
+
+.c15:focus:not(:hover) {
+  outline: none;
+}
+
+.c15:focus:not(:hover)::before {
+  content: '';
+  box-sizing: border-box;
+  border: 0.0625rem dashed  #000000;
+  border-radius: 50%;
+  position: absolute;
+  width: calc(100% - 0.125rem);
+  height: calc(100% - 0.125rem);
+}
+
+.c15:focus:not(:hover):focus:not(:focus-visible)::before {
+  border: none;
+}
+
+.c15:hover {
+  outline: none;
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+  background-color: rgba(111,113,113,0.06);
+}
+
+.c15:hover:active {
+  box-shadow: 0 0 0 0.0625rem rgba(111,113,113,0.06);
+}
+
+.c15:active svg path,
+.c15:active svg polygon {
+  fill: #6f7171;
+}
+
+.c15:focus:active:not(:hover) {
+  box-shadow: none;
+}
+
+.c17 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.c17:focus {
+  outline: none;
+}
+
+.c16 {
+  height: 2.75rem;
+  width: 2.75rem;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c16:hover {
+  cursor: pointer;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  pointer-events: auto;
+}
+
+.c1 {
+  position: relative;
+  outline: none;
+  list-style: none;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin-left: 1.5rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: end;
+  max-width: 25%;
+  padding-left: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.c8 {
+  padding-top: 0.25rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  outline: none;
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 0.25rem;
+}
+
+.c13.active svg path {
+  fill: #6f7171;
+}
+
+.c4 {
+  object-fit: contain;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  max-width: 72px;
+  height: 72px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    id="test"
+    tabindex="-1"
+  >
+    <div
+      class="c2"
+    >
+      <div
+        class="c3"
+      >
+        <img
+          alt="test-img-standalone"
+          class="c4"
+          src="https://www.verizon.com/business/content/dam/img/campaigns/gateway.jpg"
+        />
+      </div>
+      <span
+        class="c5"
+      >
+        <p
+          aria-hidden="false"
+          class="c6 c7"
+        >
+          Hi
+        </p>
+        <div
+          class="c8"
+        >
+          <p
+            aria-hidden="false"
+            class="c9 c10"
+          >
+            Hi
+          </p>
+        </div>
+      </span>
+      <span
+        class="c11"
+      >
+        <p
+          aria-hidden="false"
+          class="c9 c12"
+        >
+          subtitle-right
+        </p>
+        <span
+          class="actionIconSpan c13"
+          id="actionIconSpan"
+        >
+          <div
+            class="c14"
+            kind="ghost"
+            size="28"
+          >
+            <button
+              aria-disabled="false"
+              aria-hidden="false"
+              aria-label="Hi Hi subtitle-right"
+              class="c15"
+              id="test"
+              kind="ghost"
+              role="button"
+              size="28"
+              tabindex="0"
+            >
+              <span
+                class="c16"
+              />
+              <span
+                class="c17"
+              >
+                <svg
+                  aria-hidden="false"
+                  aria-label="right-arrow icon"
+                  class="c18"
+                  fill="#000000"
+                  role="img"
+                  viewBox="0 0 21.6 21.6"
+                >
+                  <title>
+                    right-arrow icon
+                  </title>
+                  <path
+                    d="M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                    fill="#000000"
+                    stroke="none"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ListGroupItemTitle renders 1`] = `
+.c1 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-family: Verizon-NHG-eDS,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0:active,
+.c0:focus,
+.c0:hover {
+  outline: none;
+}
+
+<p
+  aria-hidden="false"
+  class="c0 c1"
+>
+  Hi
+</p>
+`;
+
+exports[`should render ListItem correctly 1`] = `
+.c0 {
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  outline: none;
+  list-style: none;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > span {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.c0:first-child {
+  padding-top: 0;
+}
+
+.c0 > span:first-child:before {
+  content: '•';
+  font-weight: 700;
+  padding-right: 0.75rem;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.c0 ul {
+  padding: 0;
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 ul li {
+  list-style: none;
+}
+
+.c0 ul li:first-child {
+  padding-top: 1rem;
+}
+
+.c0 ul li > span:first-child::before {
+  content: '–';
+  font-weight: 400;
+}
+
+<li
+  class="c0"
+>
+  <span
+    aria-hidden="true"
+  />
+  <span />
+</li>
+`;
+
+exports[`should render ListItem correctly 2`] = `
+.c0 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  line-height: 1rem;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #000000;
+  outline: none;
+  list-style: none;
+  padding-top: 0.75rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > span {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.c0:first-child {
+  padding-top: 0;
+}
+
+.c0 > span:first-child:before {
+  content: '•';
+  font-weight: 700;
+  padding-right: 0.5rem;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.c0 ul {
+  padding: 0;
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 ul li {
+  list-style: none;
+}
+
+.c0 ul li:first-child {
+  padding-top: 0.75rem;
+}
+
+.c0 ul li > span:first-child::before {
+  content: '–';
+  font-weight: 400;
+}
+
+<li
+  class="c0"
+>
+  <span
+    aria-hidden="true"
+  />
+  <span />
+</li>
+`;
+
+exports[`should render ListItem correctly 3`] = `
+.c0 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #000000;
+  outline: none;
+  list-style: none;
+  padding-top: 0.75rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > span {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.c0:first-child {
+  padding-top: 0;
+}
+
+.c0 > span:first-child:before {
+  content: '•';
+  font-weight: 700;
+  padding-right: 0.5rem;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.c0 ul {
+  padding: 0;
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 ul li {
+  list-style: none;
+}
+
+.c0 ul li:first-child {
+  padding-top: 0.75rem;
+}
+
+.c0 ul li > span:first-child::before {
+  content: '–';
+  font-weight: 400;
+}
+
+<li
+  class="c0"
+>
+  <span
+    aria-hidden="true"
+  />
+  <span />
+</li>
+`;
+
+exports[`should render ListItem correctly 4`] = `
+.c0 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #000000;
+  outline: none;
+  list-style: none;
+  padding-top: 0.75rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > span {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.c0:first-child {
+  padding-top: 0;
+}
+
+.c0 > span:first-child:before {
+  content: '•';
+  font-weight: 700;
+  padding-right: 0.5rem;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.c0 ul {
+  padding: 0;
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 ul li {
+  list-style: none;
+}
+
+.c0 ul li:first-child {
+  padding-top: 0.75rem;
+}
+
+.c0 ul li > span:first-child::before {
+  content: '–';
+  font-weight: 400;
+}
+
+<li
+  class="c0"
+>
+  <span
+    aria-hidden="true"
+  />
+  <span>
+    List A
+  </span>
+</li>
+`;
+
+exports[`should render ListItem correctly 5`] = `
+.c0 {
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  outline: none;
+  list-style: none;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > span {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.c0:first-child {
+  padding-top: 0;
+}
+
+.c0 > span:first-child:before {
+  content: '•';
+  font-weight: 700;
+  padding-right: 0.75rem;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.c0 ul {
+  padding: 0;
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 ul li {
+  list-style: none;
+}
+
+.c0 ul li:first-child {
+  padding-top: 1rem;
+}
+
+.c0 ul li > span:first-child::before {
+  content: '–';
+  font-weight: 400;
+}
+
+<li
+  class="c0"
+>
+  <span
+    aria-hidden="true"
+  />
+  <span>
+    List A
+  </span>
+</li>
+`;
+
+exports[`should render ListItem for mobile correctly 1`] = `
+.c0 {
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #000000;
+  outline: none;
+  list-style: none;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > span {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.c0:first-child {
+  padding-top: 0;
+}
+
+.c0 > span:first-child:before {
+  content: '•';
+  font-weight: 700;
+  padding-right: 0.75rem;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.c0 ul {
+  padding: 0;
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 ul li {
+  list-style: none;
+}
+
+.c0 ul li:first-child {
+  padding-top: 1rem;
+}
+
+.c0 ul li > span:first-child::before {
+  content: '–';
+  font-weight: 400;
+}
+
+<li
+  class="c0"
+>
+  <span
+    aria-hidden="true"
+  />
+  <span>
+    List A
+  </span>
+</li>
+`;
+
+exports[`should render ListItem inverted correctly 1`] = `
+.c0 {
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #ffffff;
+  outline: none;
+  list-style: none;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > span {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.c0:first-child {
+  padding-top: 0;
+}
+
+.c0 > span:first-child:before {
+  content: '•';
+  font-weight: 700;
+  padding-right: 0.75rem;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.c0 ul {
+  padding: 0;
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c0 ul li {
+  list-style: none;
+}
+
+.c0 ul li:first-child {
+  padding-top: 1rem;
+}
+
+.c0 ul li > span:first-child::before {
+  content: '–';
+  font-weight: 400;
+}
+
+<li
+  class="c0"
+>
+  <span
+    aria-hidden="true"
+  />
+  <span>
+    List A
+  </span>
+</li>
+`;
+
+exports[`should render UnorderedList correctly 1`] = `
+.c1 {
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  color: #000000;
+  outline: none;
+  list-style: none;
+  padding-top: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 > span {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.c1:first-child {
+  padding-top: 0;
+}
+
+.c1 > span:first-child:before {
+  content: '•';
+  font-weight: 700;
+  padding-right: 0.75rem;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.c1 ul {
+  padding: 0;
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 ul li {
+  list-style: none;
+}
+
+.c1 ul li:first-child {
+  padding-top: 1rem;
+}
+
+.c1 ul li > span:first-child::before {
+  content: '–';
+  font-weight: 400;
+}
+
+.c2 {
+  font-family: Verizon-NHG-eTX;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  color: #000000;
+  outline: none;
+  list-style: none;
+  padding-top: 0.75rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 > span {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+}
+
+.c2:first-child {
+  padding-top: 0;
+}
+
+.c2 > span:first-child:before {
+  content: '•';
+  font-weight: 700;
+  padding-right: 0.5rem;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.c2 ul {
+  padding: 0;
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2 ul li {
+  list-style: none;
+}
+
+.c2 ul li:first-child {
+  padding-top: 0.75rem;
+}
+
+.c2 ul li > span:first-child::before {
+  content: '–';
+  font-weight: 400;
+}
+
+.c0 {
+  padding: 0;
+  margin: 0;
+}
+
+.c0 li,
+.c0 ul li {
+  color: #000000 !important;
+}
+
+<ul
+  class="c0"
+>
+  <li
+    class="c1"
+  >
+    <span
+      aria-hidden="true"
+    />
+    <span>
+      List A
+    </span>
+  </li>
+  <li
+    class="c2"
+  >
+    <span
+      aria-hidden="true"
+    />
+    <span>
+      List B
+    </span>
+  </li>
+</ul>
+`;

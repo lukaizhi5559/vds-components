@@ -1,0 +1,32 @@
+import {
+  IconBase,
+  defaultProps,
+  propTypes,
+} from '../../../Icon/IconBase';
+
+import React from 'react';
+import { getIconColor } from '../../../Icon/utils';
+
+const TemplateIcon = props => {
+  let { ariaHidden, ariaLabel, size, surface, id, tabIndex } = props;
+  return (
+    <IconBase
+      ariaHidden={ariaHidden}
+      ariaLabel={ariaLabel}
+      size={size}
+      surface={surface}
+      id={id}
+      tabIndex={tabIndex}
+      svgContent={svgContent}
+      iconName={iconName}
+      viewBox={viewBox}
+      color={getIconColor(props)}
+    />
+  );
+};
+
+TemplateIcon.propTypes = propTypes;
+TemplateIcon.defaultProps = defaultProps;
+TemplateIcon.displayName = "VDS_Icon";
+
+export default TemplateIcon;

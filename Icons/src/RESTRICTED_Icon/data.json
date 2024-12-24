@@ -1,0 +1,596 @@
+{
+    "checkmark-alt-bold": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "version": "1.1",
+            "id": "Layer_1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            "x": "0px",
+            "y": "0px",
+            "viewBox": "0 0 21.6 21.6",
+            "style": "enable-background:new 0 0 21.6 21.6;",
+            "xml:space": "preserve"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M10.8,20.2c-5.2,0-9.4-4.2-9.4-9.4c0-5.2,4.2-9.4,9.4-9.4c5.2,0,9.4,4.2,9.4,9.4c0,0,0,0,0,0C20.2,16,16,20.2,10.8,20.2z\n\t M10.8,3.4c-4.1,0-7.4,3.3-7.4,7.4s3.3,7.4,7.4,7.4c4.1,0,7.4-3.3,7.4-7.4c0,0,0,0,0,0C18.2,6.7,14.9,3.4,10.8,3.4z M15.1,9.1\n\tl-1.4-1.4l-4,4l-1.7-1.7l-1.4,1.4l3.1,3.1L15.1,9.1z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "checkmark-alt": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M10.80009,19.80015a9,9,0,1,1,9-9A9.01054,9.01054,0,0,1,10.80009,19.80015Zm0-16.87512a7.87512,7.87512,0,1,0,7.87512,7.87512A7.88411,7.88411,0,0,0,10.80009,2.925ZM14.75,8.63964,13.95474,7.85,9.62367,12.17072,7.64331,10.20631,6.85,10.9979,9.62562,13.75Z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "checkmark-bold": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "version": "1.1",
+            "id": "Layer_1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            "x": "0px",
+            "y": "0px",
+            "viewBox": "0 0 21.6 21.6",
+            "style": "enable-background:new 0 0 21.6 21.6;",
+            "xml:space": "preserve"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M8,19.1l-7-7l2.5-2.5L8,14L18.1,3.8l2.5,2.5L8,19.1z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "checkmark": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Ebene_1",
+            "data-name": "Ebene 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M19.74,5.29,7.88,17.15,1.74,11l.84-.84,5.3,5.31,11-11Z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "close-bold": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "version": "1.1",
+            "id": "Layer_1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            "x": "0px",
+            "y": "0px",
+            "viewBox": "0 0 21.6 21.6",
+            "style": "enable-background:new 0 0 21.6 21.6;",
+            "xml:space": "preserve"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M12.2,10.8l6.8,6.8L17.6,19l-6.8-6.8L4,19l-1.4-1.4l6.8-6.8L2.6,4L4,2.6l6.8,6.8l6.8-6.8L19,4L12.2,10.8z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "close": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M11.59,10.8l7.11,7.1-.8.8-7.1-7.11L3.7,18.7l-.8-.8L10,10.8,2.9,3.7l.8-.8L10.8,10,17.9,2.9l.8.8Z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "down-caret-bold": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 12 12"
+        },
+        "children": [
+            {
+                "name": "g",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "id": "Layer_62",
+                    "data-name": "Layer 62"
+                },
+                "children": [
+                    {
+                        "name": "polygon",
+                        "type": "element",
+                        "value": "",
+                        "attributes": {
+                            "points": "6 9.687 0.518 4.206 1.932 2.791 6 6.859 10.067 2.791 11.481 4.206 6 9.687"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "down-caret": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "polygon",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "points": "10.8 15.71 1.8 6.71 2.62 5.89 10.8 14.07 18.98 5.89 19.8 6.71 10.8 15.71"
+                },
+                "children": []
+            }
+        ]
+    },
+    "error-bold": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "version": "1.1",
+            "id": "Layer_1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            "x": "0px",
+            "y": "0px",
+            "viewBox": "0 0 21.6 21.6",
+            "style": "enable-background:new 0 0 21.6 21.6;",
+            "xml:space": "preserve"
+        },
+        "children": [
+            {
+                "name": "style",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "type": "text/css"
+                },
+                "children": [
+                    {
+                        "name": "",
+                        "type": "text",
+                        "value": "\n\t.st0{fill:#010101;}\n",
+                        "attributes": {},
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "class": "st0",
+                    "d": "M19.4,8.8l-6.6-6.6c-1.1-1.1-2.9-1.1-4,0L2.2,8.8c-1.1,1.1-1.1,2.9,0,4l6.6,6.6c1.1,1.1,2.9,1.1,4,0\n\tc0,0,0,0,0,0l6.6-6.6C20.5,11.7,20.5,9.9,19.4,8.8z M18,11.4L11.4,18c-0.3,0.3-0.9,0.3-1.2,0l-6.6-6.6c-0.3-0.3-0.3-0.9,0-1.2\n\tl6.6-6.6c0.3-0.3,0.9-0.3,1.2,0l6.6,6.6C18.3,10.5,18.3,11.1,18,11.4z M9.9,13.4h1.7v1.7H9.9V13.4z M9.9,6.5h1.7V9l-0.6,2.6h-0.6\n\tL9.9,9V6.5z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "error": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M10.80213,19.80122a2.39567,2.39567,0,0,1-1.705-.707L2.50743,12.50444a2.41244,2.41244,0,0,1,0-3.40913L9.09808,2.50555a2.4159,2.4159,0,0,1,3.40908-.001l6.58967,6.59073a2.41244,2.41244,0,0,1,0,3.40913L12.50716,19.0942A2.394,2.394,0,0,1,10.80213,19.80122Zm-7.4998-9.911a1.289,1.289,0,0,0,0,1.81931L9.893,18.29929a1.31476,1.31476,0,0,0,1.81928,0l6.58967-6.58976a1.289,1.289,0,0,0,0-1.81931L11.71226,3.30047a1.29076,1.29076,0,0,0-1.81928,0ZM9.95,15.05h1.7V13.367H9.95Zm0-6.00953.561,2.635h.56952l.56951-2.635V6.55H9.95Z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "info-bold": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "defs",
+                "type": "element",
+                "value": "",
+                "attributes": {},
+                "children": [
+                    {
+                        "name": "style",
+                        "type": "element",
+                        "value": "",
+                        "attributes": {},
+                        "children": [
+                            {
+                                "name": "",
+                                "type": "text",
+                                "value": "\n      .cls-1 {\n        fill: #010101;\n      }\n    ",
+                                "attributes": {},
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "class": "cls-1",
+                    "d": "M10.80011,1.36129a9.43848,9.43848,0,1,0,9.43848,9.43848A9.43847,9.43847,0,0,0,10.80011,1.36129Zm0,16.877a7.43848,7.43848,0,1,1,7.43848-7.43848A7.43849,7.43849,0,0,1,10.80011,18.23825ZM11.625,7.45849H9.95V5.78344h1.675ZM9.95834,9.11663H11.65v6.69989H9.95834Z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "info": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "defs",
+                "type": "element",
+                "value": "",
+                "attributes": {},
+                "children": [
+                    {
+                        "name": "style",
+                        "type": "element",
+                        "value": "",
+                        "attributes": {},
+                        "children": [
+                            {
+                                "name": "",
+                                "type": "text",
+                                "value": ".cls-1{fill:#010101;}",
+                                "attributes": {},
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "class": "cls-1",
+                    "d": "M19.8,10.8a9,9,0,1,0-9,9A9.01054,9.01054,0,0,0,19.8,10.8Zm-1.12488,0A7.87513,7.87513,0,1,1,10.8,2.92486,7.88411,7.88411,0,0,1,18.67509,10.8ZM11.625,7.45852H9.95v-1.675h1.675ZM9.95834,9.11662H11.65v6.6999H9.95834Z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "left-arrow": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Left_Arrow",
+            "data-name": "Left Arrow",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M19.8,11.37251H4.01466l7.68305,7.61761-.817.80988L1.8,10.8l9.08069-9,.817.80988-7.683,7.61761H19.8Z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "left-caret-bold": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "version": "1.1",
+            "id": "Layer_1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            "x": "0px",
+            "y": "0px",
+            "viewBox": "0 0 21.6 21.6",
+            "style": "enable-background:new 0 0 21.6 21.6;",
+            "xml:space": "preserve"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M14.1,20.7l-9.9-9.9l9.9-9.9l2.5,2.5l-7.3,7.3l7.3,7.3L14.1,20.7z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "left-caret": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "polygon",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "points": "14.89 19.8 5.89 10.799 14.89 1.8 15.71 2.619 7.53 10.799 15.71 18.981 14.89 19.8"
+                },
+                "children": []
+            }
+        ]
+    },
+    "pagination-left-arrow": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "version": "1.1",
+            "id": "Layer_1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            "x": "0px",
+            "y": "0px",
+            "viewBox": "0 0 21.6 21.6",
+            "style": "enable-background:new 0 0 21.6 21.6;",
+            "xml:space": "preserve"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M19.8,11.7h-15l7.1,7.1L10.7,20l-9.3-9.2l9.3-9.2l1.3,1.3L4.8,9.9h15L19.8,11.7z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "pagination-right-arrow": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M20.26723,10.80317,10.94378,20.044,9.6764,18.7643l7.12223-7.05674H1.8014v-1.8H16.808L9.68256,2.84378l1.26738-1.278Z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "right-arrow": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Ebene_1",
+            "data-name": "Ebene 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M10.71933,19.8l-.817-.80985,7.683-7.61765H1.8v-1.145H17.58533l-7.683-7.61765.817-.80985L19.8,10.8Z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "right-caret-bold": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "version": "1.1",
+            "id": "Layer_1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "xmlns:xlink": "http://www.w3.org/1999/xlink",
+            "x": "0px",
+            "y": "0px",
+            "viewBox": "0 0 21.6 21.6",
+            "style": "enable-background:new 0 0 21.6 21.6;",
+            "xml:space": "preserve"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M7.6,20.7L5,18.1l7.3-7.3L5,3.5l2.5-2.5l9.9,9.9L7.6,20.7z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "right-caret": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "polygon",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "points": "6.71 19.8 5.89 18.981 14.07 10.799 5.89 2.619 6.71 1.8 15.71 10.799 6.71 19.8"
+                },
+                "children": []
+            }
+        ]
+    },
+    "warning-bold": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M19.90265,15.566l-6.936-12.03357a2.50126,2.50126,0,0,0-4.34088-.001L1.69659,15.566a2.51054,2.51054,0,0,0,2.17432,3.75989H17.7312A2.50926,2.50926,0,0,0,19.90265,15.566Zm-1.734,1.5055a.51007.51007,0,0,1-.43933.25482H3.87286a.51076.51076,0,0,1-.44323-.76251L10.3598,4.52633a.50217.50217,0,0,1,.87183,0l6.938,12.03552A.51553.51553,0,0,1,18.16864,17.0715ZM9.95,14.367h1.7V16.05H9.95Zm0-6.817h1.7v2.49048l-.56951,2.635H10.511L9.95,10.04049Z"
+                },
+                "children": []
+            }
+        ]
+    },
+    "warning": {
+        "name": "svg",
+        "type": "element",
+        "value": "",
+        "attributes": {
+            "id": "Layer_1",
+            "data-name": "Layer 1",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "0 0 21.6 21.6"
+        },
+        "children": [
+            {
+                "name": "path",
+                "type": "element",
+                "value": "",
+                "attributes": {
+                    "d": "M19.52557,15.78473,12.588,3.74951a2.0643,2.0643,0,0,0-3.584-.001L2.0733,15.78668a2.07277,2.07277,0,0,0,1.79688,3.10358H17.73157a2.07289,2.07289,0,0,0,1.794-3.10553ZM18.548,17.2926a.9494.9494,0,0,1-.81738.47266H3.87115a.94838.94838,0,0,1-.82226-1.419L9.97961,4.30811a.9396.9396,0,0,1,1.63184,0L18.551,16.34625A.95147.95147,0,0,1,18.548,17.2926ZM9.95,14.367h1.7V16.05H9.95Zm0-6.817h1.7v2.49048l-.56951,2.635H10.511l-.561-2.635Z"
+                },
+                "children": []
+            }
+        ]
+    }
+}

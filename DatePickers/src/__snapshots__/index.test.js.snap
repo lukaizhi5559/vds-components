@@ -1,0 +1,3505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DatePicker /> DatePicker activeStartDate 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #6f7171;
+  border-bottom: 0.0625rem solid #6f7171;
+}
+
+.c7:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c9 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9[disabled] {
+  -webkit-text-fill-color: #d8dada;
+}
+
+.c9::-webkit-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::-moz-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:-ms-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.c5:hover + span {
+  border: 0.0625rem solid #000000;
+}
+
+.c6 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        
+        <span
+          class="c3"
+        >
+          <span
+            aria-live="assertive"
+            class="c4"
+          >
+            <div
+              aria-hidden="false"
+              class="c5"
+              label=""
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c6"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#000000"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c7"
+              label=""
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c8"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label=" collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c9"
+                  data-testid="test-input"
+                  id="1"
+                  maxlength="none"
+                  required=""
+                  value=""
+                />
+              </div>
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DatePicker /> DatePicker alwaysOpen 1`] = `
+.c15 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c14:active,
+.c14:focus,
+.c14:hover {
+  outline: none;
+}
+
+.c13 {
+  margin-top: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #ffece0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #b95319;
+  border-bottom: 0.0625rem solid #b95319;
+}
+
+.c7:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c9 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9[disabled] {
+  -webkit-text-fill-color: #d8dada;
+}
+
+.c9::-webkit-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::-moz-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:-ms-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  padding: 0 0.6875rem 0 0;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12:active,
+.c12:focus {
+  outline: none;
+}
+
+.c12 svg path {
+  fill: #000000;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.c5:hover + span {
+  border: 0.0625rem solid #000000;
+}
+
+.c6 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        
+        <span
+          class="c3"
+        >
+          <span
+            aria-live="assertive"
+            class="c4"
+          >
+            <div
+              aria-hidden="false"
+              class="c5"
+              label=""
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c6"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#000000"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c7"
+              label=""
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c8"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label=" Error Text collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c9"
+                  data-testid="test-input"
+                  id="1"
+                  maxlength="none"
+                  required=""
+                  value=""
+                />
+              </div>
+              <div
+                class="c10"
+                id="inlineButtonWrapper-1"
+              >
+                <span
+                  aria-hidden="true"
+                  class="c11"
+                  tabindex="-1"
+                >
+                  <div
+                    aria-hidden="true"
+                    aria-label="error icon"
+                    class="c12"
+                    tabindex="-1"
+                  >
+                    <svg
+                      data-name="Layer 1"
+                      id="Layer_1"
+                      viewBox="0 0 21.6 21.6"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.80213,19.80122a2.39567,2.39567,0,0,1-1.705-.707L2.50743,12.50444a2.41244,2.41244,0,0,1,0-3.40913L9.09808,2.50555a2.4159,2.4159,0,0,1,3.40908-.001l6.58967,6.59073a2.41244,2.41244,0,0,1,0,3.40913L12.50716,19.0942A2.394,2.394,0,0,1,10.80213,19.80122Zm-7.4998-9.911a1.289,1.289,0,0,0,0,1.81931L9.893,18.29929a1.31476,1.31476,0,0,0,1.81928,0l6.58967-6.58976a1.289,1.289,0,0,0,0-1.81931L11.71226,3.30047a1.29076,1.29076,0,0,0-1.81928,0ZM9.95,15.05h1.7V13.367H9.95Zm0-6.00953.561,2.635h.56952l.56951-2.635V6.55H9.95Z"
+                      />
+                    </svg>
+                  </div>
+                </span>
+              </div>
+            </span>
+            <div
+              role="alert"
+            >
+              <div
+                class="c13"
+              >
+                <p
+                  aria-hidden="false"
+                  class="c14 c15"
+                >
+                  Error Text
+                </p>
+              </div>
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DatePicker /> DatePicker calculateInputPadding 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #6f7171;
+  border-bottom: 0.0625rem solid #6f7171;
+}
+
+.c7:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c9 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9[disabled] {
+  -webkit-text-fill-color: #d8dada;
+}
+
+.c9::-webkit-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::-moz-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:-ms-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.c5:hover + span {
+  border: 0.0625rem solid #000000;
+}
+
+.c6 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        
+        <span
+          class="c3"
+        >
+          <span
+            aria-live="assertive"
+            class="c4"
+          >
+            <div
+              aria-hidden="false"
+              class="c5"
+              label=""
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c6"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#000000"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c7"
+              label=""
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c8"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label=" selected date December 17, 1995 collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c9"
+                  data-testid="test-input"
+                  id="1"
+                  maxlength="none"
+                  required=""
+                  value="December 17, 1995"
+                />
+              </div>
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DatePicker /> DatePicker check empty error 1`] = `
+.c15 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c14:active,
+.c14:focus,
+.c14:hover {
+  outline: none;
+}
+
+.c13 {
+  margin-top: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #ffece0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #b95319;
+  border-bottom: 0.0625rem solid #b95319;
+}
+
+.c7:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c9 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9[disabled] {
+  -webkit-text-fill-color: #d8dada;
+}
+
+.c9::-webkit-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::-moz-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:-ms-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  padding: 0 0.6875rem 0 0;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12:active,
+.c12:focus {
+  outline: none;
+}
+
+.c12 svg path {
+  fill: #000000;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.c5:hover + span {
+  border: 0.0625rem solid #000000;
+}
+
+.c6 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        
+        <span
+          class="c3"
+        >
+          <span
+            aria-live="assertive"
+            class="c4"
+          >
+            <div
+              aria-hidden="false"
+              class="c5"
+              label=""
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c6"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#000000"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c7"
+              label=""
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c8"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label=" Error Text collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c9"
+                  data-testid="test-input"
+                  id="1"
+                  maxlength="none"
+                  required=""
+                  value=""
+                />
+              </div>
+              <div
+                class="c10"
+                id="inlineButtonWrapper-1"
+              >
+                <span
+                  aria-hidden="true"
+                  class="c11"
+                  tabindex="-1"
+                >
+                  <div
+                    aria-hidden="true"
+                    aria-label="error icon"
+                    class="c12"
+                    tabindex="-1"
+                  >
+                    <svg
+                      data-name="Layer 1"
+                      id="Layer_1"
+                      viewBox="0 0 21.6 21.6"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.80213,19.80122a2.39567,2.39567,0,0,1-1.705-.707L2.50743,12.50444a2.41244,2.41244,0,0,1,0-3.40913L9.09808,2.50555a2.4159,2.4159,0,0,1,3.40908-.001l6.58967,6.59073a2.41244,2.41244,0,0,1,0,3.40913L12.50716,19.0942A2.394,2.394,0,0,1,10.80213,19.80122Zm-7.4998-9.911a1.289,1.289,0,0,0,0,1.81931L9.893,18.29929a1.31476,1.31476,0,0,0,1.81928,0l6.58967-6.58976a1.289,1.289,0,0,0,0-1.81931L11.71226,3.30047a1.29076,1.29076,0,0,0-1.81928,0ZM9.95,15.05h1.7V13.367H9.95Zm0-6.00953.561,2.635h.56952l.56951-2.635V6.55H9.95Z"
+                      />
+                    </svg>
+                  </div>
+                </span>
+              </div>
+            </span>
+            <div
+              role="alert"
+            >
+              <div
+                class="c13"
+              >
+                <p
+                  aria-hidden="false"
+                  class="c14 c15"
+                >
+                  Error Text
+                </p>
+              </div>
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DatePicker /> DatePicker format 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #6f7171;
+  border-bottom: 0.0625rem solid #6f7171;
+}
+
+.c7:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c9 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9[disabled] {
+  -webkit-text-fill-color: #d8dada;
+}
+
+.c9::-webkit-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::-moz-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:-ms-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.c5:hover + span {
+  border: 0.0625rem solid #000000;
+}
+
+.c6 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        
+        <span
+          class="c3"
+        >
+          <span
+            aria-live="assertive"
+            class="c4"
+          >
+            <div
+              aria-hidden="false"
+              class="c5"
+              label=""
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c6"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#000000"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c7"
+              label=""
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c8"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label=" selected date December 17, 1995 collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c9"
+                  data-testid="test-input"
+                  format="Month, Date, Year"
+                  id="1"
+                  maxlength="none"
+                  required=""
+                  value="December 17, 1995"
+                />
+              </div>
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DatePicker /> DatePicker format validation when format="Mon D, YYYY" 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #6f7171;
+  border-bottom: 0.0625rem solid #6f7171;
+}
+
+.c7:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c9 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9[disabled] {
+  -webkit-text-fill-color: #d8dada;
+}
+
+.c9::-webkit-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::-moz-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:-ms-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.c5:hover + span {
+  border: 0.0625rem solid #000000;
+}
+
+.c6 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        
+        <span
+          class="c3"
+        >
+          <span
+            aria-live="assertive"
+            class="c4"
+          >
+            <div
+              aria-hidden="false"
+              class="c5"
+              label=""
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c6"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#000000"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c7"
+              label=""
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c8"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label=" selected date December 17, 1995 collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c9"
+                  data-testid="test-input"
+                  format="Mon D, YYYY"
+                  id="1"
+                  maxlength="none"
+                  required=""
+                  value="December 17, 1995"
+                />
+              </div>
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DatePicker /> DatePicker in error state 1`] = `
+.c15 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c14:active,
+.c14:focus,
+.c14:hover {
+  outline: none;
+}
+
+.c13 {
+  margin-top: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #ffece0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #b95319;
+  border-bottom: 0.0625rem solid #b95319;
+}
+
+.c7:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c9 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9[disabled] {
+  -webkit-text-fill-color: #d8dada;
+}
+
+.c9::-webkit-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::-moz-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:-ms-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  padding: 0 0.6875rem 0 0;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12:active,
+.c12:focus {
+  outline: none;
+}
+
+.c12 svg path {
+  fill: #000000;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.c5:hover + span {
+  border: 0.0625rem solid #000000;
+}
+
+.c6 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        
+        <span
+          class="c3"
+        >
+          <span
+            aria-live="assertive"
+            class="c4"
+          >
+            <div
+              aria-hidden="false"
+              class="c5"
+              label=""
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c6"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#000000"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c7"
+              label=""
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c8"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label=" Error Text selected date December 17, 1995 collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c9"
+                  data-testid="test-input"
+                  id="1"
+                  maxlength="none"
+                  required=""
+                  value="December 17, 1995"
+                />
+              </div>
+              <div
+                class="c10"
+                id="inlineButtonWrapper-1"
+              >
+                <span
+                  aria-hidden="true"
+                  class="c11"
+                  tabindex="-1"
+                >
+                  <div
+                    aria-hidden="true"
+                    aria-label="error icon"
+                    class="c12"
+                    tabindex="-1"
+                  >
+                    <svg
+                      data-name="Layer 1"
+                      id="Layer_1"
+                      viewBox="0 0 21.6 21.6"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.80213,19.80122a2.39567,2.39567,0,0,1-1.705-.707L2.50743,12.50444a2.41244,2.41244,0,0,1,0-3.40913L9.09808,2.50555a2.4159,2.4159,0,0,1,3.40908-.001l6.58967,6.59073a2.41244,2.41244,0,0,1,0,3.40913L12.50716,19.0942A2.394,2.394,0,0,1,10.80213,19.80122Zm-7.4998-9.911a1.289,1.289,0,0,0,0,1.81931L9.893,18.29929a1.31476,1.31476,0,0,0,1.81928,0l6.58967-6.58976a1.289,1.289,0,0,0,0-1.81931L11.71226,3.30047a1.29076,1.29076,0,0,0-1.81928,0ZM9.95,15.05h1.7V13.367H9.95Zm0-6.00953.561,2.635h.56952l.56951-2.635V6.55H9.95Z"
+                      />
+                    </svg>
+                  </div>
+                </span>
+              </div>
+            </span>
+            <div
+              role="alert"
+            >
+              <div
+                class="c13"
+              >
+                <p
+                  aria-hidden="false"
+                  class="c14 c15"
+                >
+                  Error Text
+                </p>
+              </div>
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DatePicker /> DatePicker inverted 1`] = `
+.c15 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #ffffff;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c14:active,
+.c14:focus,
+.c14:hover {
+  outline: none;
+}
+
+.c13 {
+  margin-top: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #561701;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #ff8027;
+  border-bottom: 0.0625rem solid #ff8027;
+}
+
+.c7:hover {
+  border: 0.0625rem solid #ffffff;
+}
+
+.c9 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #ffffff;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9[disabled] {
+  -webkit-text-fill-color: #333333;
+}
+
+.c9::-webkit-input-placeholder {
+  position: relative;
+  color: #333333 !important;
+  top: 0px;
+}
+
+.c9::-moz-placeholder {
+  position: relative;
+  color: #333333 !important;
+  top: 0px;
+}
+
+.c9:-ms-input-placeholder {
+  position: relative;
+  color: #333333 !important;
+  top: 0px;
+}
+
+.c9::placeholder {
+  position: relative;
+  color: #333333 !important;
+  top: 0px;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  padding: 0 0.6875rem 0 0;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12:active,
+.c12:focus {
+  outline: none;
+}
+
+.c12 svg path {
+  fill: #ffffff;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.c5:hover + span {
+  border: 0.0625rem solid #ffffff;
+}
+
+.c6 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        
+        <span
+          class="c3"
+        >
+          <span
+            aria-live="assertive"
+            class="c4"
+          >
+            <div
+              aria-hidden="false"
+              class="c5"
+              label=""
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c6"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#ffffff"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c7"
+              label=""
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c8"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label=" Error Text collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c9"
+                  data-testid="test-input"
+                  id="1"
+                  maxlength="none"
+                  required=""
+                  value=""
+                />
+              </div>
+              <div
+                class="c10"
+                id="inlineButtonWrapper-1"
+              >
+                <span
+                  aria-hidden="true"
+                  class="c11"
+                  tabindex="-1"
+                >
+                  <div
+                    aria-hidden="true"
+                    aria-label="error icon"
+                    class="c12"
+                    tabindex="-1"
+                  >
+                    <svg
+                      data-name="Layer 1"
+                      id="Layer_1"
+                      viewBox="0 0 21.6 21.6"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.80213,19.80122a2.39567,2.39567,0,0,1-1.705-.707L2.50743,12.50444a2.41244,2.41244,0,0,1,0-3.40913L9.09808,2.50555a2.4159,2.4159,0,0,1,3.40908-.001l6.58967,6.59073a2.41244,2.41244,0,0,1,0,3.40913L12.50716,19.0942A2.394,2.394,0,0,1,10.80213,19.80122Zm-7.4998-9.911a1.289,1.289,0,0,0,0,1.81931L9.893,18.29929a1.31476,1.31476,0,0,0,1.81928,0l6.58967-6.58976a1.289,1.289,0,0,0,0-1.81931L11.71226,3.30047a1.29076,1.29076,0,0,0-1.81928,0ZM9.95,15.05h1.7V13.367H9.95Zm0-6.00953.561,2.635h.56952l.56951-2.635V6.55H9.95Z"
+                      />
+                    </svg>
+                  </div>
+                </span>
+              </div>
+            </span>
+            <div
+              role="alert"
+            >
+              <div
+                class="c13"
+              >
+                <p
+                  aria-hidden="false"
+                  class="c14 c15"
+                >
+                  Error Text
+                </p>
+              </div>
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DatePicker /> DatePicker inverted disabled 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #333333;
+  border-bottom: 0.0625rem solid #333333;
+}
+
+.c7:hover {
+  border: 0.0625rem solid #333333;
+}
+
+.c9 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #333333;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9[disabled] {
+  -webkit-text-fill-color: #333333;
+}
+
+.c9::-webkit-input-placeholder {
+  position: relative;
+  color: #333333 !important;
+  top: 0px;
+}
+
+.c9::-moz-placeholder {
+  position: relative;
+  color: #333333 !important;
+  top: 0px;
+}
+
+.c9:-ms-input-placeholder {
+  position: relative;
+  color: #333333 !important;
+  top: 0px;
+}
+
+.c9::placeholder {
+  position: relative;
+  color: #333333 !important;
+  top: 0px;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+}
+
+.c6 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        
+        <span
+          class="c3"
+        >
+          <span
+            aria-live="assertive"
+            class="c4"
+          >
+            <div
+              aria-hidden="false"
+              class="c5"
+              disabled=""
+              label=""
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c6"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#333333"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c7"
+              disabled=""
+              label=""
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c8"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label=" Error Text collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c9"
+                  data-testid="test-input"
+                  disabled=""
+                  id="1"
+                  maxlength="none"
+                  required=""
+                  value=""
+                />
+              </div>
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DatePicker /> DatePicker readOnly 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #6f7171;
+  border-bottom: 0.0625rem solid #6f7171;
+  border: 0.0625rem solid #d8dada;
+}
+
+.c7:hover {
+  border: 0.0625rem solid #d8dada;
+}
+
+.c9 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9[disabled] {
+  -webkit-text-fill-color: #d8dada;
+}
+
+.c9::-webkit-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::-moz-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:-ms-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9::placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c8 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c5 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+}
+
+.c6 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c6:active,
+.c6:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    id="datePicker"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        
+        <span
+          class="c3"
+        >
+          <span
+            aria-live="assertive"
+            class="c4"
+          >
+            <div
+              aria-hidden="false"
+              class="c5"
+              label=""
+              readonly=""
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c6"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#000000"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c7"
+              label=""
+              readonly=""
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c8"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label=" selected date December 17, 1995 collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c9"
+                  data-testid="test-input"
+                  id="1"
+                  maxlength="none"
+                  readonly=""
+                  required=""
+                  value="December 17, 1995"
+                />
+              </div>
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<DatePicker /> DatePicker with label 1`] = `
+.c5 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c4:active,
+.c4:focus,
+.c4:hover {
+  outline: none;
+}
+
+.c3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.25rem;
+  width: 100%;
+}
+
+.c3 > * {
+  white-space: normal;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2.75rem;
+  min-width: 2.75rem;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 0.0625rem solid #6f7171;
+  border-bottom: 0.0625rem solid #6f7171;
+}
+
+.c10:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c12 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: auto;
+  border-radius: 4px;
+  background-color: transparent;
+  caret-color: transparent;
+  color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  -webkit-letter-spacing: 0.03125rem;
+  -moz-letter-spacing: 0.03125rem;
+  -ms-letter-spacing: 0.03125rem;
+  letter-spacing: 0.03125rem;
+  margin: 0;
+  padding: 0.75rem 0.75rem 0.75rem 2.75rem;
+}
+
+.c12::-ms-clear,
+.c12::-ms-reveal {
+  display: none;
+}
+
+.c12::-webkit-outer-spin-button,
+.c12::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c12[disabled] {
+  -webkit-text-fill-color: #d8dada;
+}
+
+.c12::-webkit-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c12::-moz-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c12:-ms-input-placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c12::placeholder {
+  position: relative;
+  color: #d8dada !important;
+  top: 0px;
+}
+
+.c12:focus {
+  outline: none;
+}
+
+.c11 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: NaNrem;
+  min-width: 2.75rem;
+  height: NaNrem;
+}
+
+.c0 input:required {
+  box-shadow: none;
+}
+
+.c8 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.c8:hover + span {
+  border: 0.0625rem solid #000000;
+}
+
+.c9 {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c9:active,
+.c9:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="date-test-id"
+    width="100%"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+        data-testid="test-container"
+      >
+        <label
+          class="c3"
+          data-testid="test-label"
+          for="1"
+          id="1-label"
+          label="date label"
+          width="100%"
+        >
+          <p
+            aria-hidden="false"
+            class="c4 c5"
+            id="1-label-text"
+          >
+            date label
+          </p>
+        </label>
+        <span
+          class="c6"
+        >
+          <span
+            aria-live="assertive"
+            class="c7"
+          >
+            <div
+              aria-hidden="false"
+              class="c8"
+              label="date label"
+            >
+              <svg
+                aria-label="calendar icon"
+                class="c9"
+                tabindex="-1"
+                viewBox="0 0 21.6 21.6"
+              >
+                <path
+                  d="M1.8,1.8v18h18v-18C19.8,1.8,1.8,1.8,1.8,1.8z M18.7,18.7H2.9V5.2h15.7v13.5H18.7z M18.7,4H2.9V2.9h15.7V4H18.7z M10.7,13.8 c0-1.1-0.8-1.7-2.2-1.7H8v-0.8h0.5c1.3,0,2-0.6,2-1.5c0-0.9-0.8-1.5-1.8-1.5c-1.2,0-2,0.8-2,2h-1c0-1.7,1.1-2.8,3-2.8 c1.6,0,2.8,0.9,2.8,2.3c0,1-0.6,1.5-1.4,1.8v0c1.2,0.3,1.7,1.1,1.7,2.2c0,1.6-1.3,2.6-3.1,2.6c-1.9,0-3.4-1.1-3.4-3h1 c0,1.4,0.9,2.1,2.3,2.1C9.9,15.6,10.7,15,10.7,13.8z M14.8,10h-1.9V9.3c1,0,1.9-0.4,2.1-1.7h0.8v8.6h-1V10z"
+                  fill="#000000"
+                  stroke="none"
+                />
+              </svg>
+            </div>
+            <span
+              class="c10"
+              label="date label"
+              type="calendar"
+            >
+              <div
+                aria-live="off"
+                class="c11"
+              >
+                <input
+                  aria-hidden="false"
+                  aria-invalid="false"
+                  aria-label="date label collapsed. Press space/enter to expand calendar"
+                  autocomplete="off"
+                  class="c12"
+                  data-testid="test-input"
+                  id="1"
+                  maxlength="none"
+                  required=""
+                  value=""
+                />
+              </div>
+            </span>
+          </span>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

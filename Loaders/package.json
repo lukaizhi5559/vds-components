@@ -1,0 +1,33 @@
+{
+  "name": "@vds-core/loaders",
+  "version": "3.1.11",
+  "description": "A loader is an indeterminate indicator that uses animation to tell customers there is an unspecified amount of wait time while a task is ongoing, e.g. a page is loading, a form is being submitted. The component disappears when the task is complete.",
+  "publishConfig": {
+    "registry": "https://oneartifactoryci.verizon.com/artifactory/api/npm/GVJV_npm_VDS/"
+  },
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "build": "rollup -c ../../rollup.config.js",
+    "build:docs": "node ../../scripts/build-docs.js"
+  },
+  "author": "Thomas Hessler <thomas.hessler@verizon.com>",
+  "contributors": [
+    "Kevin Ryan <kevin.ryan@verizon.com>",
+    "Domenic Conroy <domenic.conroy@verizon.com>",
+    "Nathan Myers <nathan.myers@verizon.com>"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.2.0 || ^17.0.0 || ^18.0.0",
+    "styled-components": "^3.2.6 || 4.x.x || 5.x.x || 6.x.x",
+    "react-dom": "^16.2.0 || ^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "@vds-core/utilities": "3.2.2",
+    "@vds-tokens/color": "2.1.2",
+    "focus-trap-react": "^6.0.0"
+  }
+}

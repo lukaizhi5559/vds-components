@@ -1,0 +1,25 @@
+{
+  "name": "@vds-core/theme",
+  "version": "1.0.16",
+  "description": "Theme for VDS.",
+  "publishConfig": {
+    "registry": "https://oneartifactoryci.verizon.com/artifactory/api/npm/GVJV_npm_VDS/"
+  },
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "build": "rollup -c ../../rollup.config.js",
+    "build:docs": "node ../../scripts/build-docs.js"
+  },
+  "author": "Thomas Hessler <thomas.hessler@verizon.com>",
+  "contributors": [
+    "Kevin Ryan <kevin.ryan@verizon.com>",
+    "Domenic Conroy <domenic.conroy@verizon.com>",
+    "Nathan Myers <nathan.myers@verizon.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@vds-core/utilities": "3.2.2"
+  }
+}

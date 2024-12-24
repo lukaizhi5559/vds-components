@@ -1,0 +1,4819 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea TextArea calculateBackgroundColor 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c16 {
+  padding: 8px 0 0 16px;
+}
+
+.c15 {
+  margin-top: 0.5rem;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c12 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12:active,
+.c12:focus {
+  outline: none;
+}
+
+.c12 svg path {
+  fill: #000000;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 5.5rem;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color: #b95319;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c5:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: none;
+  pointer-events: none;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c14 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="test-label"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          test-label
+        </p>
+      </label>
+      <span
+        class="c5"
+        label="test-label"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            
+            <mark
+              class="c8"
+            />
+          </div>
+          <textarea
+            aria-label="test-label Input Field 0 out of 200 characters entered"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            id="1"
+            maxlength="240"
+          />
+        </div>
+        <div
+          class="c10"
+        >
+          <span
+            class="c11"
+            tabindex="-1"
+          >
+            <div
+              aria-label="error icon"
+              class="c12"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.80213,19.80122a2.39567,2.39567,0,0,1-1.705-.707L2.50743,12.50444a2.41244,2.41244,0,0,1,0-3.40913L9.09808,2.50555a2.4159,2.4159,0,0,1,3.40908-.001l6.58967,6.59073a2.41244,2.41244,0,0,1,0,3.40913L12.50716,19.0942A2.394,2.394,0,0,1,10.80213,19.80122Zm-7.4998-9.911a1.289,1.289,0,0,0,0,1.81931L9.893,18.29929a1.31476,1.31476,0,0,0,1.81928,0l6.58967-6.58976a1.289,1.289,0,0,0,0-1.81931L11.71226,3.30047a1.29076,1.29076,0,0,0-1.81928,0ZM9.95,15.05h1.7V13.367H9.95Zm0-6.00953.561,2.635h.56952l.56951-2.635V6.55H9.95Z"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+      <span
+        class="c13"
+      >
+        <span
+          class="c14"
+        >
+          <div
+            role="alert"
+          >
+            <div
+              class="c15"
+            >
+              <p
+                aria-hidden="false"
+                class="c3 c4"
+              >
+                Error
+              </p>
+            </div>
+          </div>
+        </span>
+        <span
+          class="c14"
+        >
+          <div
+            class="c16"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              0/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea calculateOptionalLabelColor 1`] = `
+.c12 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #d8dada;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c11:active,
+.c11:focus,
+.c11:hover {
+  outline: none;
+}
+
+.c10 {
+  padding: 8px 0 0 16px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 5.5rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-color: #d8dada;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c7 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c5 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c6 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #d8dada;
+  -webkit-text-fill-color: #d8dada;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c6::-ms-clear,
+.c6::-ms-reveal {
+  display: none;
+}
+
+.c6::-webkit-outer-spin-button,
+.c6::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c6:focus {
+  outline: none;
+}
+
+.c6::-webkit-scrollbar {
+  display: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c9 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <span
+        class="c2"
+        disabled=""
+      >
+        <div
+          class="c3"
+        >
+          <div
+            aria-hidden="true"
+            class="c4"
+          >
+            
+            <mark
+              class="c5"
+            />
+          </div>
+          <textarea
+            aria-label=" Optional Input Field 0 out of 200 characters entered"
+            aria-required="false"
+            autocomplete="off"
+            class="c6"
+            data-testid="test-input"
+            disabled=""
+            id="1"
+            maxlength="240"
+          />
+        </div>
+        <div
+          class="c7"
+        />
+      </span>
+      <span
+        class="c8"
+      >
+        <span
+          class="c9"
+        />
+        <span
+          class="c9"
+        >
+          <div
+            class="c10"
+          >
+            <p
+              aria-hidden="true"
+              class="c11 c12"
+              tabindex="-1"
+            >
+              0/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea defaultValue 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c13 {
+  padding: 8px 0 0 16px;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 11rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c5:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c12 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="test-label"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          test-label
+        </p>
+      </label>
+      <span
+        class="c5"
+        label="test-label"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            #123, Verizon
+            <mark
+              class="c8"
+            />
+          </div>
+          <textarea
+            aria-label="test-label Input Field 13 out of 200 characters entered"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            id="1"
+            maxlength="240"
+          >
+            #123, Verizon
+          </textarea>
+        </div>
+        <div
+          class="c10"
+        />
+      </span>
+      <span
+        class="c11"
+      >
+        <span
+          class="c12"
+        />
+        <span
+          class="c12"
+        >
+          <div
+            class="c13"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              13/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea disabled 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #d8dada;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c14 {
+  padding: 8px 0 0 16px;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 0.5rem;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 5.5rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-color: #d8dada;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #d8dada;
+  -webkit-text-fill-color: #d8dada;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c12 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="test-label"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          test-label
+        </p>
+      </label>
+      <span
+        class="c5"
+        disabled=""
+        label="test-label"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            
+            <mark
+              class="c8"
+            />
+          </div>
+          <textarea
+            aria-label="Test TextArea 0 out of 200 characters entered Multi line Input"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            disabled=""
+            id="1"
+            maxlength="240"
+          />
+        </div>
+        <div
+          class="c10"
+        />
+      </span>
+      <span
+        class="c11"
+      >
+        <span
+          class="c12"
+        >
+          <div
+            aria-hidden="true"
+            class="c13"
+          >
+            <p
+              aria-hidden="false"
+              class="c3 c4"
+            >
+              Multi line Input
+            </p>
+          </div>
+        </span>
+        <span
+          class="c12"
+        >
+          <div
+            class="c14"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              0/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea heavyErrorBorder 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c17 {
+  padding: 8px 0 0 16px;
+}
+
+.c16 {
+  margin-top: 0.5rem;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c5 {
+  margin: 0;
+  outline: none;
+}
+
+.c5::after {
+  color: #6f7171;
+  content: ' Optional';
+  display: inline;
+}
+
+.c13 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c13:active,
+.c13:focus {
+  outline: none;
+}
+
+.c13 svg path {
+  fill: #000000;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 5.5rem;
+  border-radius: 4px;
+  background-color: #ffece0;
+  box-sizing: border-box;
+  border-color: #b95319;
+  border-width: 0.0625rem;
+  border-style: solid;
+  border-bottom: 0.0625rem solid #000000;
+}
+
+.c6:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c6::before {
+  background: #ed7000;
+  box-shadow: none;
+  content: '';
+  height: 0.25rem;
+  left: -1px;
+  position: absolute;
+  bottom: -1px;
+  width: calc(100% + 0.125rem);
+  z-index: 1;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c12 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: none;
+  pointer-events: none;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c9 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c10 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c10::-ms-clear,
+.c10::-ms-reveal {
+  display: none;
+}
+
+.c10::-webkit-outer-spin-button,
+.c10::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c10:focus {
+  outline: none;
+}
+
+.c10::-webkit-scrollbar {
+  display: none;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c15 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="test-label"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          test-label
+          <span
+            aria-label="test-label"
+            class="c5"
+            color="#6f7171"
+            id="1 label"
+          />
+        </p>
+      </label>
+      <span
+        class="c6"
+        label="test-label"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            aria-hidden="true"
+            class="c8"
+          >
+            
+            <mark
+              class="c9"
+            />
+          </div>
+          <textarea
+            aria-label="test-label Optional Input Field 0 out of 200 characters entered"
+            aria-required="false"
+            autocomplete="off"
+            class="c10"
+            data-testid="test-input"
+            id="1"
+            maxlength="240"
+          />
+        </div>
+        <div
+          class="c11"
+        >
+          <span
+            class="c12"
+            tabindex="-1"
+          >
+            <div
+              aria-label="error icon"
+              class="c13"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.80213,19.80122a2.39567,2.39567,0,0,1-1.705-.707L2.50743,12.50444a2.41244,2.41244,0,0,1,0-3.40913L9.09808,2.50555a2.4159,2.4159,0,0,1,3.40908-.001l6.58967,6.59073a2.41244,2.41244,0,0,1,0,3.40913L12.50716,19.0942A2.394,2.394,0,0,1,10.80213,19.80122Zm-7.4998-9.911a1.289,1.289,0,0,0,0,1.81931L9.893,18.29929a1.31476,1.31476,0,0,0,1.81928,0l6.58967-6.58976a1.289,1.289,0,0,0,0-1.81931L11.71226,3.30047a1.29076,1.29076,0,0,0-1.81928,0ZM9.95,15.05h1.7V13.367H9.95Zm0-6.00953.561,2.635h.56952l.56951-2.635V6.55H9.95Z"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+      <span
+        class="c14"
+      >
+        <span
+          class="c15"
+        >
+          <div
+            role="alert"
+          >
+            <div
+              class="c16"
+            >
+              <p
+                aria-hidden="false"
+                class="c3 c4"
+              >
+                test-error-text
+              </p>
+            </div>
+          </div>
+        </span>
+        <span
+          class="c15"
+        >
+          <div
+            class="c17"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              0/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea input focus 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c13 {
+  padding: 8px 0 0 16px;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 5.5rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-color: #000000;
+  border-width: 0.0625rem;
+  border-style: solid;
+  outline: none;
+}
+
+.c5:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c5::before {
+  border: 0.0625rem dashed #000000;
+  border-radius: 6px;
+  content: '';
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 0.375rem);
+  height: calc(100% + 0.375rem);
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c12 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="dfhn"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          dfhn
+        </p>
+      </label>
+      <span
+        class="c5"
+        label="dfhn"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            
+            <mark
+              class="c8"
+            />
+          </div>
+          <textarea
+            aria-label="dfhn Input Field 0 out of 200 characters entered"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            id="1"
+            maxlength="240"
+          />
+        </div>
+        <div
+          class="c10"
+        />
+      </span>
+      <span
+        class="c11"
+      >
+        <span
+          class="c12"
+        />
+        <span
+          class="c12"
+        >
+          <div
+            class="c13"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              0/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea input focus on error 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c14 {
+  padding: 8px 0 0 16px;
+}
+
+.c13 {
+  margin-top: 0.5rem;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 5.5rem;
+  border-radius: 4px;
+  background-color: #ffece0;
+  box-sizing: border-box;
+  border-color: #000000;
+  border-width: 0.0625rem;
+  border-style: solid;
+  outline: none;
+}
+
+.c5:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c5::before {
+  border: 0.0625rem dashed #000000;
+  border-radius: 6px;
+  content: '';
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 0.375rem);
+  height: calc(100% + 0.375rem);
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c12 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="dfhn"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          dfhn
+        </p>
+      </label>
+      <span
+        class="c5"
+        label="dfhn"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            
+            <mark
+              class="c8"
+            />
+          </div>
+          <textarea
+            aria-label="dfhn Input Field 0 out of 200 characters entered"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            id="1"
+            maxlength="240"
+          />
+        </div>
+        <div
+          class="c10"
+        />
+      </span>
+      <span
+        class="c11"
+      >
+        <span
+          class="c12"
+        >
+          <div
+            role="alert"
+          >
+            <div
+              class="c13"
+            >
+              <p
+                aria-hidden="false"
+                class="c3 c4"
+              >
+                Error
+              </p>
+            </div>
+          </div>
+        </span>
+        <span
+          class="c12"
+        >
+          <div
+            class="c14"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              0/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea inverted and disabled 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #d8dada;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c14 {
+  padding: 8px 0 0 16px;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c5 {
+  margin: 0;
+  outline: none;
+}
+
+.c5::after {
+  color: #d8dada;
+  content: ' Optional';
+  display: inline;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 22rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-color: #d8dada;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c9 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c10 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #d8dada;
+  -webkit-text-fill-color: #d8dada;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c10::-ms-clear,
+.c10::-ms-reveal {
+  display: none;
+}
+
+.c10::-webkit-outer-spin-button,
+.c10::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c10:focus {
+  outline: none;
+}
+
+.c10::-webkit-scrollbar {
+  display: none;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c13 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="test-label"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          test-label
+          <span
+            aria-label="test-label"
+            class="c5"
+            color="#d8dada"
+            id="1 label"
+          />
+        </p>
+      </label>
+      <span
+        class="c6"
+        disabled=""
+        label="test-label"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            aria-hidden="true"
+            class="c8"
+          >
+            
+            <mark
+              class="c9"
+            />
+          </div>
+          <textarea
+            aria-label="test-label Optional Input Field 0 out of 200 characters entered"
+            aria-required="false"
+            autocomplete="off"
+            class="c10"
+            data-testid="test-input"
+            disabled=""
+            id="1"
+            maxlength="240"
+          />
+        </div>
+        <div
+          class="c11"
+        />
+      </span>
+      <span
+        class="c12"
+      >
+        <span
+          class="c13"
+        />
+        <span
+          class="c13"
+        >
+          <div
+            class="c14"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              0/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea maxLength error 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c16 {
+  padding: 8px 0 0 16px;
+}
+
+.c15 {
+  margin-top: 0.5rem;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c12 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12:active,
+.c12:focus {
+  outline: none;
+}
+
+.c12 svg path {
+  fill: #000000;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 11rem;
+  border-radius: 4px;
+  background-color: #ffece0;
+  box-sizing: border-box;
+  border-color: #b95319;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c5:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: none;
+  pointer-events: none;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c14 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="test-label"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          test-label
+        </p>
+      </label>
+      <span
+        class="c5"
+        label="test-label"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            tes
+            <mark
+              class="c8"
+            >
+              t
+            </mark>
+          </div>
+          <textarea
+            aria-label="test-label Input Field -1 characters"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            id="1"
+            maxlength="4"
+            style="height: auto;"
+          >
+            test
+          </textarea>
+        </div>
+        <div
+          class="c10"
+        >
+          <span
+            class="c11"
+            tabindex="-1"
+          >
+            <div
+              aria-label="error icon"
+              class="c12"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.80213,19.80122a2.39567,2.39567,0,0,1-1.705-.707L2.50743,12.50444a2.41244,2.41244,0,0,1,0-3.40913L9.09808,2.50555a2.4159,2.4159,0,0,1,3.40908-.001l6.58967,6.59073a2.41244,2.41244,0,0,1,0,3.40913L12.50716,19.0942A2.394,2.394,0,0,1,10.80213,19.80122Zm-7.4998-9.911a1.289,1.289,0,0,0,0,1.81931L9.893,18.29929a1.31476,1.31476,0,0,0,1.81928,0l6.58967-6.58976a1.289,1.289,0,0,0,0-1.81931L11.71226,3.30047a1.29076,1.29076,0,0,0-1.81928,0ZM9.95,15.05h1.7V13.367H9.95Zm0-6.00953.561,2.635h.56952l.56951-2.635V6.55H9.95Z"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+      <span
+        class="c13"
+      >
+        <span
+          class="c14"
+        >
+          <div
+            role="alert"
+          >
+            <div
+              class="c15"
+            >
+              <p
+                aria-hidden="false"
+                class="c3 c4"
+              >
+                You have exceeded the character limit
+              </p>
+            </div>
+          </div>
+        </span>
+        <span
+          class="c14"
+        >
+          <div
+            class="c16"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              -1
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea on Mouse enter/leave 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c14 {
+  padding: 8px 0 0 16px;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c5 {
+  margin: 0;
+  outline: none;
+}
+
+.c5::after {
+  color: #6f7171;
+  content: ' Optional';
+  display: inline;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 5.5rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c6:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c9 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c10 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c10::-ms-clear,
+.c10::-ms-reveal {
+  display: none;
+}
+
+.c10::-webkit-outer-spin-button,
+.c10::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c10:focus {
+  outline: none;
+}
+
+.c10::-webkit-scrollbar {
+  display: none;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c13 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="dfhn"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          dfhn
+          <span
+            aria-label="dfhn"
+            class="c5"
+            color="#6f7171"
+            id="1 label"
+          />
+        </p>
+      </label>
+      <span
+        class="c6"
+        label="dfhn"
+      >
+        <div
+          class="c7"
+        >
+          <div
+            aria-hidden="true"
+            class="c8"
+          >
+            
+            <mark
+              class="c9"
+            />
+          </div>
+          <textarea
+            aria-label="dfhn Optional Input Field 0 out of 200 characters entered"
+            aria-required="false"
+            autocomplete="off"
+            class="c10"
+            data-testid="test-input"
+            id="1"
+            maxlength="240"
+          />
+        </div>
+        <div
+          class="c11"
+        />
+      </span>
+      <span
+        class="c12"
+      >
+        <span
+          class="c13"
+        />
+        <span
+          class="c13"
+        >
+          <div
+            class="c14"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              0/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea readOnly 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #d8dada;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 5.5rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-color: #d8dada;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #d8dada;
+  -webkit-text-fill-color: #d8dada;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c12 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="test-label"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          test-label
+        </p>
+      </label>
+      <span
+        class="c5"
+        disabled=""
+        label="test-label"
+        readonly=""
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            
+            <mark
+              class="c8"
+            />
+          </div>
+          <textarea
+            aria-label="test-label Input Field 0 out of 200 characters entered"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            disabled=""
+            id="1"
+            maxlength="240"
+            readonly=""
+          />
+        </div>
+        <div
+          class="c10"
+        />
+      </span>
+      <span
+        class="c11"
+      >
+        <span
+          class="c12"
+        />
+        <span
+          class="c12"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea required 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c16 {
+  padding: 8px 0 0 16px;
+}
+
+.c15 {
+  margin-top: 0.5rem;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c12 {
+  height: 1.25rem;
+  width: 1.25rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  outline: none;
+  pointer-events: none;
+}
+
+.c12:active,
+.c12:focus {
+  outline: none;
+}
+
+.c12 svg path {
+  fill: #000000;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 11rem;
+  border-radius: 4px;
+  background-color: #ffece0;
+  box-sizing: border-box;
+  border-color: #b95319;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c5:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: none;
+  pointer-events: none;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c14 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="Street Address"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          Street Address
+        </p>
+      </label>
+      <span
+        class="c5"
+        label="Street Address"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            
+            <mark
+              class="c8"
+            />
+          </div>
+          <textarea
+            aria-label="Street Address Input Field 0 out of 200 characters entered"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            id="1"
+            maxlength="240"
+          />
+        </div>
+        <div
+          class="c10"
+        >
+          <span
+            class="c11"
+            tabindex="-1"
+          >
+            <div
+              aria-label="error icon"
+              class="c12"
+              tabindex="-1"
+            >
+              <svg
+                data-name="Layer 1"
+                id="Layer_1"
+                viewBox="0 0 21.6 21.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.80213,19.80122a2.39567,2.39567,0,0,1-1.705-.707L2.50743,12.50444a2.41244,2.41244,0,0,1,0-3.40913L9.09808,2.50555a2.4159,2.4159,0,0,1,3.40908-.001l6.58967,6.59073a2.41244,2.41244,0,0,1,0,3.40913L12.50716,19.0942A2.394,2.394,0,0,1,10.80213,19.80122Zm-7.4998-9.911a1.289,1.289,0,0,0,0,1.81931L9.893,18.29929a1.31476,1.31476,0,0,0,1.81928,0l6.58967-6.58976a1.289,1.289,0,0,0,0-1.81931L11.71226,3.30047a1.29076,1.29076,0,0,0-1.81928,0ZM9.95,15.05h1.7V13.367H9.95Zm0-6.00953.561,2.635h.56952l.56951-2.635V6.55H9.95Z"
+                />
+              </svg>
+            </div>
+          </span>
+        </div>
+      </span>
+      <span
+        class="c13"
+      >
+        <span
+          class="c14"
+        >
+          <div
+            role="alert"
+          >
+            <div
+              class="c15"
+            >
+              <p
+                aria-hidden="false"
+                class="c3 c4"
+              >
+                You must enter a Street Address
+              </p>
+            </div>
+          </div>
+        </span>
+        <span
+          class="c14"
+        >
+          <div
+            class="c16"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              0/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea rerender 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #d8dada;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 5.5rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-color: #d8dada;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #d8dada;
+  -webkit-text-fill-color: #d8dada;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c12 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="test-label"
+        width="100%"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          test-label
+        </p>
+      </label>
+      <span
+        class="c5"
+        disabled=""
+        label="test-label"
+        readonly=""
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            Line 1\\nLine 2\\nLine 3\\nLine 4\\nLine 5\\nLine 6
+            <mark
+              class="c8"
+            />
+          </div>
+          <textarea
+            aria-label="test-label Input Field 46 out of 200 characters entered"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            disabled=""
+            id="1"
+            maxlength="240"
+            readonly=""
+          >
+            Line 1\\nLine 2\\nLine 3\\nLine 4\\nLine 5\\nLine 6
+          </textarea>
+        </div>
+        <div
+          class="c10"
+        />
+      </span>
+      <span
+        class="c11"
+      >
+        <span
+          class="c12"
+        />
+        <span
+          class="c12"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea value 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c13 {
+  padding: 8px 0 0 16px;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 11rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c5:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c12 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="test-label"
+        width="320"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          test-label
+        </p>
+      </label>
+      <span
+        class="c5"
+        label="test-label"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            #123, Verizon
+            <mark
+              class="c8"
+            />
+          </div>
+          <textarea
+            aria-label="test-label Input Field 13 out of 200 characters entered"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            id="1"
+            maxlength="240"
+          >
+            #123, Verizon
+          </textarea>
+        </div>
+        <div
+          class="c10"
+        />
+      </span>
+      <span
+        class="c11"
+      >
+        <span
+          class="c12"
+        />
+        <span
+          class="c12"
+        >
+          <div
+            class="c13"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              13/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextArea TextArea width 1`] = `
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:active,
+.c3:focus,
+.c3:hover {
+  outline: none;
+}
+
+.c13 {
+  padding: 8px 0 0 16px;
+}
+
+.c2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+.c2 > * {
+  white-space: normal;
+}
+
+.c2:focus,
+.c2:active {
+  outline: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 5.5rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-color: #6f7171;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.c5:hover {
+  border: 0.0625rem solid #000000;
+}
+
+.c10 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.c7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  padding: 12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: transparent;
+}
+
+.c8 {
+  position: relative;
+  z-index: 1;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.c9 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border: none;
+  box-sizing: border-box;
+  background-color: transparent;
+  pointer-events: auto;
+  caret-color: #000000;
+  color: #000000;
+  -webkit-text-fill-color: #000000;
+  font-family: Verizon-NHG-eDS;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-letter-spacing: 0.5px;
+  -moz-letter-spacing: 0.5px;
+  -ms-letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.c9::-ms-clear,
+.c9::-ms-reveal {
+  display: none;
+}
+
+.c9::-webkit-outer-spin-button,
+.c9::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.c9:focus {
+  outline: none;
+}
+
+.c9::-webkit-scrollbar {
+  display: none;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  width: 100%;
+  padding: 0.75rem;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  position: relative;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c12 {
+  position: relative;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+      data-testid="test-container"
+    >
+      <label
+        class="c2"
+        data-testid="test-label"
+        for="1"
+        id="1 label"
+        label="test-label"
+        width="320"
+      >
+        <p
+          aria-hidden="false"
+          class="c3 c4"
+          id="1 label-text"
+        >
+          test-label
+        </p>
+      </label>
+      <span
+        class="c5"
+        label="test-label"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            aria-hidden="true"
+            class="c7"
+          >
+            
+            <mark
+              class="c8"
+            />
+          </div>
+          <textarea
+            aria-label="test-label Input Field 0 out of 200 characters entered"
+            aria-required="true"
+            autocomplete="off"
+            class="c9"
+            data-testid="test-input"
+            id="1"
+            maxlength="240"
+          />
+        </div>
+        <div
+          class="c10"
+        />
+      </span>
+      <span
+        class="c11"
+      >
+        <span
+          class="c12"
+        />
+        <span
+          class="c12"
+        >
+          <div
+            class="c13"
+          >
+            <p
+              aria-hidden="true"
+              class="c3 c4"
+              tabindex="-1"
+            >
+              0/200
+            </p>
+          </div>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+`;

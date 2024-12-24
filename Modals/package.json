@@ -1,0 +1,41 @@
+{
+  "name": "@vds-core/modals",
+  "version": "3.3.19",
+  "description": "A modal is an overlay that interrupts the user flow to force the customer to provide information or a response. After the customer interacts with the modal, they can return to the parent content.",
+  "publishConfig": {
+    "registry": "https://oneartifactoryci.verizon.com/artifactory/api/npm/GVJV_npm_VDS/"
+  },
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "build": "rollup -c ../../rollup.config.js",
+    "build:docs": "node ../../scripts/build-docs.js"
+  },
+  "author": "Thomas Hessler <thomas.hessler@verizon.com>",
+  "contributors": [
+    "Kevin Ryan <kevin.ryan@verizon.com>",
+    "Domenic Conroy <domenic.conroy@verizon.com>",
+    "Nathan Myers <nathan.myers@verizon.com>"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react-dom": "^16.2.0 || ^17.0.0 || ^18.0.0",
+    "react": "^16.2.0 || ^17.0.0 || ^18.0.0",
+    "styled-components": "^3.2.6 || 4.x.x || 5.x.x || 6.x.x"
+  },
+  "dependencies": {
+    "@uie/set-env-ref": "^1.0.0",
+    "@vds-core/buttons": "3.3.8",
+    "@vds-core/scrollbars": "3.2.13",
+    "@vds-core/button-icons": "3.1.12",
+    "@vds-core/typography": "3.2.14",
+    "@vds-core/utilities": "3.2.2",
+    "@vds-tokens/accessibility": "2.0.4",
+    "@vds-tokens/color": "2.1.2",
+    "@vds-tokens/typography": "3.0.2",
+    "react-focus-lock": "1.9.1",
+    "@vds-core/icons": "3.8.0"
+  }
+}

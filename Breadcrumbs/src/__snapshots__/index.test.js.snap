@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumbs> 1`] = `
+.c7 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #6f7171;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c8 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1rem;
+  font-family: Verizon-NHG-eTX,Helvetica,Arial,Sans-serif;
+  color: #000000;
+  margin: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c6:active,
+.c6:focus,
+.c6:hover {
+  outline: none;
+}
+
+.c3 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease-out;
+  transition: color 0.15s ease-out;
+  position: relative;
+  cursor: pointer;
+  font-family: Verizon-NHG-eTX;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: #000000;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.c3:focus:not(:hover) {
+  outline: none;
+}
+
+.c3:focus:not(:hover)::before {
+  border: 0.0625rem dashed #000000;
+  border-radius: 2px;
+  content: '';
+  height: calc(100% + 0.1875rem);
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: calc(100% + 0.25rem);
+}
+
+.c3:active {
+  color: #6f7171;
+}
+
+.c3:hover:not(:active)::before {
+  background: #000000;
+  position: absolute;
+  box-shadow: none;
+  content: '';
+  height: 1px;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.c4 {
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  outline: none;
+}
+
+.c5 {
+  color: #000000;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #6f7171;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.c0 {
+  display: block;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  line-height: 1.25;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: decimal;
+  margin: 0;
+}
+
+<nav
+  aria-label="Breadcrumb"
+  class="c0"
+>
+  <ol
+    class="c1"
+  >
+    <li
+      class="c2"
+    >
+      <a
+        aria-label="Go to Crumb 1"
+        class="c3"
+        color="#000000"
+        href="#"
+        role="link"
+        tabindex="0"
+        target="_self"
+      >
+        First default crumb
+      </a>
+      <div
+        aria-hidden="true"
+        class="c4"
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          class="c5"
+          color="#000000"
+          tabindex="-1"
+        >
+          /
+        </span>
+      </div>
+    </li>
+    <li
+      class="c2"
+    >
+      <span
+        aria-hidden="false"
+        class="c6 c7"
+      >
+        Disabled crumb
+      </span>
+      <div
+        aria-hidden="true"
+        class="c4"
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          class="c5"
+          color="#000000"
+          tabindex="-1"
+        >
+          /
+        </span>
+      </div>
+    </li>
+    <li
+      class="c2"
+    >
+      <a
+        aria-label="Go to Crumb 3"
+        class="c3"
+        color="#000000"
+        href="#"
+        role="link"
+        tabindex="0"
+        target="_self"
+      >
+        Second default crumb
+      </a>
+      <div
+        aria-hidden="true"
+        class="c4"
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          class="c5"
+          color="#000000"
+          tabindex="-1"
+        >
+          /
+        </span>
+      </div>
+    </li>
+    <li
+      class="c2"
+    >
+      <span
+        aria-hidden="false"
+        class="c6 c8"
+      >
+        Selected crumb
+      </span>
+    </li>
+  </ol>
+</nav>
+`;

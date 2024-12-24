@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Super 23456789 correctly 1`] = `
+<span>
+  ²
+  ³
+  ⁴
+  ⁵
+  ⁶
+  ⁷
+  ⁸
+  ⁹
+</span>
+`;
+
+exports[`should render Super default props correctly 1`] = `
+<span>
+  ⁰
+</span>
+`;
+
+exports[`should render Super superscriptSmall props correctly 1`] = `
+<sup
+  class=""
+>
+  ¹
+</sup>
+`;
+
+exports[`should render Super text with default props correctly 1`] = `
+<span>
+  <sup>
+    t
+  </sup>
+  <sup>
+    h
+  </sup>
+</span>
+`;
+
+exports[`should render Super text with superscriptSmall prop correctly 1`] = `
+<sup
+  class=""
+>
+  t
+  h
+</sup>
+`;
